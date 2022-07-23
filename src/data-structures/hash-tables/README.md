@@ -1,4 +1,4 @@
-# Hash Table
+# Hash Tables
 
 In computing, a **hash table** (hash map) is a data
 structure which implements an _associative array_
