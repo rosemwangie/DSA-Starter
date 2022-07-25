@@ -8,6 +8,24 @@ A **linked List** is used to represent sequential data. Linear order is not give
 
 A **Pointer** is a reference to another place memory
 
+## Pseudocode for Basic Operations
+
+//prepend
+add elements at the beginning
+//append
+//lookup
+//insertAt
+//removeAt
+//clear
+
+# Corner cases
+
+- Empty linked list (head is null)
+- Single node
+- Two nodes
+- Linked list has cycles.
+  Tip: Clarify beforehand with the interviewer whether there can be a cycle in the list. Usually the answer is no and you don't have to handle it in the code
+
 ## References
 
 # Articles
