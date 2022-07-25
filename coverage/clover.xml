@@ -1,17 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1658759064608" clover="3.2.0">
-  <project timestamp="1658759064608" name="All files">
-    <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3" elements="11" coveredelements="11" complexity="0" loc="8" ncloc="8" packages="1" files="1" classes="1"/>
+<coverage generated="1658774485645" clover="3.2.0">
+  <project timestamp="1658774485645" name="All files">
+    <metrics statements="24" coveredstatements="18" conditionals="4" coveredconditionals="4" methods="6" coveredmethods="5" elements="34" coveredelements="27" complexity="0" loc="24" ncloc="24" packages="1" files="1" classes="1"/>
     <file name="LinkedList.js" path="C:\DSA Cheat sheet\Data-structure-JS-and-Psuedo\src\data-structures\linked-lists\LinkedList.js">
-      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-      <line num="3" count="1" type="stmt"/>
-      <line num="4" count="1" type="stmt"/>
-      <line num="8" count="2" type="stmt"/>
-      <line num="9" count="2" type="stmt"/>
-      <line num="10" count="2" type="stmt"/>
-      <line num="23" count="2" type="stmt"/>
-      <line num="24" count="2" type="stmt"/>
-      <line num="28" count="1" type="stmt"/>
+      <metrics statements="24" coveredstatements="18" conditionals="4" coveredconditionals="4" methods="6" coveredmethods="5"/>
+      <line num="3" count="5" type="stmt"/>
+      <line num="4" count="5" type="stmt"/>
+      <line num="8" count="12" type="stmt"/>
+      <line num="9" count="12" type="stmt"/>
+      <line num="10" count="12" type="stmt"/>
+      <line num="15" count="4" type="cond" truecount="4" falsecount="0"/>
+      <line num="17" count="3" type="stmt"/>
+      <line num="18" count="3" type="stmt"/>
+      <line num="19" count="5" type="stmt"/>
+      <line num="21" count="2" type="stmt"/>
+      <line num="25" count="0" type="stmt"/>
+      <line num="26" count="0" type="stmt"/>
+      <line num="27" count="0" type="stmt"/>
+      <line num="28" count="0" type="stmt"/>
+      <line num="29" count="0" type="stmt"/>
+      <line num="31" count="0" type="stmt"/>
+      <line num="37" count="12" type="stmt"/>
+      <line num="38" count="12" type="stmt"/>
+      <line num="42" count="1" type="stmt"/>
+      <line num="43" count="4" type="stmt"/>
+      <line num="44" count="4" type="stmt"/>
+      <line num="45" count="10" type="stmt"/>
+      <line num="47" count="4" type="stmt"/>
+      <line num="50" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
