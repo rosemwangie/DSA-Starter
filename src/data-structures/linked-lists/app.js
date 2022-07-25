@@ -8,4 +8,3 @@ myLinkedList.prepend(300);
 myLinkedList.prepend(200);
 myLinkedList.prepend(100);
 myLinkedList.printList();
-// console.log(myLinkedList);
