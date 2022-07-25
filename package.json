@@ -1,0 +1,23 @@
+{
+  "name": "data-structure-js-and-psuedo",
+  "version": "1.0.0",
+  "description": "Use this repo for Data structure and algorithms reference in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RWambui/Data-structure-JS-and-Psuedo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RWambui/Data-structure-JS-and-Psuedo/issues"
+  },
+  "homepage": "https://github.com/RWambui/Data-structure-JS-and-Psuedo#readme",
+  "dependencies": {
+    "jest": "^28.1.3"
+  }
+}
