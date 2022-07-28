@@ -34,9 +34,9 @@ Hash collision resolved by separate chaining.
       - Separate chaining - A linked list in used for each value, so that it stores all the collided items
       - Open addressing - All entry records are stored in the bucket array itself. When a new entry has to be inserted, the buckets are examined, starting with the hashed-to slot and proceeding in some probe sequence until an unoccupied slot is found.
 - **Resources (to help better understand maps)**
-  1. **[Taking hash tables off the shelf](https://medium.com/basecs/taking-hash-tables-off-the-shelf-139cbf4752f0)**
+  1. [Taking hash tables off the shelf](https://medium.com/basecs/taking-hash-tables-off-the-shelf-139cbf4752f0)
   2. [**Hashing out functions**](https://medium.com/basecs/hashing-out-hash-functions-ea5dd8beb4dd)
-  3. **[Hash tables: coursera](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-hash-tables-m7UuP)**
+  3. [Hash tables: coursera](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-hash-tables-m7UuP)
 - **Sample General questions**
   1. Describe an implementation of at least- used cache, and big-O notation of it
   2. A question involving an API’s integration with hash map where the buckets of a hash map are made up of linked lists.
