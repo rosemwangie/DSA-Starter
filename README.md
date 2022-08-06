@@ -1,7 +1,7 @@
-# Data-structure-JS-and-Psuedo
+# Data-structures
 
-Use this repo for Data structure and algorithms reference in JavaScript - updated daily
-## Hashing && Arrays
+Use this repo to prepare for interviews - Data structures and algorithms reference in JavaScript:  <strong>updated daily</strong>
+## Hash Map/Set && Arrays
 | Freq | Questions                                                                             | Stated  | Solution                                                                                                                                                                                                                                      |
 | :--: | :-----------------------------------------------------------------------------------: | :----:  | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | 7    | [Two Sum](https://leetcode.com/problems/two-sum/)                                     | Easy    | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/1.TwoSum.js)                           |
@@ -15,3 +15,48 @@ Use this repo for Data structure and algorithms reference in JavaScript - update
 | Freq | Questions                                                     | Stated  | Solution                                                                                                                                                                                             |
 | :--: | :-----------------------------------------------------------: | :----:  | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | 9    | [Binary Search](https://leetcode.com/problems/binary-search/) | Easy    | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/704.Binary-Search.js) |
+
+
+## Linked List
+
+
+## Stack
+
+## Queues
+
+## Trees
+
+## Graphs
+
+## Trie
+
+## Heap
+
+
+# Algorithms
+
+## Prefix SUm
+
+## Sliding Window
+
+## Two Pointers
+
+## Suffix Arrays
+
+## Breath First Search
+
+## Depth First Search
+
+## Divide && Conquer
+
+## Recursion
+
+## Dynamic Programming 
+
+## Math 
+
+## Greedy
+
+## Matrix
+
+## Geometry
