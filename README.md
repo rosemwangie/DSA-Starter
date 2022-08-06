@@ -1,7 +1,7 @@
 # Data-structure-JS-and-Psuedo
 
 Use this repo for Data structure and algorithms reference in JavaScript - updated daily
-
+## Hashing && Arrays
 | Freq | Questions                                                                             | Stated  | Solution                                                                                                                                                                                                                                      |
 | :--: | :-----------------------------------------------------------------------------------: | :----:  | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | 7    | [Two Sum](https://leetcode.com/problems/two-sum/)                                     | Easy    | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/1.TwoSum.js)                           |
@@ -9,3 +9,9 @@ Use this repo for Data structure and algorithms reference in JavaScript - update
 | 4    | [Jewels and Stones ](https://leetcode.com/problems/jewels-and-stones/)                | Easy    | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/771-Jewels-and-Stones.js)              |
 | 2    | [Backspace String compare ](https://leetcode.com/problems/backspace-string-compare/)  | Medium  | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/844-Backspace-String-Compare.js)       |
 | 2    | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium  | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/11.ContainerWithMostWater.js)          |
+
+
+## Binary Search
+| Freq | Questions                                                     | Stated  | Solution                                                                                                                                                                                             |
+| :--: | :-----------------------------------------------------------: | :----:  | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| 9    | [Binary Search](https://leetcode.com/problems/binary-search/) | Easy    | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/704.Binary-Search.js) |
