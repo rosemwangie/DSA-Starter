@@ -4,7 +4,7 @@ Use this repo to prepare for interviews - Data structures and algorithms referen
   ## Hash Map/Set && Arrays
 | Freq | Problem                                                                               | Stated  | Solution                                                                                                                                                                                                                                      |
 | :--: | :-----------------------------------------------------------------------------------: | :----:  | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| 7    | [Two Sum](https://leetcode.com/problems/two-sum/){:target="_blank"}                   | Easy    | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/1.TwoSum.js)                       |
+| 7    | [Two Sum](https://leetcode.com/problems/two-sum/)                                     | Easy    | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/1.TwoSum.js)                       |
 | 4    | [Jewels and Stones ](https://leetcode.com/problems/jewels-and-stones/)                | Easy    | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/771-Jewels-and-Stones.js)          |
 
   ## Binary Search
@@ -14,7 +14,7 @@ Use this repo to prepare for interviews - Data structures and algorithms referen
 
 
   ## Linked List
-  
+
   ## Stack
 
   ## Queues
