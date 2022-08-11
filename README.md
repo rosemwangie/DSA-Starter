@@ -5,9 +5,10 @@ Use this repo to prepare for interviews - Data structures and algorithms referen
 | Freq | Problem                                                                               | Stated  | Solution                                                                                                                                                                                                                                      |
 | :--: | :-----------------------------------------------------------------------------------: | :----:  | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | 7    | [Two Sum](https://leetcode.com/problems/two-sum/)                                     | Easy    | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/1.TwoSum.js)                       |
+| 8    | [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                         | Easy    | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/242.ValidAnagram.js)               |
 | 4    | [Jewels and Stones ](https://leetcode.com/problems/jewels-and-stones/)                | Easy    | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/771.Jewels-and-Stones.js)          |
 | 6    | [Contains duplicates](https://leetcode.com/problems/contains-duplicate/)              | Easy    | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/217.Contains-Duplicate.js)         |
-| 8    | [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                         | Easy    | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/242.ValidAnagram.js)               |
+
 
   ## Binary Search
 | Freq | Problem                                                       | Stated  | Solution                                                                                                                                                                                                   |
