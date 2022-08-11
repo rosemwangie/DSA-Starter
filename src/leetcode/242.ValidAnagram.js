@@ -9,11 +9,11 @@ Output: false
 
 // O(n) T O(n) Space
 const isAnagram = (s, t) => {
-  if (s.length != s.length) return false;
-  const charObj = {};
+  if (s.length != t.length) return false;
+  let charObj = {};
   for (char of s) {
     if (charObj[char]) {
-      charObj++;
+      charObj[char]++;
     } else {
       charObj[char] = 1;
     }
