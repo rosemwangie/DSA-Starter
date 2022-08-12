@@ -17,10 +17,6 @@ const twoSum = (nums, target) => {
     return [];
 }
 
-
-
-
-
 // Optimal soln 1
 const twoSum1 = (nums, target) => {
   const hash = {}; 
@@ -33,11 +29,6 @@ const twoSum1 = (nums, target) => {
   }
   return []; 
  }
-
-
-
-
-
 
  //Optimal Soln 2
 
