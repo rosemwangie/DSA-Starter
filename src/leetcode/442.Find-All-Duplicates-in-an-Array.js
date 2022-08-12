@@ -36,4 +36,3 @@ const findAllDuplicates = (nums) => {
   }
   return duplicates;
 }
-
