@@ -1,15 +1,9 @@
-/*
-~You are given an integer array height of length n. There are n vertical lines drawn such that the two endpoints of the ith line are (i, 0) and (i, height[i]).
+/*~You are given an integer array height of length n. There are n vertical lines drawn such that the two endpoints of the ith line are (i, 0) and (i, height[i]).
 Find two lines that together with the x-axis form a container, such that the container contains the most water.
 Return the maximum amount of water a container can store.
-Notice that you may not slant the container~
+Notice that you may not slant the container */
 
-~Corner Cases~
- */
-
-//Brute force solution 1
-//Time Complexity: O(n^2)
-//Space Complexity: O(1)
+//Brute force solution 1 Time Complexity: O(n^2) Space Complexity: O(1)
 const maxArea = (height) => {
   let res = 0;
   const len = height.length;
@@ -24,9 +18,7 @@ const maxArea = (height) => {
   return res;
 };
 
-//Optimal solution 2
-//Time Complexity: O(n)
-//Space Complexity: O(1)
+//Optimal solution 2 Time Complexity: O(n) Space Complexity: O(1)
 const maxArea1 = (height) => {
   const len = height.length;
   let i = 0,
