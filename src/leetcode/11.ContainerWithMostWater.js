@@ -4,45 +4,48 @@ Find two lines that together with the x-axis form a container, such that the con
 Return the maximum amount of water a container can store.
 Notice that you may not slant the container~
 
-~To have in your back pocket~
-      Area= L * W
+~Corner Cases~
  */
 
-//Brute force solution 1 Time Complexity: O(n^2), Space Complexity: O(1)
+//Brute force solution 1
+//Time Complexity: O(n^2)
+//Space Complexity: O(1)
 const maxArea = (height) => {
-  let totalArea = 0;
+  let res = 0;
   const len = height.length;
   for (let i = 0; i < len; i++) {
     for (let j = i + 1; j < len; j++) {
       let length = Math.min(height[i], height[j]);
       let width = j - i;
       let area = length * width;
-      totalArea = Math.max(totalArea, area);
+      res = Math.max(res, area);
     }
   }
-  return totalArea;
+  return res;
 };
 
-//Optimal solution 2 Time Complexity: O(n), Space Complexity: O(1)
+//Optimal solution 2
+//Time Complexity: O(n)
+//Space Complexity: O(1)
 const maxArea1 = (height) => {
   const len = height.length;
-  let leftPointer = 0,
-    rightPointer = len - 1,
-    calMaxArea = 0;
-  while (leftPointer < rightPointer) {
-    const heights = Math.min(height[leftPointer], height[rightPointer]);
-    const width = rightPointer - leftPointer;
-    const area = heights * width;
-    calMaxArea = Math.max(calMaxArea, area);
+  let i = 0,
+    j = len - 1,
+    res = 0;
+  while (i < j) {
+    const length = Math.min(height[i], height[j]);
+    const width = j - i;
+    const area = length * width;
+    res = Math.max(res, area);
 
-    if (height[leftPointer] <= height[rightPointer]) {
-      leftPointer++;
+    if (height[i] <= height[j]) {
+      i++;
     } else {
-      rightPointer--;
+      j--;
     }
   }
 
-  return calMaxArea;
+  return res;
 };
 
 // 4 test cases
