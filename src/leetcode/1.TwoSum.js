@@ -16,7 +16,7 @@ const twoSum = (nums, target) => {
   return [];
 };
 
-// Optimal soln 1 Time complexity O(n) Space complexity O(n)
+// Optimal soln1 Time complexity O(n) Space complexity O(n)
 const twoSum1 = (nums, target) => {
   const hash = {};
   for (let i = 0; i < nums.length; i++) {
@@ -29,7 +29,7 @@ const twoSum1 = (nums, target) => {
   return [];
 };
 
-//Optimal Soln 2 Time complexity O(n) Space complexity O(1)
+//Optimal Soln2 Time complexity O(n) Space complexity O(1)
 const twoSum2 = (nums, target) => {
   const map = nums.reduce((acc, current, idx) => {
     acc[current] = idx;
