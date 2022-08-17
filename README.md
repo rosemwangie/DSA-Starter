@@ -11,9 +11,10 @@ Use this repo to prepare for interviews - Data structures and algorithms referen
 
 
   ## Binary Search
-| Freq | Problem                                                       | Stated  | Solution                                                                                                                                                                                                   |
-| :--: | :-----------------------------------------------------------: | :----:  | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| 9    | [Binary Search](https://leetcode.com/problems/binary-search/) | Easy    | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/704.Binary-Search.js) |
+| Freq | Problem                                                                                               | Stated  | Solution                                                                                                                                                                                                                                                                             |
+| :--: | :---------------------------------------------------------------------------------------------------: | :----:  | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| 9    | [Binary Search](https://leetcode.com/problems/binary-search/)                                         | Easy    | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/704.Binary-Search.js)                   |
+| 2    | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Medium  | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/167.Two-SumII-Input-Array-Is-Sorted.js) |
 
 
   ## Linked List
