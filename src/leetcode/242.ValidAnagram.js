@@ -28,6 +28,7 @@ const isAnagram = (s, t) => {
   return true;
 };
 
+//tests
 console.log(validAnagram1("anagram", "nagaram"));
 console.log(validAnagram1("anagrm", "nagaram"));
 console.log(validAnagram1("", "nagaram"));

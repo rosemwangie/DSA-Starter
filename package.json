@@ -10,7 +10,15 @@
     "type": "git",
     "url": "git+https://github.com/RWambui/Data-structure-JS-and-Psuedo.git"
   },
-  "keywords": [],
+  "keywords": [
+    "leetode",
+    "javascript-algorithms",
+    "sorting-algorithms",
+    "graph",
+    "tree",
+    "interview",
+    "interview-preparation"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
