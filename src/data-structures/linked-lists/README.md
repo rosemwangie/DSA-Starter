@@ -22,6 +22,22 @@ A **Pointer** is a reference to another place memory
 
 ## Pseudocode for Basic Operations
 
+## traverse
+
+### Traverse
+
+```text
+Traverse(head)
+  Pre: head is the head node in the list
+  Post: the items in the list have been traversed
+  n ← head
+  while n != ø
+    yield n.value
+    n ← n.next
+  end while
+end Traverse
+```
+
 ## prepend
 
 ## append
@@ -47,7 +63,7 @@ A **Pointer** is a reference to another place memory
 ### Time Complexity
 
 | Access | Lookup | Insert(at) | Deletion |
-| :----: | :----: | :--------: | :------: |
+|:------:|:------:|:----------:|:--------:|
 |  O(n)  |  O(n)  |    O(1)    |   O(n)   |
 
 ### Space Complexity
