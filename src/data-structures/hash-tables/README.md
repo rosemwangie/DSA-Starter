@@ -1,5 +1,4 @@
 # Hash Tables
-
 In computing, a **hash table** (hash map) is a data structure which implements an _associative array_ abstract data type, a structure that can _map keys
 to values_. A hash table uses a _hash function_ to compute an index into an array of buckets or slots, from which the desired value can be found.
 Ideally, the hash function will assign each key to a unique bucket, but most hash table designs employ an imperfect hash function, which might cause hash
@@ -15,11 +14,11 @@ Hash collision resolved by separate chaining.
   - It’s a data structure that implements an associative array abstract data type.
   - A map uses a hash function on an element to compute an index(hashcode), into an array of buckets/slots where a desired value can be found
 ## Pros and cons
-  - **pros**
+  **pros**
     - Search - O(1)
     - Insert - O(1)
     - Remove - O(1)
-  - **cons**
+  **cons**
     - **Collisions**
       - Separate chaining - A linked list in used for each value, so that it stores all the collided items
       - Open addressing - All entry records are stored in the bucket array itself. When a new entry has to be inserted, the buckets are examined, starting with the hashed-to slot and proceeding in some probe sequence until an unoccupied slot is found.
