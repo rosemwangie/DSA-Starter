@@ -2,19 +2,19 @@
 
 Use this repo to prepare for interviews - Data structures and algorithms reference in JavaScript:  <strong>Updated daily</strong>
   ## Hash Map/Set && Arrays
-| Freq | Problem                                                                               | Stated  | Solution                                                                                                                                                                                                                                      |
-| :--: | :-----------------------------------------------------------------------------------: | :----:  | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| 7    | [Two Sum](https://leetcode.com/problems/two-sum/)                                     | Easy    | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/1.TwoSum.js)                       |
-| 8    | [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                         | Easy    | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/242.ValidAnagram.js)               |
-| 4    | [Jewels and Stones ](https://leetcode.com/problems/jewels-and-stones/)                | Easy    | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/771.Jewels-and-Stones.js)          |
-| 6    | [Contains duplicates](https://leetcode.com/problems/contains-duplicate/)              | Easy    | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/217.Contains-Duplicate.js)         |
+| Freq |                                  Problem                                 | Stated |                                                        Solution                                                        |
+|:----:|:------------------------------------------------------------------------:|:------:|:----------------------------------------------------------------------------------------------------------------------:|
+|   7  |             [Two Sum](https://leetcode.com/problems/two-sum/)            |  Easy  |        [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/1.TwoSum.js)        |
+|   8  |       [Valid Anagram](https://leetcode.com/problems/valid-anagram/)      |  Easy  |    [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/242.ValidAnagram.js)    |
+|   4  |  [Jewels and Stones ](https://leetcode.com/problems/jewels-and-stones/)  |  Easy  |  [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/771.Jewels-and-Stones.js) |
+|   6  | [Contains duplicates](https://leetcode.com/problems/contains-duplicate/) |  Easy  | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/217.Contains-Duplicate.js) |
 
 
   ## Binary Search
-| Freq | Problem                                                                                               | Stated  | Solution                                                                                                                                                                                                                                                                             |
-| :--: | :---------------------------------------------------------------------------------------------------: | :----:  | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| 9    | [Binary Search](https://leetcode.com/problems/binary-search/)                                         | Easy    | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/704.Binary-Search.js)                   |
-| 2    | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Medium  | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/167.Two-SumII-Input-Array-Is-Sorted.js) |
+| Freq |                                                Problem                                                | Stated |                                                               Solution                                                              |
+|:----:|:-----------------------------------------------------------------------------------------------------:|:------:|:-----------------------------------------------------------------------------------------------------------------------------------:|
+|   9  |                     [Binary Search](https://leetcode.com/problems/binary-search/)                     |  Easy  |          [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/704.Binary-Search.js)          |
+|   2  | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Medium | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/167.Two-SumII-Input-Array-Is-Sorted.js) |
 
 
   ## Linked List
@@ -35,21 +35,21 @@ Use this repo to prepare for interviews - Data structures and algorithms referen
 # Algorithms
 
   ## Prefix Sum
-| Freq | Problem                                                                           | Stated  | Solution                                                                                                                                                                                                                                |
-| :--: | :-------------------------------------------------------------------------------: | :----:  | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| 6    | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | Medium  | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/1480.RunningSumof1dArray.js)      |
-| 6    | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)               | Medium  | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/724-Find-Pivot-Index.js)          |
+| Freq |                                      Problem                                      | Stated |                                                         Solution                                                         |
+|:----:|:---------------------------------------------------------------------------------:|:------:|:------------------------------------------------------------------------------------------------------------------------:|
+|   6  | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | Medium | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/1480.RunningSumof1dArray.js) |
+|   6  |        [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)        | Medium |   [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/724-Find-Pivot-Index.js)   |
 
 
   ## Sliding Window
-| Freq | Problem                                                                                                                         | Stated  | Solution                                                                                                                                                                                                                                                                                                |
-| :--: | :-----------------------------------------------------------------------------------------------------------------------------: | :----:  | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| 2    | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium  | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/3.LongestSubstringWithoutRepeatingCharacters.js)   |
+| Freq |                                                             Problem                                                             | Stated |                                                                   Solution                                                                   |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------:|:------:|:--------------------------------------------------------------------------------------------------------------------------------------------:|
+|   2  | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/3.LongestSubstringWithoutRepeatingCharacters.js) |
 
   ## Running Pointers
-| Freq | Problem                                                                               | Stated  | Solution                                                                                                                                                                                                                                      |
-| :--: | :-----------------------------------------------------------------------------------: | :----:  | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| 1    | [Backspace String compare ](https://leetcode.com/problems/backspace-string-compare/)  |  Easy   | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/844-Backspace-String-Compare.js)   |
+| Freq |                                        Problem                                       | Stated |                                                           Solution                                                           |
+|:----:|:------------------------------------------------------------------------------------:|:------:|:----------------------------------------------------------------------------------------------------------------------------:|
+|   1  | [Backspace String compare ](https://leetcode.com/problems/backspace-string-compare/) |  Easy  | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/844-Backspace-String-Compare.js) |
 
   ## Suffix Arrays
 
@@ -66,9 +66,9 @@ Use this repo to prepare for interviews - Data structures and algorithms referen
   ## Math 
 
   ## Greedy
-| Freq | Problem                                                                               | Stated  | Solution                                                                                                                                                                                                                                      |
-| :--: | :-----------------------------------------------------------------------------------: | :----:  | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| 2    | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium  | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/11.ContainerWithMostWater.js)      |
+| Freq |                                        Problem                                        | Stated |                                                          Solution                                                         |
+|:----:|:-------------------------------------------------------------------------------------:|:------:|:-------------------------------------------------------------------------------------------------------------------------:|
+|   2  | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/11.ContainerWithMostWater.js) |
 
   ## Matrix
 
