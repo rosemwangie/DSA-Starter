@@ -13,6 +13,11 @@
     3. Sequence with repeated elements
     4. Duplicated values in the sequence // could be scattered
 
+## Asymptotic Analysis 
+| Access | Lookup | Insert(at) | Deletion At | push/pop |
+|:------:|:------:|:----------:|:-----------:|:--------:|
+|  O(1)  |  O(1)  |    O(n)    |     O(n)    |   O(1)   |
+
 ## Techniques
 
     1. Sliding Window
