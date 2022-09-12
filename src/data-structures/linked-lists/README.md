@@ -19,6 +19,7 @@ access, such as random access, is not feasible. Arrays
 have better cache locality as compared to linked lists.
 
 A **Pointer** is a reference to another place memory
+A **Node** is a bucket of data
 
 ## Pseudocode for Basic Operations
 
