@@ -38,7 +38,7 @@ Use this repo to prepare for interviews - Data structures and algorithms referen
 | Freq |                                      Problem                                      | Stated |                                                         Solution                                                         |
 |:----:|:---------------------------------------------------------------------------------:|:------:|:------------------------------------------------------------------------------------------------------------------------:|
 |   6  | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | Medium | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/1480.RunningSumof1dArray.js) |
-|   6  |        [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)        | Medium |   [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/724-Find-Pivot-Index.js)   |
+|   6  |        [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)        | Medium | [Javascript](https://github.com/RWambui/Data-structure-Interview-prep-JS/blob/main/src/leetcode/724.Find-Pivot-Index.js) |
 
 
   ## Sliding Window
