@@ -2,8 +2,7 @@
 Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] such that i != j, i != k, and j != k, and nums[i] + nums[j] + nums[k] == 0.
 Notice that the solution set must not contain duplicate triplets.
 */
-
-// brute force Time complexity O(n^3) Space complexity O(1)
+// brute force Time complexity O(n^3) Space complexity O(n)
 const threeSum = (nums) => {
   const len = nums.length;
   if (len < 0) return [];
@@ -25,7 +24,7 @@ const threeSum = (nums) => {
   return res;
 };
 
-//Optimal 1 Time complexity O(n) Space complexity O(1)
+//Optimal 1 Time complexity O(n) Space complexity O(n)
 const threeSum1 = (nums) => {
   nums.sort((a, b) => a - b);
   let res = [];
@@ -52,8 +51,7 @@ const threeSum1 = (nums) => {
   return res;
 };
 
-// optimal 2 Time complexity O(n) Space complexity O(1)
-
+// optimal 2 Time complexity O(n) Space complexity O(n)
 const threeSum2 = (nums) => {
   nums.sort((a, b) => a - b);
   let res = [];
