@@ -28,18 +28,18 @@ On the other hand, Linked List have more dynamic memory compared to Arrays.
   * **Peek/top** - view the top most item
 
 ### Check below leetcode questions
-  1. [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) <b style='color:green'>Easy</b> 
-  2. [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) <b style='color:green'>Easy</b> 
-  3. [Generate Parentheses](https://leetcode.com/problems/implement-queue-using-stacks/) <b style='color:orange'>Medium</b> 
-  4. [Min Stack](https://leetcode.com/problems/min-stack/) <b style='color:orange'>Medium</b> 
-  5. [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/) <b style='color:orange'>Medium</b> 
-  6. [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) <b style='color:orange'>Medium</b> 
-  7. [Basic Calculator](https://leetcode.com/problems/basic-calculator/) <b style='color:red'>Hard</b> 
-  8. [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) <b style='color:orange'>Medium</b> 
-  9. [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) <b style='color:orange'>Medium</b> 
-  10. [Car Fleet](https://leetcode.com/problems/car-fleet/) <b style='color:orange'>Medium</b> 
-  10. [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) <b style='color:red'>Hard</b> 
-  11. [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) <b style='color:red'>Hard</b> 
+  1. [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) ![](https://img.shields.io/static/v1?label=&message=Easy&color=darkgreen)
+  2. [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) ![](https://img.shields.io/static/v1?label=&message=Easy&color=darkgreen) 
+  3. [Generate Parentheses](https://leetcode.com/problems/implement-queue-using-stacks/) ![](https://img.shields.io/static/v1?label=&message=Medium&color=orange) 
+  4. [Min Stack](https://leetcode.com/problems/min-stack/) ![](https://img.shields.io/static/v1?label=&message=Medium&color=orange) 
+  5. [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/) ![](https://img.shields.io/static/v1?label=&message=Medium&color=orange) 
+  6. [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) ![](https://img.shields.io/static/v1?label=&message=Medium&color=orange) 
+  7. [Basic Calculator](https://leetcode.com/problems/basic-calculator/) ![](https://img.shields.io/static/v1?label=&message=Hard&color=darkred)
+  8. [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) ![](https://img.shields.io/static/v1?label=&message=Medium&color=orange) 
+  9. [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) ![](https://img.shields.io/static/v1?label=&message=Medium&color=orange) 
+  10. [Car Fleet](https://leetcode.com/problems/car-fleet/) ![](https://img.shields.io/static/v1?label=&message=Medium&color=orange) 
+  10. [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) ![](https://img.shields.io/static/v1?label=&message=Hard&color=darkred) 
+  11. [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) ![](https://img.shields.io/static/v1?label=&message=Hard&color=darkred) 
 
 
   ### References
