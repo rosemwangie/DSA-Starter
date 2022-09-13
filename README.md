@@ -20,12 +20,16 @@ Use this repo to prepare for interviews - Data structures and algorithms referen
   ### Linked List
 
   ### Stack
+| Freq |                                           Problem                                           |                                   Stated                                  |    Solution    |
+|:----:|:-------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------:|:--------------:|
+|  10  | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | ![](https://img.shields.io/static/v1?label=&message=Easy&color=darkgreen) | [Javascript]() |
+|   6  |            [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)            | ![](https://img.shields.io/static/v1?label=&message=Easy&color=darkgreen) | [Javascript]() |
 
   ### Queues
 
   ### Trees
 
-  ## Graphs
+  ### Graphs
 
   ### Trie
 
