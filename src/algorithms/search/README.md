@@ -12,6 +12,6 @@ in the array.
 
 ## Complexity
 
-**Time Complexity**: `O(log(n))` -
+**Time Complexity**: `O(logn)` -
 
 ## References
