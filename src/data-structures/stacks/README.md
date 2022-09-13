@@ -3,13 +3,15 @@
 >
 > LIFO - Last In First Out
 
-The name "stack" for this type of structure comes from the analogy to a set of physical items stacked on top of each other
+The name "stack" for this type of structure comes from the analogy to a set of physical items stacked on top of each other.Stacks can be used with Arrays or Linked List
 
-Stacks can be used with Arrays or Linked List
+> [Arrays](https://github.com/RWambui/Data-structure-Interview-prep-JS/tree/main/src/data-structures/arrays) - allow cache locality, which make them technically fast when accessing items.
 
-Arrays allow cache locality, which make them technically fast when accessing itmes, Linked List have extra memory associated with them, because we have to hold on to the pointers
+> [Linked List](https://github.com/RWambui/Data-structure-Interview-prep-JS/tree/main/src/data-structures/linked-lists) - have extra memory associated with them, because we have to hold on to the pointers
 
+```
 On the other hand, Linked List have more dynamic memory compared to Arrays.
+```
 ## Corner Cases
 * Empty stack. Popping from an empty
 * Stack with one itme
@@ -17,15 +19,15 @@ On the other hand, Linked List have more dynamic memory compared to Arrays.
 
 ## Complexities
 
-### Time Complexity
+  #### Time Complexity
 
-| Lookup |  pop | push | peek | isEmpty | search |
-|:------:|:----:|:----:|:----:|:-------:|:------:|
-|  O(n)  | O(1) | O(1) | O(1) |   O(1)  |  O(1)  |
+| Lookup |  pop | push | peek | isEmpty |
+|:------:|:----:|:----:|:----:|:-------:|
+|  O(n)  | O(1) | O(1) | O(1) |   O(1)  |
 
-> push - add element to the last item
-> pop - remove the last element
-> Peek - view the top most item
+1. **push** - add element to the last item
+2. **pop** - remove the last element
+3. **Peek/top** - view the top most item
 
 ## Check below leetcode questions (to enhance understanding)
   1. [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
