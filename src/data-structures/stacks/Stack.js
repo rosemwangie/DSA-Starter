@@ -6,7 +6,7 @@ class Stack {
   //add element to top of the stack
   push(element) {
     this.items[this.count] = element;
-    console.log(`${element} added to ${this.count}`);
+    console.log(`${element} is added`);
     this.count++;
     return this.count - 1;
   }
@@ -14,9 +14,9 @@ class Stack {
   //return undefined if stack is undefined
   pop() {
     if (!this.count) return undefined;
-    let deleteItem = this.items[this.count - 1];
+    let deleteItem = this.items.pop;
     this.count--;
-    console.log(`${deleteItem} removed`);
+    console.log(`${deleteItem} is removed`);
     return deleteItem;
   }
   // return the top element
@@ -29,12 +29,13 @@ class Stack {
 
 const stack = new Stack();
 
-stack.push("JavaScript");
-stack.push("Typescript");
-stack.push("React");
-stack.push("NextJS");
+stack.push("100");
+stack.push("200");
+stack.push("300");
+stack.push("400");
 stack.pop();
 stack.pop();
 stack.peek();
+console.log(stack);
 
 module.exports = Stack;
