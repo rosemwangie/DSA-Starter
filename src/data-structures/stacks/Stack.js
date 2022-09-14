@@ -10,6 +10,15 @@ class Stack {
     this.count++;
     return this.count - 1;
   }
+  //remove and return top element in stack
+  //return undefined if stack is undefined
+  pop() {
+    if (!this.count) return undefined;
+    let deleteItem = this.items[this.count - 1];
+    this.count--;
+    console.log(`${deleteItem} removed`);
+    return deleteItem;
+  }
 }
 
 const stack = new Stack();
@@ -17,7 +26,8 @@ const stack = new Stack();
 stack.push("JavaScript");
 stack.push("Typescript");
 stack.push("React");
-stack.push("Next");
-// stack.pop();
+stack.push("NextJS");
+stack.pop();
+stack.pop();
 
 module.exports = Stack;
