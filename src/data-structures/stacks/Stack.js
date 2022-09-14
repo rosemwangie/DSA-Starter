@@ -19,6 +19,12 @@ class Stack {
     console.log(`${deleteItem} removed`);
     return deleteItem;
   }
+  // return the top element
+  peek() {
+    let peekItem = this.items[this.count];
+    console.log(`${peekItem} is the top element`);
+    return peekItem;
+  }
 }
 
 const stack = new Stack();
@@ -29,5 +35,6 @@ stack.push("React");
 stack.push("NextJS");
 stack.pop();
 stack.pop();
+stack.peek();
 
 module.exports = Stack;
