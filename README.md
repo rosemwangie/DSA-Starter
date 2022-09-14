@@ -1,9 +1,12 @@
-# Data-structures
-
-##### Use this repo to prepare for interviews - Data structures and algorithms reference in JavaScript: Updated daily
+# Recommended practice questions; 
 <br>
 
-### Hash Map && Arrays
+# i) Data-structures
+
+##### Use this repo to prepare for interviews using optimally solved leetcode questions on Data structures and algorithms. The solutions are written in JavaScript and the list is curatively selected : Updated daily
+<br>
+
+### Hash Map & Arrays
 | Frequency |                                            Problem                                           |                                   Stated                                  |                                                        Solution                                                        |
 |:---------:|:--------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------:|
 |    High   |                       [Two Sum](https://leetcode.com/problems/two-sum/)                      | ![](https://img.shields.io/static/v1?label=&message=Easy&color=darkgreen) |        [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/1.TwoSum.js)        |
@@ -35,7 +38,11 @@
 |    High   |          [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)          |  ![](https://img.shields.io/static/v1?label=&message=Hard&color=darkred)  | [Inprogress...]() |
 
   ### Queues
-
+| Frequency |                                    Problem                                    |                                   Stated                                  |      Solution     |
+|:---------:|:-----------------------------------------------------------------------------:|:-------------------------------------------------------------------------:|:-----------------:|
+|    High   | [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | ![](https://img.shields.io/static/v1?label=&message=Easy&color=darkgreen) | [Inprogress...]() |
+|    High   |     [Design Hit Counter](https://leetcode.com/problems/design-hit-counter/)     | ![](https://img.shields.io/static/v1?label=&message=Premium&color=orange) | [Inprogress...]() |
+|    High   |   [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)   |  ![](https://img.shields.io/static/v1?label=&message=Hard&color=darkred)  | [Inprogress...]() |
   ### Trees
 
   ### Graphs
@@ -46,7 +53,7 @@
 <br>
 <br>
 
-# Algorithms
+# ii) Algorithms
 
   ### Prefix Sum
 | Frequency |                                      Problem                                      |                                  Stated                                  |                                                         Solution                                                         |
