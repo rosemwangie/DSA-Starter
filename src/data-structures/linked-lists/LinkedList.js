@@ -1,10 +1,10 @@
-class LinkedList{
-  constructor(){
+class LinkedList {
+  constructor() {
     this.head = null;
     this.size = 0;
   }
   //Prepend (beginning)  O(1)
-  prepend(value){
+  prepend(value) {
     const newNode = new LinkedListNode(value, this.head);
     this.head = newNode;
     this.size++;
@@ -12,23 +12,23 @@ class LinkedList{
 
   //Print List (value) O(n)
   getByIndex(index) {
-    if (index < 0 || index >= this.length) return null
+    if (index < 0 || index >= this.length) return null;
 
-    let current = this.head
+    let current = this.head;
     for (let i = 0; i < index; i++) {
-      current = current.next
+      current = current.next;
     }
-    return current
+    return current;
   }
 
   printList() {
-    let output = ''
-    let current = this.head
+    let output = "";
+    let current = this.head;
     while (current) {
-      output = `${output}${current.value} -> `
-      current = current.next
+      output = `${output}${current.value} -> `;
+      current = current.next;
     }
-    console.log(`${output}null`)
+    // console.log(`${output}null`);
   }
 
   //insert
@@ -62,19 +62,19 @@ class LinkedList{
   }
 }
 
-class LinkedListNode{
-  constructor(value, next){
-    this.value = value
-    this.next = next
+class LinkedListNode {
+  constructor(value, next) {
+    this.value = value;
+    this.next = next;
   }
 }
 
 LinkedList.fromValues = (...values) => {
-  const myLinkedList = new LinkedList()
-  for (let i = values.length -1; i >=0; i--) {
-    myLinkedList.prepend(values[i]);    
+  const myLinkedList = new LinkedList();
+  for (let i = values.length - 1; i >= 0; i--) {
+    myLinkedList.prepend(values[i]);
   }
   return myLinkedList;
-}
+};
 
 module.exports = LinkedList;
