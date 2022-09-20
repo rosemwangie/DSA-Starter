@@ -9,7 +9,7 @@
 </p>
 
 ##  Basics (Updated daily)
-* [Big O](https://github.com/RWambui/Data-structure-Interview-prep-JS/tree/main/src/bigO-cheat-sheet/BIGO.md)
+* [Big O Notation](https://github.com/RWambui/Data-structure-Interview-prep-JS/tree/main/src/bigO-cheat-sheet/BIGO.md)
 * [Memory]()
 * [Strings](https://github.com/RWambui/Data-structure-Interview-prep-JS/blob/main/src/data-structures/strings/STRINGS.md)
 * [Arrays](https://github.com/RWambui/Data-structure-Interview-prep-JS/blob/main/src/data-structures/arrays/ARRAYS.md)
@@ -72,17 +72,29 @@
 |:---------:|:-------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------:|:-----------------:|
 |    High   | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | ![](https://img.shields.io/static/v1?label=&message=Easy&color=darkgreen) | [Inprogress...]() |
 |    High   |            [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)            | ![](https://img.shields.io/static/v1?label=&message=Easy&color=darkgreen) | [Inprogress...]() |
-|    High   | [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | ![](https://img.shields.io/static/v1?label=&message=Easy&color=darkgreen) | [Inprogress...]() |
-|    High   |    [Design Hit Counter](https://leetcode.com/problems/design-hit-counter/)    | ![](https://img.shields.io/static/v1?label=&message=Premium&color=orange) | [Inprogress...]() |
+|    High   |        [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)        | ![](https://img.shields.io/static/v1?label=&message=Easy&color=darkgreen) | [Inprogress...]() |
+|    High   |           [Design Hit Counter](https://leetcode.com/problems/design-hit-counter/)           | ![](https://img.shields.io/static/v1?label=&message=Premium&color=orange) | [Inprogress...]() |
 |    High   |          [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)          |  ![](https://img.shields.io/static/v1?label=&message=Hard&color=darkred)  | [Inprogress...]() |
 
   ### Trees
+  | Frequency |                                        Problem                                        |                                  Stated                                  |                                                          Solution                                                         |
+|:---------:|:-------------------------------------------------------------------------------------:|:------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------:|
+|    Low    | [test](https://leetcode.com/problems/container-with-most-water/) | ![test](https://img.shields.io/static/v1?label=&message=test&color=orange) | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/11.ContainerWithMostWater.js) |
 
   ### Graphs
+  | Frequency |                                        Problem                                        |                                  Stated                                  |                                                          Solution                                                         |
+|:---------:|:-------------------------------------------------------------------------------------:|:------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------:|
+|    Low    | [test](https://leetcode.com/problems/container-with-most-water/) | ![test](https://img.shields.io/static/v1?label=&message=test&color=orange) | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/11.ContainerWithMostWater.js) |
 
   ### Trie
+  | Frequency |                                        Problem                                        |                                  Stated                                  |                                                          Solution                                                         |
+|:---------:|:-------------------------------------------------------------------------------------:|:------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------:|
+|    Low    | [test](https://leetcode.com/problems/container-with-most-water/) | ![test](https://img.shields.io/static/v1?label=&message=test&color=orange) | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/11.ContainerWithMostWater.js) |
 
   ### Heap
+  | Frequency |                                        Problem                                        |                                  Stated                                  |                                                          Solution                                                         |
+|:---------:|:-------------------------------------------------------------------------------------:|:------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------:|
+|    Low    | [test](https://leetcode.com/problems/container-with-most-water/) | ![test](https://img.shields.io/static/v1?label=&message=test&color=orange) | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/11.ContainerWithMostWater.js) |
 <br>
 <br>
 
@@ -106,24 +118,44 @@
 |    Low    | [Backspace String compare ](https://leetcode.com/problems/backspace-string-compare/) | ![](https://img.shields.io/static/v1?label=&message=Easy&color=darkgreen) | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/844-Backspace-String-Compare.js) |
 
   ### Suffix Arrays
-
+| Frequency |                                        Problem                                        |                                  Stated                                  |                                                          Solution                                                         |
+|:---------:|:-------------------------------------------------------------------------------------:|:------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------:|
+|    Low    | [test](https://leetcode.com/problems/container-with-most-water/) | ![test](https://img.shields.io/static/v1?label=&message=test&color=orange) | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/11.ContainerWithMostWater.js) |
   ### Breath First Search
-
+| Frequency |                                        Problem                                        |                                  Stated                                  |                                                          Solution                                                         |
+|:---------:|:-------------------------------------------------------------------------------------:|:------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------:|
+|    Low    | [test](https://leetcode.com/problems/container-with-most-water/) | ![test](https://img.shields.io/static/v1?label=&message=test&color=orange) | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/11.ContainerWithMostWater.js) |
   ### Depth First Search
-
+| Frequency |                                        Problem                                        |                                  Stated                                  |                                                          Solution                                                         |
+|:---------:|:-------------------------------------------------------------------------------------:|:------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------:|
+|    Low    | [test](https://leetcode.com/problems/container-with-most-water/) | ![test](https://img.shields.io/static/v1?label=&message=test&color=orange) | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/11.ContainerWithMostWater.js) |
   ### Divide && Conquer
-
+| Frequency |                                        Problem                                        |                                  Stated                                  |                                                          Solution                                                         |
+|:---------:|:-------------------------------------------------------------------------------------:|:------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------:|
+|    Low    | [test](https://leetcode.com/problems/container-with-most-water/) | ![test](https://img.shields.io/static/v1?label=&message=test&color=orange) | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/11.ContainerWithMostWater.js) |
   ### Recursion
-
+| Frequency |                                        Problem                                        |                                  Stated                                  |                                                          Solution                                                         |
+|:---------:|:-------------------------------------------------------------------------------------:|:------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------:|
+|    Low    | [test](https://leetcode.com/problems/container-with-most-water/) | ![test](https://img.shields.io/static/v1?label=&message=test&color=orange) | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/11.ContainerWithMostWater.js) |
   ### Dynamic Programming 
-
+| Frequency |                                        Problem                                        |                                  Stated                                  |                                                          Solution                                                         |
+|:---------:|:-------------------------------------------------------------------------------------:|:------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------:|
+|    Low    | [test](https://leetcode.com/problems/container-with-most-water/) | ![test](https://img.shields.io/static/v1?label=&message=test&color=orange) | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/11.ContainerWithMostWater.js) |
   ### Math 
-
+| Frequency |                                        Problem                                        |                                  Stated                                  |                                                          Solution                                                         |
+|:---------:|:-------------------------------------------------------------------------------------:|:------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------:|
+|    Low    | [test](https://leetcode.com/problems/container-with-most-water/) | ![test](https://img.shields.io/static/v1?label=&message=test&color=orange) | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/11.ContainerWithMostWater.js) |
   ### Greedy
 | Frequency |                                        Problem                                        |                                  Stated                                  |                                                          Solution                                                         |
 |:---------:|:-------------------------------------------------------------------------------------:|:------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------:|
 |    Low    | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | ![](https://img.shields.io/static/v1?label=&message=Medium&color=orange) | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/11.ContainerWithMostWater.js) |
 
   ### Matrix
+| Frequency |                                        Problem                                        |                                  Stated                                  |                                                          Solution                                                         |
+|:---------:|:-------------------------------------------------------------------------------------:|:------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------:|
+|    Low    | [test](https://leetcode.com/problems/container-with-most-water/) | ![test](https://img.shields.io/static/v1?label=&message=Medium&color=orange) | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/11.ContainerWithMostWater.js) |
 
   ### Geometry
+ | Frequency |                                        Problem                                        |                                  Stated                                  |                                                          Solution                                                         |
+|:---------:|:-------------------------------------------------------------------------------------:|:------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------:|
+|    Low    | [test](https://leetcode.com/problems/container-with-most-water/) | ![test](https://img.shields.io/static/v1?label=&message=test&color=orange) | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/11.ContainerWithMostWater.js) |
