@@ -1,26 +1,38 @@
-# Recommended practice questions; 
+# [Data Structures && Algorithms Interview Prep](https://github.com/RWambui/Data-structure-Interview-prep-JS)
 <br>
+<p align="center">    
+    <a href="/LICENSE">
+        <img alt="GitHub" src="https://img.shields.io/badge/license-MIT-blue.svg">
+    </a>
+    <a>
+        <img alt="GitHub contributors" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg">
+    </a>
+    
+</p>
+<br />
 
 # Basics
 * [Big O](https://github.com/RWambui/Data-structure-Interview-prep-JS/tree/main/src/bigO-cheat-sheet/BIGO.md)
 * [Memory]()
-* [Strings]()
-* [Arrays]()
-* [Hash Tables]()
-* [Linked Lists]()
-* [Stacks]()
-* [Queues]()
-* [Trees]()
-* [Graphs]()
-* [Tries]()
+* [Strings](https://github.com/RWambui/Data-structure-Interview-prep-JS/blob/main/src/data-structures/strings/STRINGS.md)
+* [Arrays](https://github.com/RWambui/Data-structure-Interview-prep-JS/blob/main/src/data-structures/arrays/ARRAYS.md)
+* [Hash Tables](https://github.com/RWambui/Data-structure-Interview-prep-JS/blob/main/src/data-structures/hash-tables/HASHTABLES.md)
+* [Linked Lists](https://github.com/RWambui/Data-structure-Interview-prep-JS/blob/main/src/data-structures/linked-lists/LINKEDLISTS.md)
+* [Stacks](https://github.com/RWambui/Data-structure-Interview-prep-JS/blob/main/src/data-structures/stacks/STACK.md)
+* [Queues](https://github.com/RWambui/Data-structure-Interview-prep-JS/blob/main/src/data-structures/queues/QUEUES.md)
+* [Trees](https://github.com/RWambui/Data-structure-Interview-prep-JS/blob/main/src/data-structures/trees/TREES.md)
+* [Graphs](https://github.com/RWambui/Data-structure-Interview-prep-JS/blob/main/src/data-structures/graphs/GRAPHS.md)
+* [Tries](https://github.com/RWambui/Data-structure-Interview-prep-JS/blob/main/src/data-structures/trie/TRIES.md)
 * [Recursion]()
 * [Sorting]()
 * [Search + BFS + DFS]()
 * [Dynamic Programming]()
-* [Greedy]()
+* [Greedy](https://github.com/RWambui/Data-structure-Interview-prep-JS/blob/main/src/algorithms/greedy/GREEDY.md)
 * [Sorting]()
 
-# i) Data-structures  - In Progress...
+<br>
+
+# Data-structures  - In Progress...
 
 ##### Use this repo to prepare for interviews using optimally solved leetcode questions on Data structures and algorithms. The solutions are written in JavaScript and the list is curatively selected : Updated daily
 <br>
