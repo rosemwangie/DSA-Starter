@@ -159,10 +159,11 @@
 |    Low    | [test](https://leetcode.com/problems/container-with-most-water/) | ![test](https://img.shields.io/static/v1?label=&message=test&color=orange) | [In progress...]() |
 
 
-<br>
-<a alight="center" href="https://github.com/RWambui">
-Built By: 
+
+### Built By:
 <br>
 
-![Built By:](https://img.shields.io/static/v1?style=for-the-badge&message=CodeMuse%E2%AD%90&color=black&logo=Code&logoColor=FFFFFF&label=)
+<a href="https://github.com/RWambui" align="center">
+
+![Built By:](https://img.shields.io/static/v1?style=for-the-badge&message=<CodeMuse/>%E2%AD%90&color=black&logo=Code&logoColor=FFFFFF&label=)
 </a>
