@@ -1,6 +1,25 @@
 # Recommended practice questions; 
 <br>
 
+# Basics
+* [Big O](https://github.com/RWambui/Data-structure-Interview-prep-JS/tree/main/src/bigO-cheat-sheet/BIGO.md)
+* [Memory]()
+* [Strings]()
+* [Arrays]()
+* [Hash Tables]()
+* [Linked Lists]()
+* [Stacks]()
+* [Queues]()
+* [Trees]()
+* [Graphs]()
+* [Tries]()
+* [Recursion]()
+* [Sorting]()
+* [Search + BFS + DFS]()
+* [Dynamic Programming]()
+* [Greedy]()
+* [Sorting]()
+
 # i) Data-structures  - In Progress...
 
 ##### Use this repo to prepare for interviews using optimally solved leetcode questions on Data structures and algorithms. The solutions are written in JavaScript and the list is curatively selected : Updated daily
@@ -41,7 +60,7 @@
 | Frequency |                                    Problem                                    |                                   Stated                                  |      Solution     |
 |:---------:|:-----------------------------------------------------------------------------:|:-------------------------------------------------------------------------:|:-----------------:|
 |    High   | [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | ![](https://img.shields.io/static/v1?label=&message=Easy&color=darkgreen) | [Inprogress...]() |
-|    High   |     [Design Hit Counter](https://leetcode.com/problems/design-hit-counter/)     | ![](https://img.shields.io/static/v1?label=&message=Premium&color=orange) | [Inprogress...]() |
+|    High   |    [Design Hit Counter](https://leetcode.com/problems/design-hit-counter/)    | ![](https://img.shields.io/static/v1?label=&message=Premium&color=orange) | [Inprogress...]() |
 |    High   |   [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)   |  ![](https://img.shields.io/static/v1?label=&message=Hard&color=darkred)  | [Inprogress...]() |
   ### Trees
 
@@ -94,5 +113,6 @@
   ### Matrix
 
   ### Geometry
+  <br>
   
-  DSA is [MIT licensed](./LICENSE).
+#### DSA is [MIT licensed](./LICENSE).
