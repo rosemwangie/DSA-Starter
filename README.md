@@ -1,5 +1,4 @@
-# [Data Structures & Algorithms Interview Prep](https://github.com/RWambui/Data-structure-Interview-prep-JS) - updated daily
-
+# [Data Structures & Algorithms Interview Prep](https://github.com/RWambui/Data-structure-Interview-prep-JS) 
 <p align="center">    
     <a href="/LICENSE">
         <img alt="GitHub" src="https://img.shields.io/badge/license-MIT-blue.svg">
@@ -9,13 +8,16 @@
     </a>    
 </p>
 
-# Basics
+##  Basics (Updated daily)
 * [Big O](https://github.com/RWambui/Data-structure-Interview-prep-JS/tree/main/src/bigO-cheat-sheet/BIGO.md)
 * [Memory]()
 * [Strings](https://github.com/RWambui/Data-structure-Interview-prep-JS/blob/main/src/data-structures/strings/STRINGS.md)
 * [Arrays](https://github.com/RWambui/Data-structure-Interview-prep-JS/blob/main/src/data-structures/arrays/ARRAYS.md)
 * [Hash Tables](https://github.com/RWambui/Data-structure-Interview-prep-JS/blob/main/src/data-structures/hash-tables/HASHTABLES.md)
 * [Linked Lists](https://github.com/RWambui/Data-structure-Interview-prep-JS/blob/main/src/data-structures/linked-lists/LINKEDLISTS.md)
+    * [Singly Linked List]()
+    * [Doubly Linked List]()
+    * [Circular Linked List]()
 * [Stacks](https://github.com/RWambui/Data-structure-Interview-prep-JS/blob/main/src/data-structures/stacks/STACK.md)
 * [Queues](https://github.com/RWambui/Data-structure-Interview-prep-JS/blob/main/src/data-structures/queues/QUEUES.md)
 * [Trees](https://github.com/RWambui/Data-structure-Interview-prep-JS/blob/main/src/data-structures/trees/TREES.md)
@@ -36,7 +38,6 @@
     * [Depth First Search]()
 * [Dynamic Programming]()
 * [Greedy](https://github.com/RWambui/Data-structure-Interview-prep-JS/blob/main/src/algorithms/greedy/GREEDY.md)
-* [Sorting]()
 
 # Data-structures  - In Progress...
 #### Use this repo to prepare for interviews using optimally solved leetcode questions on Data structures and algorithms. The solutions are written in JavaScript and the list is curatively selected : Updated daily
@@ -66,19 +67,15 @@
 
   ### Linked List
 
-  ### Stack
+  ### Stacks & Queues
 | Frequency |                                           Problem                                           |                                   Stated                                  |      Solution     |
 |:---------:|:-------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------:|:-----------------:|
 |    High   | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | ![](https://img.shields.io/static/v1?label=&message=Easy&color=darkgreen) | [Inprogress...]() |
 |    High   |            [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)            | ![](https://img.shields.io/static/v1?label=&message=Easy&color=darkgreen) | [Inprogress...]() |
-|    High   |          [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)          |  ![](https://img.shields.io/static/v1?label=&message=Hard&color=darkred)  | [Inprogress...]() |
-
-  ### Queues
-| Frequency |                                    Problem                                    |                                   Stated                                  |      Solution     |
-|:---------:|:-----------------------------------------------------------------------------:|:-------------------------------------------------------------------------:|:-----------------:|
 |    High   | [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | ![](https://img.shields.io/static/v1?label=&message=Easy&color=darkgreen) | [Inprogress...]() |
 |    High   |    [Design Hit Counter](https://leetcode.com/problems/design-hit-counter/)    | ![](https://img.shields.io/static/v1?label=&message=Premium&color=orange) | [Inprogress...]() |
-|    High   |   [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)   |  ![](https://img.shields.io/static/v1?label=&message=Hard&color=darkred)  | [Inprogress...]() |
+|    High   |          [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)          |  ![](https://img.shields.io/static/v1?label=&message=Hard&color=darkred)  | [Inprogress...]() |
+
   ### Trees
 
   ### Graphs
