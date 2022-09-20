@@ -1,5 +1,5 @@
 # [Data Structures && Algorithms Interview Prep](https://github.com/RWambui/Data-structure-Interview-prep-JS)
-<br>
+
 <p align="center">    
     <a href="/LICENSE">
         <img alt="GitHub" src="https://img.shields.io/badge/license-MIT-blue.svg">
@@ -9,7 +9,7 @@
     </a>
     
 </p>
-<br />
+
 
 # Basics
 * [Big O](https://github.com/RWambui/Data-structure-Interview-prep-JS/tree/main/src/bigO-cheat-sheet/BIGO.md)
@@ -29,8 +29,6 @@
 * [Dynamic Programming]()
 * [Greedy](https://github.com/RWambui/Data-structure-Interview-prep-JS/blob/main/src/algorithms/greedy/GREEDY.md)
 * [Sorting]()
-
-<br>
 
 # Data-structures  - In Progress...
 
@@ -84,7 +82,7 @@
 <br>
 <br>
 
-# ii) Algorithms
+# Algorithms
 
   ### Prefix Sum
 | Frequency |                                      Problem                                      |                                  Stated                                  |                                                         Solution                                                         |
@@ -125,6 +123,3 @@
   ### Matrix
 
   ### Geometry
-  <br>
-  
-#### DSA is [MIT licensed](./LICENSE).
