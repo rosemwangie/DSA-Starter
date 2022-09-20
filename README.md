@@ -1,4 +1,4 @@
-# [Data Structures && Algorithms Interview Prep](https://github.com/RWambui/Data-structure-Interview-prep-JS)
+# [Data Structures & Algorithms Interview Prep](https://github.com/RWambui/Data-structure-Interview-prep-JS) - updated daily
 
 <p align="center">    
     <a href="/LICENSE">
@@ -6,10 +6,8 @@
     </a>
     <a>
         <img alt="GitHub contributors" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg">
-    </a>
-    
+    </a>    
 </p>
-
 
 # Basics
 * [Big O](https://github.com/RWambui/Data-structure-Interview-prep-JS/tree/main/src/bigO-cheat-sheet/BIGO.md)
@@ -25,14 +23,23 @@
 * [Tries](https://github.com/RWambui/Data-structure-Interview-prep-JS/blob/main/src/data-structures/trie/TRIES.md)
 * [Recursion]()
 * [Sorting]()
-* [Search + BFS + DFS]()
+  * [Bubble sort]()
+  * [Quick Sort]()
+  * [Merge Sort]()
+  * [Insertion sort]()
+  * [Selection sort]()
+  * [Heapsort]()
+  * [Counting sort]()
+  * [Radix sort]()
+* [Searching]()
+    * [Breath First Search]()
+    * [Depth First Search]()
 * [Dynamic Programming]()
 * [Greedy](https://github.com/RWambui/Data-structure-Interview-prep-JS/blob/main/src/algorithms/greedy/GREEDY.md)
 * [Sorting]()
 
 # Data-structures  - In Progress...
-
-##### Use this repo to prepare for interviews using optimally solved leetcode questions on Data structures and algorithms. The solutions are written in JavaScript and the list is curatively selected : Updated daily
+#### Use this repo to prepare for interviews using optimally solved leetcode questions on Data structures and algorithms. The solutions are written in JavaScript and the list is curatively selected : Updated daily
 <br>
 
 ### Hash Map & Arrays
