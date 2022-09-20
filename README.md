@@ -94,3 +94,5 @@
   ### Matrix
 
   ### Geometry
+  
+  DSA is [MIT licensed](./LICENSE).
