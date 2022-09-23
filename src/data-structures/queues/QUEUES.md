@@ -1,9 +1,9 @@
 # Queues
 > FIFO - First In First Out
 
-Stacks can be used with Arrays or Linked List...
+A queue is implemented using a doubly linked list
 
-Why Linked Lists;
+### Why Linked Lists;
 > Adding and removing items is O(1) operation
 
 Why not Arrays
@@ -23,6 +23,6 @@ Why not Arrays
 > Peek - view the first item on the list
 
 ### Space Complexity
-
+O(n)
 
 ## References
