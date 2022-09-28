@@ -8,7 +8,10 @@
     </a>    
 </p>
 
+
 ##  Basics (Updated daily)
+<p>These are few basics I have created. There is a lot of scope for improvement and I happily invite you to contribute!</p>
+
 * [Big O Notation](https://github.com/RWambui/Data-structure-Interview-prep-JS/tree/main/src/bigO-cheat-sheet/BIGO.md)
 * [Memory]()
 * [Strings](https://github.com/RWambui/Data-structure-Interview-prep-JS/blob/main/src/data-structures/strings/STRINGS.md)
