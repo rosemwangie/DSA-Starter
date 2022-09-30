@@ -8,9 +8,8 @@
     </a>    
 </p>
 
-
 ##  Basics (Updated daily)
-<p>These are few basics I have created. There is a lot of scope for improvement and I happily invite you to contribute!</p>
+<p>This is the scope of the project, I happily invite you to contribute!</p>
 
 * [Big O Notation](https://github.com/RWambui/Data-structure-Interview-prep-JS/tree/main/src/bigO-cheat-sheet/BIGO.md)
 * [Memory]()
@@ -47,17 +46,17 @@
 # Data-structures  - In Progress...
 
 ### Hash Map & Arrays
-| Frequency |                                            Problem                                           |                                   Stated                                  |                                                        Solution                                                        | Explained |
-|:---------:|:--------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------:|-----------|
-|    High   |                       [Two Sum](https://leetcode.com/problems/two-sum/)                      | ![](https://img.shields.io/static/v1?label=&message=Easy&color=darkgreen) |        [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/1.TwoSum.js)        | [Two Sum Explained](https://github.com/RWambui/Data-structure-Interview-prep-JS/blob/main/src/leetcode/Explanation.md#question-1) |
-|    High   |                 [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                | ![](https://img.shields.io/static/v1?label=&message=Easy&color=darkgreen) |    [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/242.ValidAnagram.js)    |           |
-|   Medium  |            [Jewels and Stones ](https://leetcode.com/problems/jewels-and-stones/)            | ![](https://img.shields.io/static/v1?label=&message=Easy&color=darkgreen) |  [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/771.Jewels-and-Stones.js) |           |
-|    High   |           [Contains duplicates](https://leetcode.com/problems/contains-duplicate/)           |  ![](https://img.shields.io/static/v1?label=&message=Medium&color=orange) | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/217.Contains-Duplicate.js) |           |
-|    High   |                [Group Anagrams](https://leetcode.com/problems/group-anagrams/)               |  ![](https://img.shields.io/static/v1?label=&message=Medium&color=orange) |                                                    [Inprogress...]()                                                   |           |
-|    High   |     [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)    | ![](https://img.shields.io/static/v1?label=&message=Premium&color=orange) |                                                    [Inprogress...]()                                                   |           |
-|    High   |                 [Valid Sudoku ](https://leetcode.com/problems/valid-sudoku/)                 | ![](https://img.shields.io/static/v1?label=&message=Premium&color=orange) |                                                    [Inprogress...]()                                                   |           |
-|    High   | [Longest Consecutive Sequence ](https://leetcode.com/problems/longest-consecutive-sequence/) | ![](https://img.shields.io/static/v1?label=&message=Premium&color=orange) |                                                    [Inprogress...]()                                                   |           |
-|    High   |       [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)      | ![](https://img.shields.io/static/v1?label=&message=Premium&color=orange) |                                                    [Inprogress...]()                                                   |           |
+| Frequency |                                            Problem                                           |                                   Stated                                  |                                                        Solution                                                        | Solution   | Explained                                                                                                                         |
+|:---------:|:--------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------:|------------|-----------------------------------------------------------------------------------------------------------------------------------|
+|    High   |                       [Two Sum](https://leetcode.com/problems/two-sum/)                      | ![](https://img.shields.io/static/v1?label=&message=Easy&color=darkgreen) |        [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/1.TwoSum.js)        | [Python]() | [Two Sum Explained](https://github.com/RWambui/Data-structure-Interview-prep-JS/blob/main/src/leetcode/Explanation.md#question-1) |
+|    High   |                 [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                | ![](https://img.shields.io/static/v1?label=&message=Easy&color=darkgreen) |    [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/242.ValidAnagram.js)    |            |                                                                                                                                   |
+|   Medium  |            [Jewels and Stones ](https://leetcode.com/problems/jewels-and-stones/)            | ![](https://img.shields.io/static/v1?label=&message=Easy&color=darkgreen) |  [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/771.Jewels-and-Stones.js) |            |                                                                                                                                   |
+|    High   |           [Contains duplicates](https://leetcode.com/problems/contains-duplicate/)           |  ![](https://img.shields.io/static/v1?label=&message=Medium&color=orange) | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/217.Contains-Duplicate.js) |            |                                                                                                                                   |
+|    High   |                [Group Anagrams](https://leetcode.com/problems/group-anagrams/)               |  ![](https://img.shields.io/static/v1?label=&message=Medium&color=orange) |                                                    [Inprogress...]()                                                   |            |                                                                                                                                   |
+|    High   |     [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)    | ![](https://img.shields.io/static/v1?label=&message=Premium&color=orange) |                                                    [Inprogress...]()                                                   |            |                                                                                                                                   |
+|    High   |                 [Valid Sudoku ](https://leetcode.com/problems/valid-sudoku/)                 | ![](https://img.shields.io/static/v1?label=&message=Premium&color=orange) |                                                    [Inprogress...]()                                                   |            |                                                                                                                                   |
+|    High   | [Longest Consecutive Sequence ](https://leetcode.com/problems/longest-consecutive-sequence/) | ![](https://img.shields.io/static/v1?label=&message=Premium&color=orange) |                                                    [Inprogress...]()                                                   |            |                                                                                                                                   |
+|    High   |       [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)      | ![](https://img.shields.io/static/v1?label=&message=Premium&color=orange) |                                                    [Inprogress...]()                                                   |            |                                                                                                                                   |
 
 
 
@@ -169,14 +168,15 @@
 ```
 npm install or yarn install
 npm test
-
-
 ```
 <br>
 
 ### **_Built By:_**
 <p align="center">
 <a href="https://github.com/RWambui">
+<img src="https://camo.githubusercontent.com/4a13e25511b2461c8c9e7130a03223bb376e9211a4ba3089c1c750f2ab8c115e/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d436f64654d75736525453225414425393026636f6c6f723d626c61636b266c6f676f3d436f6465266c6f676f436f6c6f723d464646464646266c6162656c3d" data-canonical-src="https://img.shields.io/static/v1?style=for-the-badge&amp;message=CodeMuse%E2%AD%90&amp;color=black&amp;logo=Code&amp;logoColor=FFFFFF&amp;label=" style="max-width: 100%;" />
+</a>
+<a href="https://github.com/kiptoonkipkurui">
 <img src="https://camo.githubusercontent.com/4a13e25511b2461c8c9e7130a03223bb376e9211a4ba3089c1c750f2ab8c115e/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d436f64654d75736525453225414425393026636f6c6f723d626c61636b266c6f676f3d436f6465266c6f676f436f6c6f723d464646464646266c6162656c3d" data-canonical-src="https://img.shields.io/static/v1?style=for-the-badge&amp;message=CodeMuse%E2%AD%90&amp;color=black&amp;logo=Code&amp;logoColor=FFFFFF&amp;label=" style="max-width: 100%;" />
 </a>
 </p>

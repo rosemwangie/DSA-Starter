@@ -1,4 +1,4 @@
-# Linked Lists
+## **Linked Lists**
 
 A **linked List** is used to represent sequential data. Linear order is not given by their physical placement in memory. Instead each element contains an address of the next element. Each node contains: data, a reference(link) to the next node in the sequence.Arrays have better cache locality as compared to linked lists.
 
@@ -6,13 +6,17 @@ A drawback of linked lists is that access
 time is linear (and difficult to pipeline). Faster
 access, such as random access, is not feasible.
 
-## Singly Linked List
+### **Singly Linked List**
 
-## Doubly Linked List
+### **Doubly Linked List**
 
-## Pros
+Pros
+* e
+* y
 
-## Cons
+Cons
+* l
+* y
 
 Access time is linear (and difficult to pipeline). Faster
 access, such as random access, is not feasible. Arrays
@@ -21,9 +25,7 @@ have better cache locality as compared to linked lists.
 A **Pointer** is a reference to another place memory
 A **Node** is a bucket of data
 
-## Pseudocode for Basic Operations
-
-## traverse
+### Pseudo-code for Basic Operations
 
 ### Traverse
 
@@ -59,6 +61,17 @@ end Traverse
 - Linked list has cycles.
   Tip: Clarify beforehand with the interviewer whether there can be a cycle in the list. Usually the answer is no and you don't have to handle it in the code
 
+# Implementations
+[JS]()
+```
+```
+
+[Python]()
+
+```
+```
+
+
 ## Complexities
 
 ### Time Complexity
@@ -70,6 +83,12 @@ end Traverse
 ### Space Complexity
 
 O(n)
+
+## Related Questions
+| No | Problem Statement                                                         |
+|----|---------------------------------------------------------------------------|
+| 1. | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) |
+|    |                                                                           |
 
 ## References
 
