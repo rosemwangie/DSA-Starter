@@ -1,4 +1,5 @@
 # [Data Structures & Algorithms Interview Prep](https://github.com/RWambui/Data-structure-Interview-prep-JS) 
+A Data Structure is a method used to store and organize data.
 <p align="center">    
     <a href="/LICENSE">
         <img alt="License" src="https://img.shields.io/badge/License-MIT-blue.svg">
@@ -101,6 +102,8 @@
 <br>
 
 # Algorithms
+
+An Algorithm is a set of intructions on how to solve particular problems
 
   ### Prefix Sum
 | Frequency |                                      Problem                                      |                                  Stated                                  |                                                         Solution                                                         |

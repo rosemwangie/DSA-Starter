@@ -3,7 +3,6 @@ Given an array of integers nums and an integer target, return indices of the two
 You may assume that each input would have exactly one solution, and you may not use the same element twice.
 You can return the answer in any order.
 */
-
 //brute force/naive approach Time complexity O(n^2) Space complexity O(1)
 const twoSum = (nums, target) => {
   for (let i = 0; i < nums.length; i++) {
@@ -15,6 +14,8 @@ const twoSum = (nums, target) => {
   }
   return [];
 };
+
+
 
 // Optimal soln1 Time complexity O(n) Space complexity O(n)
 const twoSum1 = (nums, target) => {

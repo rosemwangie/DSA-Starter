@@ -1,9 +1,19 @@
-# Question 1. 
-**Two Sum Explained**
+ # **Two Sum Explained**
+ > [Problem statement](https://leetcode.com/problems/two-sum/)
 
-  _[Code solution in Javascript](https://github.com/RWambui/Data-structure-Interview-prep-JS/blob/main/src/leetcode/1.TwoSum.js)_
+**Brute Force**
+```
+Step 1: Start
+Step 2: pass parameters nums, target.
+Step 3: Read values nums array.
+Step 4: Add nums[i] and nums[i + 1] and compare result to target.
+        nums[i] + nums[i + 1] === target
+Step 5: Display/Return nums[i], nums[i + 1]
+Step 6: Stop
+```
+  (_[Code solution in Javascript](https://github.com/RWambui/Data-structure-Interview-prep-JS/blob/main/src/leetcode/1.TwoSum.js)_)
 
- ### Psuedo code
+
 <br>
 
  # Question 42.
