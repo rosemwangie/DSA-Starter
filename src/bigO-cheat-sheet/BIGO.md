@@ -1,6 +1,10 @@
 ## Big O Notation / Asymptotic Analysis
-Big O Notation is used to describe the time complexity and space complexity of algorithms
+Big O Notation is used to describe the time complexity and space complexity of algorithm. 
+
 It is understood to describe the worst case scenario of an algorithm
+
+### Why Big O
+It helps us choose the best data structure and algorithm for certain use cases
 
 ### Prerequisites
 1. Time Complexity - This is a measure of how fast an algorithm runs
@@ -13,7 +17,7 @@ It is understood to describe the worst case scenario of an algorithm
 ## Operations 
  * Constant O(1)
  * Logarithmic O(log(n))
- * Linear O(n)
+ * Linear O(n) - Your Algorithm will grow linearly based on the input
  * Logarithmic O(n log n)
  * Quadratic O(n^2)
  * Cubic O(n^3)
