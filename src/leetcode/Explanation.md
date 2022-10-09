@@ -1,4 +1,5 @@
- # **Two Sum Explained**
+ # [Two Sum](#twosum)
+ 
  > [Problem statement](https://leetcode.com/problems/two-sum/)
 
 **Brute Force**
