@@ -1,4 +1,4 @@
- # [Two Sum](#twosum)
+ #  [**1. Two Sum**](#twosum)
  
  > [Problem statement](https://leetcode.com/problems/two-sum/)
 
@@ -17,8 +17,7 @@ Step 6: Stop
 
 <br>
 
- # Question 42.
- **Trapping Rain Water**
+ * [**Trapping Rain Water**]()
 
    _[Code solution in Javascript](https://github.com/RWambui/Data-structure-Interview-prep-JS/blob/main/src/leetcode/42.Trapping-Rain-Water.js)_
    
