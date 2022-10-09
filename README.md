@@ -1,5 +1,6 @@
 # [Data Structures & Algorithms Interview Prep](https://github.com/RWambui/Data-structure-Interview-prep-JS) 
-A Data Structure is a method used to store and organize data.
+
+<p align="center">This is the scope of the project, I happily invite you to contribute!</p>
 <p align="center">    
     <a href="/LICENSE">
         <img alt="License" src="https://img.shields.io/badge/License-MIT-blue.svg">
@@ -10,7 +11,7 @@ A Data Structure is a method used to store and organize data.
 </p>
 
 ##  Basics (Updated daily)
-<p>This is the scope of the project, I happily invite you to contribute!</p>
+
 
 * [Big O Notation](https://github.com/RWambui/Data-structure-Interview-prep-JS/tree/main/src/bigO-cheat-sheet/BIGO.md)
 * [Memory]()
