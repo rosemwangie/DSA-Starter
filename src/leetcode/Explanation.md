@@ -10,7 +10,7 @@
       <img width="483" alt="Screenshot 2022-10-09 at 14 52 16"  align="center" src="https://user-images.githubusercontent.com/77434770/194755407-f590baf7-1cc1-4aca-98b3-ca52f13972ae.png">
 
  * #### **Logical Solution**
-   * Naive ([two pointer]())
+   * Naive Approach([two pointer]())
         ```jsx
         Step 1: Start
         Step 2: Pass arguments nums, target.
@@ -24,7 +24,7 @@
         Space complexity - O(1)
         ```
 
-   * Optimized ([Hash Tables(HashMap)](https://github.com/RWambui/Data-structures-and-Algorithms-Interview-prep/blob/main/src/data-structures/hash-tables/HASHTABLES.md)) - Hash map look up is O(1) T
+   * Optimized ([Hash Tables](https://github.com/RWambui/Data-structures-and-Algorithms-Interview-prep/blob/main/src/data-structures/hash-tables/HASHTABLES.md)/HashMap) - lookup is O(1) T
        ```jsx
        Step 0. Start
        Step 1. Initialize the first pointer and an empty hash map
@@ -35,8 +35,8 @@
        Step 4. If it exists, return the value of the opposing pair and the value of the current element in the hash map
        Step 5. Stop
        
-       Time Complexity - O(n^2)
-       Space complexity - O(1)
+       Time Complexity - O(n)
+       Space complexity - O(n)
        ```
 
 ## 2. [**Add Two Numbers**]()
@@ -58,7 +58,6 @@
         ```
 
    * Optimized - [Prefix Sum]()
-
         ```jsx
         Step 1. Find max height(prefix sum) of building travesing from left of array
         Step 2. Find max height(prefix sum) of building travesing from right of array.
@@ -68,8 +67,3 @@
         Time Complexity - O(n)
         Space complexity - O(n)
         ```
-
-
-
-
-
