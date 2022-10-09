@@ -19,12 +19,27 @@
                 nums[i] + nums[i + 1] === target
         Step 5: Display/Return nums[i], nums[i + 1]
         Step 6: Stop
+        
+        Time Complexity - O(n^2)
+        Space complexity - O(1)
         ```
 
-   * Optimized ([hash tables])
+   * Optimized ([Hash Tables(HashMap)](https://github.com/RWambui/Data-structures-and-Algorithms-Interview-prep/blob/main/src/data-structures/hash-tables/HASHTABLES.md)) - Hash map look up is O(1) T
+       ```jsx
+       Step 0. Start
+       Step 1. Initialize the first pointer and an empty hash map
+       Step 2. Compute the missing target
+               Formulae: (Missing target = target - nums[i])
+       Step 3. Check if the missing target exists in the hash map, if not,
+       Step 3. Store the missing target in the hash map as the key; and it's index as the value (key:value) pair
+       Step 4. If it exists, return the value of the opposing pair and the value of the current element in the hash map
+       Step 5. Stop
+       
+       Time Complexity - O(n^2)
+       Space complexity - O(1)
+       ```
 
-
-## 2. Add Two Numbers
+## 2. [**Add Two Numbers**]()
 
 ## 42. [**Trapping Rain Water**](#trappingrainwater)
 
