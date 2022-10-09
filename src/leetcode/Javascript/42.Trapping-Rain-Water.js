@@ -1,23 +1,21 @@
-/*
+
 //Formulae
 // currentWater = min(maxL, maxR) - currentHeight
 
-Steps
-1. Compare pointer(maxLeft) to each elemet in the array
-2. Keep track of the maxRight (j = i + 1) (the highest number)
-3. Compute the minimum by comparing the pointer(maxLeft) and maxRight
-4. Subtract the Min - current Height
-5. Record the total
-*/
-
-// Thought process
+//Steps
+      /* 1. Compare pointer(maxLeft) to each elemet in the array
+         2. Keep track of the maxRight (j = i + 1) (the highest number)
+         3. Compute the minimum by comparing the pointer(maxLeft) and maxRight
+         4. Subtract the Min - current Height
+         5. Record the total
+      */ 
 
 //Brute force solution
-/*
- Asymptotic analysis
- Time complexity O(n^2)
- space complexity O(1) 
-*/
+     /*
+      Asymptotic analysis
+      Time complexity O(n^2)
+      space complexity O(1) 
+     */
 
 const trap = (height) => {
   let totalWater = 0;
@@ -42,12 +40,6 @@ const trap = (height) => {
   return totalWater;
 };
 
-//Test cases
-console.log(trap([])); //0
-console.log(trap([4])); // 0
-console.log(trap([7, 8, 7])); // 0
-console.log(trap([0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1])); // 6
-console.log(trap([4, 2, 0, 3, 2, 5])); // 9
 
 //Optimal solution
 
@@ -74,3 +66,7 @@ console.log(trapWater([4]));
 console.log(trapWater([7, 8, 7]));
 console.log(trapWater([0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]));
 console.log(trapWater([4, 2, 0, 3, 2, 5]));
+
+
+// Time Complexity - O(n^2) This is because for every index we are moving from i to 0 to find leftMax and from i to n - 1 to find rightMax so we are traversing whole array for every index so it makes an nested loop so O(n^2) will be T.C
+// Space Complexity - O(1)
