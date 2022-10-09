@@ -3,10 +3,8 @@ Big O Notation is used to describe the time complexity and space complexity of a
 It is understood to describe the worst case scenario of an algorithm
 
 ### Prerequisites
-1. Time Complexity
- * This is a measure of how fast an algorithm runs
-2. Space Complexity
- * This is the measure of how much auxiliary memory an algorithm takes up
+1. Time Complexity - This is a measure of how fast an algorithm runs
+2. Space Complexity - This is the measure of how much auxiliary memory an algorithm takes up
 
 > How runtime of an algorithm grows as input grows
 <br>
