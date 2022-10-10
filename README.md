@@ -45,7 +45,7 @@
 * [Dynamic Programming]()
 * [Greedy](https://github.com/RWambui/Data-structure-Interview-prep-JS/blob/main/src/algorithms/greedy/GREEDY.md)
 
-# Data-structures  - In Progress...
+# Data-structures  - Coming soon...
 
 ### Hash Map & Arrays
 | Frequency |                                            Problem                                           |                                   Stated                                  |                                                        Solution                                                        | Solution   | Explained                                                                                                                         |
