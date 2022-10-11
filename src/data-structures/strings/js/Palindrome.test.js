@@ -1,7 +1,7 @@
 const palindrome = require("./Palindrome");
 
 describe("palindromeCheck", () => {
-  it("will return whether or not the string is a palindrome", () => {
+  test("will return whether or not the string is a palindrome", () => {
     expect(palindrome("A man, a plan, a canal: Panama")).toBe(true);
     expect(palindrome("racecar")).toBe(true);
     expect(palindrome("peep")).toBe(true);
