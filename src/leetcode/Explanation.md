@@ -67,3 +67,15 @@
         Time Complexity - O(n)
         Space complexity - O(n)
         ```
+## 3. [Longest Substring Without Repeating Characters](#longestsubstring)
+
+**Sliding Window technique**
+
+- move each pointer (L , R) to the right as you record the char in a hash
+- Keep track of the L, R, LongestSub, and the object
+- Increment R to find the longest sub
+- Check for duplicates, consider the position of L (as a starting point for the substring)
+
+In a Sliding window technique, the two pointers(L & R) usually move in the same direction will never overtake each other. This ensures that each value is only visited at most twice and the time complexity is still O(n)
+
+Nested For loop; Time {O(n^2) * O(n)bc if checks} ; S{O(n)} hashmap (Not the best way  to solve a problem)
