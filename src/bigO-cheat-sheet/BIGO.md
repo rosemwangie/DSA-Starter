@@ -43,7 +43,7 @@ Two separate collections: O(a*b)
 
 
 ## Rule Book
-Rule 1: Always check for worst case scenario
-Rule 2: Remove Constants
-Rule 3: Different inputs should have different variables. O(a+b). A and B arrays nested would be O(a*b)
-Rule 4: Drop Non-dorminant terms
+* Rule 1: Always check for worst case scenario
+* Rule 2: Remove Constants
+* Rule 3: Different inputs should have different variables. O(a+b). A and B arrays nested would be O(a*b)
+* Rule 4: Drop Non-dorminant terms
