@@ -69,7 +69,12 @@
 |    Low    | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) |  ![](https://img.shields.io/static/v1?label=&message=Medium&color=orange) | [Javascript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/Javascript/167.Two-SumII-Input-Array-Is-Sorted.js) |
 
 
-  ### Linked List
+### Linked List
+| Frequency |                                   Problem                                   |                                   Stated                                  |                                                                       Solution                                                                      | Explanation |
+|:---------:|:---------------------------------------------------------------------------:|:-------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------:|-----------|
+|    High   | [Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/) | ![](https://img.shields.io/static/v1?label=&message=Easy&color=darkgreen) | [Javascript](https://github.com/RWambui/Data-structures-and-Algorithms-Interview-prep/blob/main/src/leetcode/Javascript/206.Reverse-Linked-list.js) | [Reverse Linked List Explained](https://github.com/RWambui/Data-structures-and-Algorithms-Interview-prep/blob/main/src/leetcode/Explanation.md#reversealinkedlist)           |
+
+
 
   ### Stacks & Queues
 | Frequency |                                           Problem                                           |                                   Stated                                  |      Solution     |
