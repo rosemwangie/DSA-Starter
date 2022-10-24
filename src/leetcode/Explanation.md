@@ -67,6 +67,17 @@
         Time Complexity - O(n)
         Space complexity - O(n)
         ```
+ ## 206. [**Reverse a linked List**](#reversealinkedlist)    
+   * Naive Approach
+        ```jsx
+       
+        ```
+
+   * Optimized - [Prefix Sum]()
+        ```jsx
+
+        ```
+        
 ## 3. [Longest Substring Without Repeating Characters](#longestsubstring)
 
 **Sliding Window technique**
