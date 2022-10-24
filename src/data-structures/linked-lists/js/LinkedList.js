@@ -60,6 +60,33 @@ class LinkedList {
     }
     return this;
   }
+  
+  // reverse 
+    reverse(head) {
+    let currentNode = this.head;
+    let prevNode = null;
+    let nextNode = null;
+
+    while (currentNode) {
+      // While currentNode is not equal to null
+      
+      // Stash next node.
+      nextNode = currentNode.next;
+
+      // Update next node of the current node to link to previous node.
+      currentNode.next = prevNode;
+
+      // Move prevNode and currNode nodes one step forward.
+      prevNode = currentNode;
+      currentNode = nextNode;
+    }
+
+    // Reset head and tail.
+    this.tail = this.head;
+    this.head = prevNode;
+
+    return this;
+  }
 }
 
 class LinkedListNode {
