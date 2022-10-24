@@ -38,8 +38,11 @@
        Time Complexity - O(n)
        Space complexity - O(n)
        ```
+<br>
 
 ## 2. [**Add Two Numbers**]()
+
+<br>
 
 ## 42. [**Trapping Rain Water**](#trappingrainwater)
 
@@ -67,32 +70,34 @@
         Time Complexity - O(n)
         Space complexity - O(n)
         ```
- ## 206. [**Reverse a linked List**](#reversealinkedlist)    
+        <br>
+ ## 206. [**Reverse a linked List**](#reversealinkedlist)  
+ <img width="570" src="https://user-images.githubusercontent.com/77434770/197576518-8e2a76ba-e2d8-4041-8fa9-e0b0564f3e6d.png">
+
    * Frame of Thoughts
         ```jsx
         Step 1. Initialize pointers
                         previous = null;
                         currentNode = head'
-        Step 2. Stash the next pointer 
+        Step 2. stash the next pointer 
                 while currentNode is not equal to null
                         next = currentNode.next;
-        Step 3. Reverse the currentNode
+        Step 3. reverse the currentNode
                 currentNode.next = prev;
-                Update previous = currentNode;
-                Update currentNode = next;       
+                update previous = currentNode;
+                update currentNode = next;       
         Step 4. return previous (new head at the end)
-        
         Step 5. Stop
 
         Time Complexity - O(n)
         Space complexity - O(n)
         ```
-
+<img width="570" src="https://user-images.githubusercontent.com/77434770/197577054-c1ced19e-bdfb-43db-8d84-3a0d985b9245.png">
    * Optimized - [Recursion]()
         ```jsx
 
         ```
-        
+   <br>     
 ## 3. [Longest Substring Without Repeating Characters](#longestsubstring)
 
 **Sliding Window technique**
