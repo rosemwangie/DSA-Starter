@@ -10,7 +10,7 @@
     </a>    
 </p>
 
-##  Basics (Updated daily)
+##  Intro Topics(Continually Updated...)
 
 * [Big O Notation](https://github.com/RWambui/Data-structure-Interview-prep-JS/tree/main/src/bigO-cheat-sheet/BIGO.md)
     * [Time Complexity](https://github.com/RWambui/Data-structures-and-Algorithms-Interview-prep/blob/main/src/bigO-cheat-sheet/BIGO.md)
