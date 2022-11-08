@@ -1,3 +1,23 @@
+# Strings
+A strings are arrays/sequence/stream of characters 
+They are used to represent text and are represented by enclosing text or characters with quote as: 
+```
+//string primitive
+const str = "abcd"
+const message = "hello";
+
+// String object
+const greetings = new String("hello")
+
+```
+
+Strings are allocated one byte per character in memory
+
+## Asymptotic Analysis 
+| Access | Lookup | Insert(at) | Deletion At |
+|:------:|:------:|:----------:|:-----------:|
+|  O(1)  |  O(n)  |    O(n)    |     O(n)    |
+
 ## To have in your back pocket
 ```
 * Clarify about input char set and case sensitivity
@@ -11,12 +31,13 @@
 
 ## Techniques
  ### Counting characters 
-  * Often you're required to count the frequency of characters in a string
+  * This involves counting the frequency of characters in a string
   * Common solution for that is using a hashmap
   * For the sake of keeping a counter of characters, a common mistakes is to say that the space complexity required for the counter is O(n)
   * The space required for a counter of a string of latin characters is O(1) not O(n)
+  
  ### String of unique characters
-  > Coolest trick to count characters in a string of unique chars is to use a 26-bit bitmask to indicate which lower case lation characters are inside the string
+  Coolest trick to count characters in a string of unique chars is to use a 26-bit bitmask to indicate which lower case lation characters are inside the string
 
 ### Anagram 
   * This is a word switch
