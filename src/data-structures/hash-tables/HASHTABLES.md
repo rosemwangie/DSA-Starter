@@ -4,24 +4,37 @@ to values_. A hash table uses a _hash function_ to compute an index into an arra
 Ideally, the hash function will assign each key to a unique bucket, but most hash table designs employ an imperfect hash function, which might cause hash
 collisions where the hash function generates the same index for more than one key. Such collisions must be accommodated in some way.
 
-Hash collision resolved by separate chaining.
+- Hash collision resolved by separate chaining.
+- The size of the object directly affects on the number of collisions occurrence.
+- The bigger the hash table size the less collisions you'll get.
+- For demonstrating purposes hash table size is small to show how collisions are being handled.
 
-<aside>
-💡 Overview : Hashing is the most common example of a space-time tradeoff(better than array). Instead of linearly searching an array every time to determine if an element is present, which takes O(n) T. We can traverse the array once and hash all the elements into hash table. Accessing the values is O(1) time.
-</aside>
+
+![](https://img.shields.io/static/v1?label=&message=💡Overview:&color=orange)
+<br>
+
+Hashing is the most common example of a space-time tradeoff(better than array). Instead of linearly searching an array every time to determine if an element is present, which takes O(n) T. We can traverse the array once and hash all the elements into hash table. Accessing the values is O(1) time.
+
 
 ### Definition
   - It’s a data structure that implements an associative array abstract data type.
   - A map uses a hash function on an element to compute an index(hashcode), into an array of buckets/slots where a desired value can be found
-### Pros and cons
-  **pros**
-    - Search - O(1)
-    - Insert - O(1)
-    - Remove - O(1)
-  **cons**
-    - **Collisions**
-      - Separate chaining - A linked list in used for each value, so that it stores all the collided items
-      - Open addressing - All entry records are stored in the bucket array itself. When a new entry has to be inserted, the buckets are examined, starting with the hashed-to slot and proceeding in some probe sequence until an unoccupied slot is found.
+
+### Operations
+  **Pros😊**
+  
+| Access | Lookup | Insert | Deletion |
+|:------:|:------:|:----------:|:-----------:|
+|  n/a  |  O(1)  |    O(1)    |     O(1)    |
+
+  **Cons😔**
+  
+  - **_Collisions_**
+  - **_Separate chaining_** - A linked list in used for each value, so that it stores all the collided items
+  - **_Open addressing_** - All entry records are stored in the bucket array itself. When a new entry has to be inserted, the buckets are examined, starting with the hashed-to slot and proceeding in some probe sequence until an unoccupied slot is found.
+  
+ See more on how to solve collision [here](https://en.wikipedia.org/wiki/Hash_table)
+ 
 ### Resources (to help better understand maps)
   1. [Taking hash tables off the shelf](https://medium.com/basecs/taking-hash-tables-off-the-shelf-139cbf4752f0)
   2. [**Hashing out functions**](https://medium.com/basecs/hashing-out-hash-functions-ea5dd8beb4dd)
