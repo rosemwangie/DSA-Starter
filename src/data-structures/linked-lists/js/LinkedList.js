@@ -1,13 +1,46 @@
+
+//node class
+class Node {
+  constructor(value, next) {
+    this.value = value;
+    this.next = next;
+  }
+}
+
+//ll class
 class LinkedList {
   constructor() {
     this.head = null;
+    this.tail = null;
     this.size = 0;
   }
+
+  //append (end)  O(1)
+  append(value) {
+    if (!this.head) {
+      this.prepend(data);
+    } else {
+      const node = new Node(value);
+      this.tall.next = node;
+      this.tail = node;
+      this.size++;
+    }
+    return this;
+  }
+
   //Prepend (beginning)  O(1)
   prepend(value) {
-    const newNode = new LinkedListNode(value, this.head);
-    this.head = newNode;
-    this.size++;
+    const newNode = new Node(value);
+
+    if (!this.head) {
+      this.head = newNode;
+      this.tail = newNode;
+      this.size++;
+    } else {
+      newNode.next = this.head;
+      this.head = newNode;
+      this.size++;
+    }
   }
 
   //Print List (value) O(n)
@@ -21,55 +54,72 @@ class LinkedList {
     return current;
   }
 
+  //print all nodes
   printList() {
-    let output = "";
+    const result = [];
     let current = this.head;
-    while (current) {
-      output = `${output}${current.value} -> `;
+    let counter = 0;
+    while (counter < this.size) {
       current = current.next;
+      counter++;
     }
-    // console.log(`${output}null`);
+    return result;
   }
 
   //insert
-  insert(value, rawIndex) {
-    const index = rawIndex < 0 ? 0 : rawIndex;
-    if (index === 0) {
+  insert(value, index) {
+    if (index < 0 || index > this.length) {
+      return -1;
+    } else if (index === 0) {
       this.prepend(value);
+    } else if (data === this.size) {
+      this.append(value);
     } else {
-      let count = 1;
-      let currentNode = this.head;
-      const newNode = new LinkedListNode(value);
-      while (currentNode) {
-        if (count === index) break;
-        currentNode = currentNode.next;
-        count += 1;
+      const newNode = new Node(value);
+      let current = this.head;
+      let counter = 0;
+
+      while (counter < index - 1) {
+        counter++;
+        current = current.next;
       }
-      if (currentNode) {
-        newNode.next = currentNode.next;
-        currentNode.next = newNode;
-      } else {
-        if (this.tail) {
-          this.tail.next = newNode;
-          this.tail = newNode;
-        } else {
-          this.head = newNode;
-          this.tail = newNode;
-        }
-      }
+      let temp = current.next;
+      current.next = newNode;
+      newNode.next = temp;
+      this.size++;
     }
     return this;
   }
-  
-  // reverse 
-    reverse(head) {
+
+  //delete
+  delete(index) {
+    if (index < 0 || index >= this.size) {
+      return -1;
+    } else if (index === 0) {
+      this.removeHead();
+    } else if (index === this.size - 1) {
+      this.removeTail();
+    } else {
+      let current = this.head;
+      let count = 0;
+      while (count < index - 1) {
+        current = current.next;
+        count++;
+      }
+      current.next = current.next.next;
+      this.length--;
+    }
+  }
+
+  // reverse
+  reverse(head) {
     let currentNode = this.head;
     let prevNode = null;
     let nextNode = null;
 
     while (currentNode) {
       // While currentNode is not equal to null
-      
+
       // Stash next node.
       nextNode = currentNode.next;
 
@@ -89,13 +139,6 @@ class LinkedList {
   }
 }
 
-class LinkedListNode {
-  constructor(value, next) {
-    this.value = value;
-    this.next = next;
-  }
-}
-
 LinkedList.fromValues = (...values) => {
   const myLinkedList = new LinkedList();
   for (let i = values.length - 1; i >= 0; i--) {
@@ -104,4 +147,4 @@ LinkedList.fromValues = (...values) => {
   return myLinkedList;
 };
 
-module.exports = LinkedList;
+export default LinkedList;
