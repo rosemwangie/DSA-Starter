@@ -3,7 +3,7 @@
 class Node {
   constructor(value, next) {
     this.value = value;
-    this.next = next;
+    this.next = null;
   }
 }
 
@@ -18,10 +18,10 @@ class LinkedList {
   //append (end)  O(1)
   append(value) {
     if (!this.head) {
-      this.prepend(data);
+      this.prepend(value);
     } else {
       const node = new Node(value);
-      this.tall.next = node;
+      this.tail.next = node;
       this.tail = node;
       this.size++;
     }
@@ -32,10 +32,10 @@ class LinkedList {
   prepend(value) {
     const newNode = new Node(value);
 
-    if (!this.head) {
+    if (!this.head){
       this.head = newNode;
       this.tail = newNode;
-      this.size++;
+      this.size++; //1
     } else {
       newNode.next = this.head;
       this.head = newNode;
