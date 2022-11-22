@@ -28,6 +28,7 @@ class Stack {
       this.size--;
       return top;
     }
+
     return this;
   }
 
@@ -48,7 +49,12 @@ class Stack {
     this.size++;
     return this;
   }
-  peek() {}
+  peek() {
+    if (this.top) {
+      return this.top;
+    } else return -1;
+    return this;
+  }
   isEmpty() {}
   search() {}
 }
@@ -57,7 +63,8 @@ const stack = new Stack();
 stack.push("900");
 stack.push("800");
 stack.push("700");
-stack.pop();
-stack.pop();
+// stack.pop();
+// stack.pop();
+// stack.peek();
 
 console.log(stack);
