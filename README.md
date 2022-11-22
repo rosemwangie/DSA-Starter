@@ -12,20 +12,20 @@
 
 ##  Intro Topics(Continually Updated...)
 
-* [Big O Notation](https://github.com/codemuse-io/Data-structure-Interview-prep-JS/tree/main/src/bigO-cheat-sheet/BIGO.md)
-    * [Time Complexity](https://github.com/codemuse-io/Data-structures-and-Algorithms-Interview-prep/blob/main/src/bigO-cheat-sheet/BIGO.md)
+* [Big O Notation](https://github.com/codemuse-io/ace-technical-interview-js-py/tree/main/src/bigO-cheat-sheet/BIGO.md)
+    * [Time Complexity](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/bigO-cheat-sheet/BIGO.md)
     * [Space Complexity](https://github.com/codemuse-io/Data-structures-and-Algorithms-Interview-prep/blob/main/src/bigO-cheat-sheet/BIGO.md) 
 
 ### **Data Structures**
-* [Strings](https://github.com/codemuse-io/Data-structure-Interview-prep-JS/blob/main/src/data-structures/strings/STRINGS.md)
-* [Arrays](https://github.com/codemuse-io/Data-structure-Interview-prep-JS/blob/main/src/data-structures/arrays/ARRAYS.md)
-* [Hash Tables](https://github.com/codemuse-io/Data-structure-Interview-prep-JS/blob/main/src/data-structures/hash-tables/HASHTABLES.md)
+* [Strings](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/strings/STRINGS.md)
+* [Arrays](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/arrays/ARRAYS.md)
+* [Hash Tables](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/hash-tables/HASHTABLES.md)
 * [Linked Lists](https://github.com/codemuse-io/Data-structure-Interview-prep-JS/blob/main/src/data-structures/linked-lists/LINKEDLISTS.md)
     * [Singly Linked List]()
     * [Doubly Linked List]()
     * [Circular Linked List]()
-* [Stacks](https://github.com/codemuse-io/Data-structure-Interview-prep-JS/blob/main/src/data-structures/stacks/STACK.md)
-* [Queues](https://github.com/codemuse-io/Data-structure-Interview-prep-JS/blob/main/src/data-structures/queues/QUEUES.md)
+* [Stacks](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/stacks/STACK.md)
+* [Queues](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/queues/QUEUES.md)
 * [Trees](https://github.com/codemuse-io/Data-structure-Interview-prep-JS/blob/main/src/data-structures/trees/TREES.md)
   * [General tree]()
   * [Binary Tree]()
