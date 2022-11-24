@@ -49,12 +49,14 @@ class Stack {
     this.size++;
     return this;
   }
+  //peek
   peek() {
     if (this.top) {
       return this.top;
     } else return -1;
     return this;
   }
+  //empty stack
   isEmpty() {
     return this.top === 0;
   }
