@@ -55,16 +55,17 @@ class Stack {
     } else return -1;
     return this;
   }
-  isEmpty() {}
-  search() {}
+  isEmpty() {
+    return this.top === 0;
+  }
 }
 
 const stack = new Stack();
 stack.push("900");
 stack.push("800");
 stack.push("700");
-// stack.pop();
-// stack.pop();
-// stack.peek();
+stack.pop();
+stack.pop();
+stack.peek();
 
 console.log(stack);
