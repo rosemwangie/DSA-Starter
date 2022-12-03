@@ -7,7 +7,7 @@ class Solution:
         right = len(nums)-1
 
         while left <= right:
-             midNum = round( left + right ) // 2
+             midNum = round(( left + right ) // 2)
 
              if nums[midNum] == target:
                 return midNum
