@@ -16,6 +16,8 @@ class Solution:
     def reverse(self, arr, start, end):                     #helper function(optional!)
         while start < end:
             arr[start], arr[end] = arr[end], arr[start]
+            start +=1
+            end-=1
         return arr
 
     def rotate2(self, nums:List[int], k: int) -> List[int]:
