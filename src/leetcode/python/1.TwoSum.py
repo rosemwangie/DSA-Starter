@@ -30,6 +30,7 @@ class Solution:
                 return [lookup[diff], i]
             if nums[i] not in lookup:
                 lookup[nums[i]] = i
+         return []
 
 
 
