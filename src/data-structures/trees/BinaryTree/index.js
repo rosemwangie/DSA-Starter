@@ -17,7 +17,6 @@ class BinaryTree {
   }
 }
 
-
 //With the BinaryTree and Node classes, you can use them to create a binary tree and add nodes to it
 const tree = new BinaryTree();
 
