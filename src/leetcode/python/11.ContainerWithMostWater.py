@@ -10,7 +10,7 @@ Notice that you may not slant the container.
 class Solution:
 
     #Brutal force solution 1 Time Complexity: O(n^2) Space Complexity: O(1)
-
+    
     def maxArea(self, height: List[int]) -> int:
         area = 0
         for i in range(len(height)-1):
