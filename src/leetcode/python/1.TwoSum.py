@@ -28,8 +28,9 @@ class Solution:
             diff = target - nums[i]
             if diff in lookup:
                 return [lookup[diff], i]
-            if nums[i] not in lookup:
+            else:
                 lookup[nums[i]] = i
+        return []
 
 
 
