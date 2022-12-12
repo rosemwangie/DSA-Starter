@@ -26,7 +26,16 @@ class Solution:
             ht[n] = self.fib1(n-1) + self.fib1(n-2)
             return ht[n]
 
-
-
-
-##More solutions to be updated sooon!
+ 
+    def fib2(self, n: int) -> int:
+        if n <= 1:
+            return n 
+        count = 1
+        prev = 0
+        curr = 1
+        while count < n:
+            next = prev + curr
+            prev = curr
+            curr = next
+            count +=1
+        return curr
