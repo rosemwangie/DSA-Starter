@@ -28,6 +28,20 @@ The height of the root node is the height of the tree.
   - A reference to the left child node
   - A reference to the right child node
 
+### Operations
+ 1. Insert
+ 2. Search
+ 3. Traversal
+ 4. Delete
+
+**Search**
+
+**Traversal**
+1. **Preorder traversal** - visits the root node first, then the left subtree, and finally the right subtree. This means that the root node is always the first one visited, followed by the left subtree nodes in order, followed by the right subtree nodes in order. For example, if we have a tree with the root node A, a left subtree with the root node B, and a right subtree with the root node C, a preorder traversal of this tree would visit the nodes in the order A, B, C.
+
+2. **Inorder traversal** visits the left subtree first, then the root node, and finally the right subtree. This means that the left subtree nodes are visited first in order, followed by the root node, followed by the right subtree nodes in order. Using the same example tree as above, an inorder traversal of this tree would visit the nodes in the order B, A, C.
+
+3. **Postorder traversal** visits the left subtree first, then the right subtree, and finally the root node. This means that the left subtree nodes are visited first in order, followed by the right subtree nodes in order, followed by the root node. Using the same example tree as above, a postorder traversal of this tree would visit the nodes in the order B, C, A.
 
 ### **2. Binary Search Tree**
 A binary search tree is a data structure that is used to store data in a way that allows for efficient searching
