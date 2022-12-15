@@ -18,7 +18,7 @@ It helps us choose the best data structure and algorithm for certain use cases
  * Constant O(1) - no loops
  * Logarithmic O(log(n)) - usually searching algorithms have log N  log n if they are sorted (Binary Search)
  * Linear O(n) - Your Algorithm will grow linearly based on the input
- * Logarithmic O(n log n) - usually sorting operations
+ * Logarithmic /Quasilinear O(n log n) - usually sorting operations
  * Quadratic O(n^2) - every element in a collection needs to be compared to ever other element. Two nested loops
  * Cubic O(n^3)
  * Exponential O(2^n) - recursive algorithms that solves a problem of size N
