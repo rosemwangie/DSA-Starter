@@ -28,7 +28,7 @@ The height of the root node is the height of the tree.
   - A reference to the left child node
   - A reference to the right child node
 
-### Operations
+  **Operations**
  1. Insert
  2. Search
  3. Traversal
@@ -50,7 +50,7 @@ The left child of a node contains only values less than the node's value, while 
 The BST is widely used for data storage and retrieval due to its efficient search capabilities. 
 It can be used in applications such as databases, sorting algorithms, and data compression.
 
-## Operations
+ **Operations**
 
 ### **BST Insertion**
 
@@ -58,6 +58,10 @@ It can be used in applications such as databases, sorting algorithms, and data c
 2. Insertion begins at the root of the tree and compares the value of the new node with the value at the root. 
 3. If the value of the new node is less than the value at the root, then the insertion process moves to the left subtree of the root.
 4. If the value of the new node is greater than the value at the root, then the insertion process moves to the right subtree of the root.
+
+### **3. AVL** 
+An AVL tree is a special kind of tree that is used to store and organize data in a way that makes it easy to search through and find things quickly.
+
 
 (The insertion process continues until an appropriate location is found to insert the new node(recursion). Once the location is found, the new node is inserted and the tree is updated accordingly.)
 

@@ -98,6 +98,31 @@
 
         ```
    <br>     
+
+ ## 226. [**Invert Binary Tree**](#reversealinkedlist)  -- pending...
+ <img width="570" src="https://user-images.githubusercontent.com/77434770/197576518-8e2a76ba-e2d8-4041-8fa9-e0b0564f3e6d.png">
+
+   * Frame of Thoughts
+        ```jsx
+        Step 1. The invertTree function takes in a root node of a binary tree
+                        and returns the root node of an inverted version of the tree;
+        Step 2. The function first checks if the root is null 
+                        If it is, it returns null because there is no tree to invert;
+        Step 3. Otherwise, it inverts the left and right subtrees of the root by calling the invertTree function recursively on each of them.
+                        It then swaps the left and right subtrees by updating the left and right properties of the root node;  
+        Step 4. Finally, it returns the root node of the inverted tree;
+        Step 5. Stop
+
+        Time Complexity - 
+        Space complexity - 
+        ```
+<img width="570" src="https://user-images.githubusercontent.com/77434770/197577054-c1ced19e-bdfb-43db-8d84-3a0d985b9245.png">
+
+        ```jsx
+
+        ```
+   <br>
+
 ## 3. [Longest Substring Without Repeating Characters](#longestsubstring)
 
 **Sliding Window technique**
