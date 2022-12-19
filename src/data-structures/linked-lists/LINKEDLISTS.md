@@ -4,7 +4,7 @@ A **[linked List]()** is used to represent sequential data.
 A **Pointer** is a reference to another place memory
 A **Node** is a bucket of data
 
-In order to access elements/nodes in a linked list, we have to traverse through all of the itemssequentially just like arrays.
+In order to access elements/nodes in a linked list, we have to traverse through all of the items sequentially just like arrays.
 Linked lists are made of nodes. The node represented by value and a pointer commonly referred to as next.
 
 In languages like JS, Ruby, py we don't have to think about memory allocation. Memory management for data structures like arrays and linked lists happens dynamically.
