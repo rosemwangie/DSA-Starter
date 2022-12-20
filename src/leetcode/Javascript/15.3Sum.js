@@ -76,7 +76,7 @@ const threeSum2 = (nums) => {
   return res;
 };
 
-console.log(threeSum([-1, 0, 1, 2, -1, -4])); // [[-1,-1,2],[-1,0,1]]
-console.log(threeSum([0, 2, 2])); // []
-console.log(threeSum([0, 0, 0])); // [0,0,0]
-console.log(threeSum([])); //[]
+console.log(threeSum([-1, 0, 1, 2, -1, -4])); //Output: [[-1,-1,2],[-1,0,1]]
+console.log(threeSum([0, 2, 2])); // Output:[]
+console.log(threeSum([0, 0, 0])); //Output: [0,0,0]
+console.log(threeSum([])); //Output: []

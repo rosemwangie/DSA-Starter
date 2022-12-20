@@ -45,6 +45,6 @@ function lastEl(nums, target, first) {
   return lastPosition;
 }
 
-console.log(findFirstAndLast([5, 7, 7, 8, 8, 10]), 8); //[3,4]
-console.log(findFirstAndLast([5, 7, 7, 8, 8, 10]), 6); // [-1,-1]
-console.log(findFirstAndLast([])); //[-1,-1]
+console.log(findFirstAndLast([5, 7, 7, 8, 8, 10]), 8); //Output: [3,4]
+console.log(findFirstAndLast([5, 7, 7, 8, 8, 10]), 6); //Output: [-1,-1]
+console.log(findFirstAndLast([])); //Output: [-1,-1]

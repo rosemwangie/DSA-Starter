@@ -20,6 +20,6 @@ const isMonotonic = (nums) => {
   return goingUp || goingDown;
 };
 
-console.log(isMonotonic([1, 2, 2, 3])); //true
-console.log(isMonotonic([6, 5, 4, 4])); //true
-console.log(isMonotonic([1, 3, 2])); //false
+console.log(isMonotonic([1, 2, 2, 3])); //Output: true
+console.log(isMonotonic([6, 5, 4, 4])); //Output: true
+console.log(isMonotonic([1, 3, 2])); //Output: false

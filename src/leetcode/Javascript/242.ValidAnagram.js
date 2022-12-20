@@ -29,7 +29,7 @@ const isAnagram = (s, t) => {
 };
 
 //tests
-console.log(validAnagram1("anagram", "nagaram"));
-console.log(validAnagram1("anagrm", "nagaram"));
-console.log(validAnagram1("", "nagaram"));
-console.log(validAnagram1("ab", "a"));
+console.log(validAnagram1("anagram", "nagaram")); //Output:
+console.log(validAnagram1("anagrm", "nagaram")); //Output:
+console.log(validAnagram1("", "nagaram")); //Output:
+console.log(validAnagram1("ab", "a")); //Output:

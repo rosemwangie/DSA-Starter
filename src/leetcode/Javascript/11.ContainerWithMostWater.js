@@ -41,7 +41,7 @@ const maxArea1 = (height) => {
 };
 
 // 4 test cases
-console.log(maxArea1([1, 8, 6, 2, 5, 4, 8, 3, 7])); //
-console.log(maxArea1([1, 1])); // 1*1= 1
-console.log(maxArea([5])); // 0
-console.log(maxArea([])); // 0
+console.log(maxArea1([1, 8, 6, 2, 5, 4, 8, 3, 7])); // Outputs:
+console.log(maxArea1([1, 1])); // Outputs: 1*1= 1
+console.log(maxArea([5])); //Outputs:  0
+console.log(maxArea([])); // Outputs: 0
