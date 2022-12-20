@@ -13,7 +13,6 @@ const validPalindrome = (string) => {
    * If the characters are not the same, return false, because the string is not a valid palindrome
    * If the loop completes without returning false, then the string is a palindrome, hence
    * we return true
-   *
    */
   string = string.toLowerCase().replace(/[^a-z0-9]/g, "");
   //
@@ -61,3 +60,21 @@ const isAlphaNumeric = (string) => {
 console.log(isPalindrome("A man, a plan, a canal: Panama")); //Output: true
 console.log(isPalindrome("race a car")); //Output: false
 console.log(isPalindrome(" ")); //Output: true
+
+
+const items = document.querySelectorAll('.item');
+
+items.sort((a, b) => {
+  const numA = parseInt(a.querySelector('.item-name').innerText.match(/\d+/));
+  const numB = parseInt(b.querySelector('.item-name').innerText.match(/\d+/));
+
+  if (numA < numB) {
+    return -1;
+  } else if (numA > numB) {
+    return 1;
+  } else {
+    return 0;
+  }
+});
+
+items.forEach(item => item.parentNode.appendChild(item));
