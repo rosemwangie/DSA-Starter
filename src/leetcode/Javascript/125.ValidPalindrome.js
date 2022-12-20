@@ -18,8 +18,8 @@ const validPalindrome = (string) => {
   //
   for (let i = 0; i < string.length / 2; i++) {
     let left = i;
-    let right = str.length - 1 - i;
-    if (str[left] !== str[right]) {
+    let right = string.length - 1 - i;
+    if (string[left] !== string[right]) {
       return false;
     }
   }
@@ -60,21 +60,3 @@ const isAlphaNumeric = (string) => {
 console.log(isPalindrome("A man, a plan, a canal: Panama")); //Output: true
 console.log(isPalindrome("race a car")); //Output: false
 console.log(isPalindrome(" ")); //Output: true
-
-
-const items = document.querySelectorAll('.item');
-
-items.sort((a, b) => {
-  const numA = parseInt(a.querySelector('.item-name').innerText.match(/\d+/));
-  const numB = parseInt(b.querySelector('.item-name').innerText.match(/\d+/));
-
-  if (numA < numB) {
-    return -1;
-  } else if (numA > numB) {
-    return 1;
-  } else {
-    return 0;
-  }
-});
-
-items.forEach(item => item.parentNode.appendChild(item));
