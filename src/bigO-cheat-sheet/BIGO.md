@@ -1,9 +1,14 @@
-## Big O Notation / Asymptotic Analysis
-Big O Notation is used to describe the time complexity and space complexity of algorithm. 
+## [Big O Notation](https://en.wikipedia.org/wiki/Big_O_notation)
 
-It is understood to describe the worst case scenario of an algorithm
+#### Big O helps us answer the question, “Will it scale?” <br>
 
-### Why Big O
+It is a way to evaluate the efficiency of an algorithm.<br> Also, it allows us to determine how the algorithm will perform as the input size grows larger. <br> Instead of measuring the actual time it takes for the algorithm to run, we consider the number of steps or operations required to complete the task. <br> This helps us understand how well an algorithm scales and how it will perform with very large inputs
+
+It is used to describe the complexity of algorithm. It allows us to determine the scalability of an algorithm.
+
+<hr>
+
+### Why Big O 
 It helps us choose the best data structure and algorithm for certain use cases
 
 ### Prerequisites
@@ -13,6 +18,8 @@ It helps us choose the best data structure and algorithm for certain use cases
 > How runtime of an algorithm grows as input grows
 <br>
 <img width="350" src="../../assets/bigo-cheat-sheet.png" alt="Big O"/>
+
+<hr>
 
 ## Operations 
  * Constant O(1) - no loops
@@ -29,6 +36,8 @@ Iterating through half a collection is still O(n)
 Two separate collections: O(a*b)
 ```
 
+<hr>
+
 ## What can cause time complexity
 * Operations (+.-,*,/)
 * Comparisons(<,>, ==)
@@ -41,6 +50,7 @@ Two separate collections: O(a*b)
 * Function Call
 * Allocations
 
+<hr>
 
 ## Rule Book
 * Rule 1: Always check for worst case scenario
