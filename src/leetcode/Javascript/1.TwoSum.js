@@ -15,8 +15,6 @@ const twoSum = (nums, target) => {
   return [];
 };
 
-
-
 // Optimal soln1 Time complexity O(n) Space complexity O(n)
 
 const twoSum1 = (nums, target) => {
@@ -46,8 +44,8 @@ const twoSum2 = (nums, target) => {
   }
 };
 
-console.log(twoSum([2, 7, 11, 15], 9));     // [0,1]
-console.log(twoSum([31, 10, 7, 9], 6));    // [-1,-1]
-console.log(twoSum([3], 7));              // [-1, -1]
-console.log(twoSum([ ], 20));            // [-1, -1]] 
-console.log(twoSum([3, 3], 6));         // [0,1]
+console.log(twoSum([2, 7, 11, 15], 9)); // Outputs: [0,1]
+console.log(twoSum([31, 10, 7, 9], 6)); // Outputs: [-1,-1]
+console.log(twoSum([3], 7)); //Outputs:  [-1, -1]
+console.log(twoSum([], 20)); // Outputs: [-1, -1]]
+console.log(twoSum([3, 3], 6)); // Outputs: [0,1]

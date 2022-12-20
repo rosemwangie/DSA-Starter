@@ -28,6 +28,6 @@ const twoSum11 = (numbers, target) => {
   return [];
 };
 
-console.log(twoSumII([2, 7, 11, 15], 9)); //[1,2]
-console.log(twoSumII([2, 3, 4], 6)); //[1,3]
-console.log(twoSumII([], 9)); //[]
+console.log(twoSumII([2, 7, 11, 15], 9)); //Output: [1,2]
+console.log(twoSumII([2, 3, 4], 6)); //Output: [1,3]
+console.log(twoSumII([], 9)); //Output: []

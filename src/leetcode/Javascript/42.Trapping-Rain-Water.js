@@ -61,11 +61,11 @@ const trapWater = (height) => {
   }
   return res;
 };
-console.log(trapWater());
-console.log(trapWater([4]));
-console.log(trapWater([7, 8, 7]));
-console.log(trapWater([0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]));
-console.log(trapWater([4, 2, 0, 3, 2, 5]));
+console.log(trapWater()); //Output:
+console.log(trapWater([4])); //Output:
+console.log(trapWater([7, 8, 7])); //Output:
+console.log(trapWater([0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1])); //Output:
+console.log(trapWater([4, 2, 0, 3, 2, 5])); //Output:
 
 
 // Time Complexity - O(n^2) This is because for every index we are moving from i to 0 to find leftMax and from i to n - 1 to find rightMax so we are traversing whole array for every index so it makes an nested loop so O(n^2) will be T.C
