@@ -43,6 +43,6 @@ console.log(numRescueBoats([3, 5, 3, 4], 5)); // Output: 4
 
 /**
  * Complexities
- * O(n log n) - Time
- * O(1) - space
+ * O(n * log(n)) - Time - because the sort function has a time complexity of O(n * log(n))
+ * O(1) - space - it only uses a constant amount of space regardless of the size of the input.
  */
