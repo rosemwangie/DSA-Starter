@@ -13,8 +13,7 @@
 ##  Intro Topics(Continually Updated...)
 
 * [Big O Notation](https://github.com/codemuse-io/ace-technical-interview-js-py/tree/main/src/bigO-cheat-sheet/BIGO.md)
-    * [Time Complexity](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/bigO-cheat-sheet/BIGO.md)
-    * [Space Complexity](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/bigO-cheat-sheet/BIGO.md) 
+
 
 ### **Data Structures**
 * [Strings](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/strings/STRINGS.md)
