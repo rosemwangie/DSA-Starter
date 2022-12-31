@@ -1,24 +1,18 @@
 ## **Linked Lists**
-A **[linked List]()** is used to represent sequential data.
+A **[linked List]()** is used to represent sequential data. It is a data structure where each element is a separate object, called a 'node', that stores a refrence to the next node in the list. In js , linked lists can be implemented using objects and arrays.
 
 A **Pointer** is a reference to another place memory
 A **Node** is a bucket of data
 
 In order to access elements/nodes in a linked list, we have to traverse through all of the items sequentially just like arrays.
-Linked lists are made of nodes. The node represented by value and a pointer commonly referred to as next.
-
-In languages like JS, Ruby, py we don't have to think about memory allocation. Memory management for data structures like arrays and linked lists happens dynamically.
-
-Linear order is not given by their physical placement in memory. Instead each element contains an address of the next element. Each node contains: data, a reference(link) to the next node in the sequence.Arrays have better cache locality as compared to linked lists.
-
-A drawback of linked lists is that access time is linear (and difficult to pipeline). Faster access, such as random access, is not feasible.
+Linked lists are made of nodes. The node represented by value and a pointer commonly referred to as next. <br> A drawback of linked lists is that access time is linear (and difficult to pipeline). Faster access, such as random access, is not feasible.
 
 Types of Linked Lists
 1. **Singly Linked List**
 2. **Doubly Linked List**
 3. **Circular Linked Lists**
 
-### **Basic Operations**
+
 ### Time Complexity
 
 | Access | Lookup | Insert(at) | Deletion |
@@ -32,7 +26,7 @@ O(n)
 Access time is linear (and difficult to pipeline). Faster access, such as random access, is not feasible. Arrays have better cache locality as compared to linked lists.
 
 
-
+### **Basic Operations**
 ### Traverse
 
 ```text
@@ -47,9 +41,11 @@ Traverse(head)
 end Traverse
 ```
 
-## prepend
+## prepend 
+//
 
 ## append
+const node 
 
 ## lookup
 

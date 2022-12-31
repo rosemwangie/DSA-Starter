@@ -1,4 +1,3 @@
-
 //node class
 class Node {
   constructor(value, next) {
@@ -10,16 +9,18 @@ class Node {
 //ll class
 class LinkedList {
   constructor() {
+    //initialize the head and the length properties
     this.head = null;
     this.tail = null;
     this.size = 0;
   }
 
-  //append (end)  O(1)
+  //append (end)  O(1) adds a new element to the end of the list
   append(value) {
     if (!this.head) {
       this.prepend(value);
     } else {
+      //create a new node object with the element and next properties
       const node = new Node(value);
       this.tail.next = node;
       this.tail = node;
@@ -28,11 +29,11 @@ class LinkedList {
     return this;
   }
 
-  //Prepend (beginning)  O(1)
+  //Prepend (beginning)  O(1) adds to the beginning of the list
   prepend(value) {
     const newNode = new Node(value);
 
-    if (!this.head){
+    if (!this.head) {
       this.head = newNode;
       this.tail = newNode;
       this.size++; //1
@@ -45,6 +46,7 @@ class LinkedList {
 
   //Print List (value) O(n)
   getByIndex(index) {
+    // if the index is out of bounds, return null
     if (index < 0 || index >= this.length) return null;
 
     let current = this.head;
@@ -54,7 +56,7 @@ class LinkedList {
     return current;
   }
 
-  //print all nodes
+  //print all elements of the linked list
   printList() {
     const result = [];
     let current = this.head;
@@ -66,7 +68,7 @@ class LinkedList {
     return result;
   }
 
-  //insert
+  //inserts a new element at a given index
   insert(value, index) {
     if (index < 0 || index > this.length) {
       return -1;
@@ -91,8 +93,9 @@ class LinkedList {
     return this;
   }
 
-  //delete
+  //removes the last element of the list
   delete(index) {
+    // if the head is null, return null
     if (index < 0 || index >= this.size) {
       return -1;
     } else if (index === 0) {
