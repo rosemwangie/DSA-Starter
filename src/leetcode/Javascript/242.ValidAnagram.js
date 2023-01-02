@@ -6,7 +6,6 @@ Example:
 Input: s = "rat", t = "tar"
 Output: false 
 */
-
 // O(n) T O(n) Space
 const isAnagram = (s, t) => {
   if (s.length != t.length) return false;
