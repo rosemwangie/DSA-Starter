@@ -19,6 +19,6 @@ class Solution:
                 hashMap[sorted_str] = [str]
             else:
                 #if key is in dictionary append the anagrams to the keys
-                hashMap[sorted_str.append(str)]
+                hashMap[sorted_str].append(str)
             #return a list of anagrams(values) from the dictionary
         return list(hashMap.values())
