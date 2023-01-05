@@ -31,17 +31,17 @@
   * [Binary Search Tree](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/trees/TREE.md)
   * [Balanced tree](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/trees/TREE.md)
   * [AVL Tree](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/trees/TREE.md)
-  * [Red Black Tree](https://github.com/cosemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/trees/TREE.md)
+  * [Red Black Tree](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/trees/TREE.md)
 * [Graphs](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/graphs/GRAPHS.md)
-    * [Cyclic]() vs [Acyclic]()
-    * [Directed]() vs [Undirected]()
-    * [Weighted]() vs [Unweighted]()
+    * [Cyclic](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/data-structures/graphs/GRAPHS.md) vs [Acyclic](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/data-structures/graphs/GRAPHS.md)
+    * [Directed](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/data-structures/graphs/GRAPHS.md) vs [Undirected](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/data-structures/graphs/GRAPHS.md)
+    * [Weighted](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/data-structures/graphs/GRAPHS.md) vs [Unweighted](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/data-structures/graphs/GRAPHS.md)
 * [Tries](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/trie/TRIES.md)
 
 <br>
 
 ### **Algorithms**
-* [Recursion]()
+* [Recursion](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/algorithms/recursion/RECURSION.md)
 * [Sorting]()
   * [Bubble sort]()
   * [Quick Sort]()
@@ -51,7 +51,7 @@
   * [Heapsort]()
   * [Counting sort]()
   * [Radix sort]()
-* [Searching]()
+* [Searching](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/algorithms/search/SEARCH.md)
     * [Breath First Search]()
     * [Depth First Search]()
 * [Dynamic Programming]()
