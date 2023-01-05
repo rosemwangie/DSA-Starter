@@ -20,7 +20,7 @@
 * [Arrays](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/arrays/ARRAYS.md)
 * [Hash Tables](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/hash-tables/HASHTABLES.md)
 * [Linked Lists](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/linked-lists/LINKEDLISTS.md)
-    * [Singly Linked List]()
+    * [Singly Linked List](https://github.com/WalobwaD/ace-technical-interview-js-py/tree/updates/src/data-structures/linked-lists)
     * [Doubly Linked List]()
     * [Circular Linked List]()
 * [Stacks](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/stacks/STACK.md)
