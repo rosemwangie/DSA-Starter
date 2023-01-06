@@ -1,4 +1,39 @@
 # Arrays
+This is a linear data structure that stores a collection of values. The values in an array are stored in a sequence. <br> Each value in an array is called an element and each element has an index, which is its position in the array. <br> In JavaScript, the index of the array has an index of 0, the second element has index of 1, and so on.
+
+Example: 
+
+```jsx
+const age = [7, 19, 2, 90, 24, 30];
+
+consolo.log(age[0]) //Output: 7
+consolo.log(age[1]) //Output: 19
+consolo.log(age[2])  //Output: 2
+consolo.log(age[3])  //Output: 90
+```
+
+You can also use a loop to iterate over the elements of an array. See below;
+```jsx
+const age = [7, 19, 2, 90, 24, 30];
+for(let i = 0; i < age.length; i++){
+console.log(age[i]);
+}
+
+//This will print all ages separately to the console.
+```
+
+## Array Methods
+| Access | Lookup | Insert(at) | Deletion At | push/pop |
+|:------:|:------:|:----------:|:-----------:|:--------:|
+|  O(1)  |  O(1)  |    O(n)    |     O(n)    |   O(1)   |
+
+* **Push** : Add elements to the end of an array and returns the new length of the array. O(1) T & S
+* **Pop** : Removes the last element of an element of an array and retrusn the removed element. O(1) T
+* **Shift/ Insert at** : Removes the first element of an array and returns the removed element. O(n) T because all the elemnets of the array need to be shifted one position to the left. 
+* **Unshift/Delete at** : adds elements to the beginning of an array and returns the new length of the array. The time complexity of this operation is O(n), as all elements of the array must be shifted one position to the right. 
+* **Splice** : Modifies an array by adding or removing elements, and returns the elements that were removed. The time complexity of this operation is O(n), as the elements after the inserted or removed element must be shifted
+* **Slice** : The creates a new array and copies a selection of elements from the original array into it, resulting in a shallow copy. This operation has a time complexity of O(n), as a new array must be created and all elements must be copied. 
+
 
 ## To have in your back pocket
 
@@ -13,10 +48,6 @@
     3. Sequence with repeated elements
     4. Duplicated values in the sequence // could be scattered
 
-## Asymptotic Analysis 
-| Access | Lookup | Insert(at) | Deletion At | push/pop |
-|:------:|:------:|:----------:|:-----------:|:--------:|
-|  O(1)  |  O(1)  |    O(n)    |     O(n)    |   O(1)   |
 
 ## Techniques
 
