@@ -26,12 +26,12 @@ class Solution:
             if nums[mid] == target:
                 if mid == 0 or nums[mid-1] != target and mid-1 >=0:
                     return mid
-            right = mid -1
+                right = mid -1     
             elif nums[mid] > target:
                 right = mid -1
             else:
                 left = mid +1
-    return -1
+        return -1
 
 
     def lastEl(self, nums: List[int], target: int) -> List[int]:
