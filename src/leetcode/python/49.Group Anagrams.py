@@ -22,3 +22,8 @@ class Solution:
                 hashMap[sorted_str].append(str)
             #return a list of anagrams(values) from the dictionary
         return list(hashMap.values())
+
+s = Solution()
+print(s.groupAnagram(["eat","tea","tan","ate","nat","bat"]))  #[["eat","tea","ate"],["tan","nat"],["bat"]]
+print(s.groupAnagram([""]))     #[[""]]
+print(s.groupAnagram(["a"]))    #[["a"]]
