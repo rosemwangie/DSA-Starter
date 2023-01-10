@@ -39,3 +39,8 @@ class Solution:
             curr = next
             count +=1
         return curr
+
+s = Solution()
+print(s.fib2(2))    #1
+print(s.fib2(3))    #2
+print(s.fib2(4))    #3

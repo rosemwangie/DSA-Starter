@@ -57,4 +57,9 @@ class Solution:
         s = [c for c in s if c.isalnum()]
         s = ''.join(s).lower()
         return s == s[::-1]
+
+s = Solution()
+print(s.isPalindrome("A man, a plan, a canal: Panama")) #true
+print(s.isPalindrome("race a car")) #false
+print(s.isPalindrome(" "))  #true
         

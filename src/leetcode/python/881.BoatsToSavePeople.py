@@ -30,3 +30,8 @@ class Solution:
                 boats +=1
                 right -=1
         return boats
+
+s = Solution()
+print(s.numRescueBoats([1, 2], 3)); #Output: 1
+print(s.numRescueBoats([3, 2, 2, 1], 3)); # Output: 3
+print(s.numRescueBoats([3, 5, 3, 4], 5)); # Output: 4

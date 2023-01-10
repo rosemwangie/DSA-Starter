@@ -2,7 +2,7 @@
     and return false if every element is distinct.
  '''
 
- class Solution:
+class Solution:
     #Brute Force/Naive Approach--> Time complexity O(n^2) Space Complexity O(1)
     def containsDuplicate(self, nums: List[int]) -> bool:
         #Loops from the first element of the array
@@ -16,7 +16,7 @@
 
     #Optimal sln1-Sorting function: Time Complexity O(n log n) Space complexity O(1)
     def containsDuplicate1(self, nums: List[int]) -> bool:
-        if len(nums) < 2 return False
+        if len(nums) < 2: return False
         #sort the array
         nums.sort()
         #The loop runs till the second last element for comparison to occur
@@ -41,7 +41,7 @@
         hashMap = {}        
         for num in  nums:
             #if the element is in the hashMap return true else insert the element in the hashMap
-            if num is in hashMap:
+            if num in hashMap:
                 return True
             else:
                 hashMap[num] = num
