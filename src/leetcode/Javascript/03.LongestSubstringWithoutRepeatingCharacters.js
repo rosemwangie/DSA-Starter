@@ -15,3 +15,7 @@ const longestSubstring = (s) => {
   }
   return longestSub;
 }
+
+console.log(longestSubstring("abcabcbb")) //Output: 3
+console.log(longestSubstring("bbbbb")) //Output: 1
+console.log(longestSubstring("pwwkew")) //Output: 3
