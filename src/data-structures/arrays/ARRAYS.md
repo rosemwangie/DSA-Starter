@@ -1,5 +1,5 @@
-# Arrays
-This is a linear data structure that stores a collection of values. The values in an array are stored in a sequence. <br> Each value in an array is called an element and each element has an index, which is its position in the array. <br> In JavaScript, the index of the array has an index of 0, the second element has index of 1, and so on.
+# Array
+Arrays are linear data structures that stores a collection of values. <br> The values in an array are stored in a sequence. <br> Each value in an array is called an element and each element has an index, which is its position in the array. <br> In JavaScript, the index of the array has an index of 0, the second element has index of 1, and so on.
 
 Example: 
 
@@ -21,6 +21,13 @@ console.log(age[i]);
 
 //This will print all ages separately to the console.
 ```
+
+### **Advantage of using an Array** <br>
+It allows random access of elements, hence making it the best choice for storing large amounts of data
+
+### **Disadvantage of using an Array** <br>
+It has fixed size, so it can't easily be resized. Not efficient when inserting or deleting elements. <br>
+Additionally, the space it takes up can be wasted, if the array has many empty spots.
 
 ## Array Methods
 | Access | Lookup | Insert(at) | Deletion At | push/pop |
@@ -73,3 +80,5 @@ console.log(age[i]);
         Traversing the array twice/thrice is still O(n) example is two for loops
 
 ## References
+1. [Array Data structures](https://www.guru99.com/array-data-structure.html)
+2. [Arrays Explained - Coursera](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
