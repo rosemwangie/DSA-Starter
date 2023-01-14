@@ -34,7 +34,7 @@ The height of the root node is the height of the tree.
  3. Traversal
  4. Delete
 
-**Search**
+* **Search**
 
 **Traversal**
 1. **Preorder traversal** - visits the root node first, then the left subtree, and finally the right subtree. This means that the root node is always the first one visited, followed by the left subtree nodes in order, followed by the right subtree nodes in order. For example, if we have a tree with the root node A, a left subtree with the root node B, and a right subtree with the root node C, a preorder traversal of this tree would visit the nodes in the order A, B, C.
