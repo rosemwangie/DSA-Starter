@@ -1,7 +1,9 @@
 # Array
-Arrays are linear data structures that stores a collection of values. <br> The values in an array are stored in a sequence. <br> Each value in an array is called an element and each element has an index, which is its position in the array. <br> In JavaScript, the index of the array has an index of 0, the second element has index of 1, and so on.
+Arrays are linear data structures that stores a collection of values.<br>The values in an array are stored in a sequence.<br> Each value in an array is called an element and each element has an index, which is its position in the array.<br>In JavaScript, the index of the array has an index of 0, the second element has index of 1, and so on.
 
-Example: 
+<hr>
+
+Examples: 
 
 ```jsx
 const age = [7, 19, 2, 90, 24, 30];
@@ -13,14 +15,15 @@ consolo.log(age[3])  //Output: 90
 ```
 
 You can also use a loop to iterate over the elements of an array. See below;
+
 ```jsx
 const age = [7, 19, 2, 90, 24, 30];
 for(let i = 0; i < age.length; i++){
 console.log(age[i]);
 }
-
 //This will print all ages separately to the console.
 ```
+<hr>
 
 ### **Advantage of using an Array** <br>
 It allows random access of elements, hence making it the best choice for storing large amounts of data
@@ -28,6 +31,8 @@ It allows random access of elements, hence making it the best choice for storing
 ### **Disadvantage of using an Array** <br>
 It has fixed size, so it can't easily be resized. Not efficient when inserting or deleting elements. <br>
 Additionally, the space it takes up can be wasted, if the array has many empty spots.
+
+<hr>
 
 ## Array Methods
 | Access | Lookup | Insert(at) | Deletion At | push/pop |
@@ -41,6 +46,7 @@ Additionally, the space it takes up can be wasted, if the array has many empty s
 * **Splice** : Modifies an array by adding or removing elements, and returns the elements that were removed. The time complexity of this operation is O(n), as the elements after the inserted or removed element must be shifted
 * **Slice** : The creates a new array and copies a selection of elements from the original array into it, resulting in a shallow copy. This operation has a time complexity of O(n), as a new array must be created and all elements must be copied. 
 
+<hr>
 
 ## To have in your back pocket
 
@@ -55,6 +61,7 @@ Additionally, the space it takes up can be wasted, if the array has many empty s
     3. Sequence with repeated elements
     4. Duplicated values in the sequence // could be scattered
 
+<hr>
 
 ## Techniques
 
@@ -78,6 +85,8 @@ Additionally, the space it takes up can be wasted, if the array has many empty s
 
     5. Traversing the array more than once
         Traversing the array twice/thrice is still O(n) example is two for loops
+
+<hr>
 
 ## References
 1. [Array Data structures](https://www.guru99.com/array-data-structure.html)

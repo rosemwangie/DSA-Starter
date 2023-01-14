@@ -4,22 +4,20 @@ LIFO - _Last In First Out_
 
 The name "stack" for this type of structure comes from the analogy to a set of physical items stacked on top of each other.Stacks can be used with Arrays or Linked List
 
-> A stack is mplemented using a dynamic array or a singly linked list
-
-> [Arrays](https://github.com/RWambui/Data-structure-Interview-prep-JS/tree/main/src/data-structures/arrays) - allow cache locality, which make them technically fast when accessing items.
-
-> [Linked List](https://github.com/RWambui/Data-structure-Interview-prep-JS/tree/main/src/data-structures/linked-lists) - have extra memory associated with them, because we have to hold on to the pointers
-
-```
+A stack is implemented using a dynamic array or a singly linked list <br>
+[Arrays](https://github.com/RWambui/Data-structure-Interview-prep-JS/tree/main/src/data-structures/arrays) - allow cache locality, which make them technically fast when accessing items.<br>[Linked List](https://github.com/RWambui/Data-structure-Interview-prep-JS/tree/main/src/data-structures/linked-lists) - have extra memory associated with them, because we have to hold on to the pointers<br>
 On the other hand, Linked List have more dynamic memory compared to Arrays.
-```
+
+<hr>
+
 ### Corner Cases
 * Empty stack. Popping from an empty
 * Stack with one itme
 * Stack with two items
 
+<hr>
 
-### Time Complexity
+### Basic operations
 
 | Lookup |  pop | push | peek | isEmpty |
 |:------:|:----:|:----:|:----:|:-------:|
@@ -28,6 +26,8 @@ On the other hand, Linked List have more dynamic memory compared to Arrays.
   * **push** - add element to the last item
   * **pop** - remove the last element
   * **Peek/top** - view the top most item
+
+<hr>
 
 ### Check below leetcode questions
   1. [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) ![](https://img.shields.io/static/v1?label=&message=Easy&color=darkgreen)
@@ -43,6 +43,7 @@ On the other hand, Linked List have more dynamic memory compared to Arrays.
   10. [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) ![](https://img.shields.io/static/v1?label=&message=Hard&color=darkred) 
   11. [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) ![](https://img.shields.io/static/v1?label=&message=Hard&color=darkred) 
 
+<hr>
 
   ### References
   1. [Coursera](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
