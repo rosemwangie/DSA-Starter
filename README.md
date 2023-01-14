@@ -1,6 +1,5 @@
 ![GitHub last update](https://img.shields.io/github/last-commit/codemuse-ke/ace-technical-interview-js-py) <br>
-
-# [Data Structures & Algorithms Interview Prep](https://github.com/codemuse-io/Dace-technical-interview-js-py) 
+![E0B8072C-067A-4AAE-ADBF-2BE03BBB9B26_4_5005_c](https://user-images.githubusercontent.com/77434770/212475995-35d5b36e-d207-4dfd-8931-788a62bceda7.jpeg)
 
 <p align="center">This is the scope of the project, I happily invite you to contribute!</p>
 <p align="center">    
