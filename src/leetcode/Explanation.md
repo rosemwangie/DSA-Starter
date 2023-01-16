@@ -1,6 +1,6 @@
 ## 1. [**Two Sum**](#twosum)
 
- * #### **Verify corner cases**
+ * #### **Verify Constraints**
     1. Are the elements in the arrays positive or negative? 
     2. Will there always be a solution?
     3. Duplicates in the array?

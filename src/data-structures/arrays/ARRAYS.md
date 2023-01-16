@@ -54,7 +54,7 @@ Additionally, the space it takes up can be wasted, if the array has many empty s
     2. When using an index to iterate make sure to consider nums. Length - 1
     3. Be mindful about slicing or concatenating arrays that’s an O(n) T
 
-## Corner Cases
+## Constraints
 
     1. Empty Sequence
     2. Sequence with 1 or 2 elements

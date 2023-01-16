@@ -10,7 +10,7 @@ On the other hand, Linked List have more dynamic memory compared to Arrays.
 
 <hr>
 
-### Corner Cases
+### Constraints
 * Empty stack. Popping from an empty
 * Stack with one itme
 * Stack with two items

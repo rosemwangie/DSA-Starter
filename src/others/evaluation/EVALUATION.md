@@ -23,6 +23,6 @@
 
  ## Testing
   * Came up with more tyical cases and tested teir code against it
-  * Found and handled corner cases
+  * Found and handled Constraints
   * Identified and self-corrected bugs in code
   * able to verify correctness of the code in a systematic manner(e.g acting like a debugger and stepping through each line, updating the program's state at each step)

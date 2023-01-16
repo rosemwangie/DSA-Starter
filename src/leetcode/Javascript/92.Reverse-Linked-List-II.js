@@ -1,6 +1,6 @@
 //Given a linked list and numbers m & N , return it back with only positions m and n reversed
 
-//1. Verify Corner cases (edge cases)
+//1. Verify Constraints (edge cases)
 /*
 1. Clarify if the position is zero or 1 index?
 2. WIll m and n always be within the bounds of the linked list? Yes, Assume 1 <= m <= n <= length of linked list

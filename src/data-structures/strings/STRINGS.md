@@ -84,7 +84,7 @@ They are used to represent text and are represented by enclosing text or charact
 * Clarify about input char set and case sensitivity
 * Usually the characters are limite to lowercase latin character, for example a-z
 
-## Corner cases
+## Constraints
 1. Empty String
 2. String with 1 or 2 elements
 3. String with repeated characters 
