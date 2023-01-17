@@ -4,6 +4,10 @@ It's a technique in which a function repeatedly calls itself, until a specific c
 ![5B0F1A0B-F65B-4CC6-B4FC-85C4CC5C79A6_4_5005_c](https://user-images.githubusercontent.com/77434770/212955521-221949ce-a80d-45b3-81cb-e9c782441eff.jpeg)
 
 
+# A recursive function has three components:
+* **The base** : which is the stopping point for the recursion
+* **The reduction step** : which brings the inputcloser to the base case;
+* **The recursive call** : wher the function is invoked with the modified input
 
 Example 1: 
 
