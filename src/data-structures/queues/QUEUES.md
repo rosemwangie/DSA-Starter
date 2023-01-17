@@ -1,12 +1,11 @@
 # Queues
-
 A **queue** is a data structure that follows the First In First Out(FIFO) principle. <br> This means that the first item added to the queue will be the first one to be removed. A queue can be implemented using an array. <br> To add an item to the queue, we use push method of the array. This method adds an element to the end of the array. <br> To remove an itme from the queue, we use the shift() method of the array. This method removes the first element of the array and returns it. 
 
 ### Why Linked Lists;
 Adding and removing items is O(1) operation
 
 ### Why not Arrays
-1. Arrays have indexex associated with them
+1. Arrays have index associated with them
 2. Shifting indexes is O(n) operation linearly (quite expensive)
 
 ## Operations & complexities
