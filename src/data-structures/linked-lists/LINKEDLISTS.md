@@ -74,7 +74,7 @@ Access time is linear (and difficult to pipeline). Faster access, such as random
     ```
 <hr>
 
-## Corner cases
+## Constraints
   * Empty linked list (head is null)
   * Single node
   * Two nodes

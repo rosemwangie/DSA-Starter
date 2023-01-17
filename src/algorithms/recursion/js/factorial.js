@@ -18,16 +18,4 @@ const findFactorial = (num) => {
 
 findFactorial(20);
 
-/**
- * Recursively
- */
-const findFactorialRecursive = (num) => {
-  //base case
-  if (num === 2) return 2;
-  //recursive case
-  return num * findFactorialRecursive(num - 1);
-};
-
-findFactorialRecursive(20);
-
 modules.export();
