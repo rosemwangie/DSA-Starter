@@ -1,5 +1,9 @@
 # Recursion
-It's a technique in which a function repeatedly calls itself, until a specific condition is met and the function stops calling itself. This is achieved when a **[base case]()** is met.<br>It's a way of breaking down a problem into smaller, identical subproblems. <br>A function that calls itself is called a **recursive function**
+It's a technique in which a function repeatedly calls itself, until a specific condition is met and the function stops calling itself. This is achieved when a **[base case]()** is met.<br>It's a way of breaking down a problem into smaller, identical subproblems. <br>A function that calls itself is called a **recursive function** <br>
+
+![5B0F1A0B-F65B-4CC6-B4FC-85C4CC5C79A6_4_5005_c](https://user-images.githubusercontent.com/77434770/212955521-221949ce-a80d-45b3-81cb-e9c782441eff.jpeg)
+
+
 
 Example 1: 
 
