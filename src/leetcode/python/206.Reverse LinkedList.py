@@ -18,11 +18,11 @@ class Solution:
         while current:
             #stores the next node temporarily
             next_node = current.next
-            #sets the pointer of the next node to the previous node
+            #sets the pointer of the current node to the previous node
             current.next = prev
-            #sets the previous node to be our current node
+            #sets the previous node to be our current position
             prev = current
-            #updates the current node to be the next node
+            #updates the current node to move to the next node
             current = next_node
         return prev
 
