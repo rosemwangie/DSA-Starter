@@ -29,5 +29,5 @@ const fibonacciRecursive = (num) => {
 
 };
 
-fibonacciRecursive(10);  //Ouput -> 362880
+fibonacciRecursive(10);  //Ouput -> 55
  
