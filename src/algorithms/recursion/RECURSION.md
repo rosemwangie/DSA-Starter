@@ -7,7 +7,7 @@ It's a technique in which a function repeatedly calls itself, until a specific c
 # A recursive function has three components:
 * **The base** : which is the stopping point for the recursion
 * **The reduction step** : which brings the inputcloser to the base case;
-* **The recursive call** : wher the function is invoked with the modified input
+* **The recursive call** : where the function is invoked with the modified input
 
 Example 1: 
 

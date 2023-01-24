@@ -21,9 +21,13 @@ fibonacci(10);
  * fibonaci recursive
  */
 const fibonacciRecursive = (num) => {
-  let res = 0;
-  if (i === 10) return 10;
-  return res + fibonacciRecursive(num - 1);
+  if (num <= 2) {
+    return 1
+  }
+
+  return  fibonacciRecursive(num-1) + fibonacciRecursive(num-2)
+
 };
 
-fibonacciRecursive(10);
+fibonacciRecursive(10);  //Ouput -> 362880
+ 
