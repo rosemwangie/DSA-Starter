@@ -26,7 +26,7 @@ class Solution:
             ht[n] = self.fib1(n-1) + self.fib1(n-2)
             return ht[n]
 
- 
+    #Optimal sln-> Time Complexity O(n) Space Comlexity O(1)
     def fib2(self, n: int) -> int:
         if n <= 1:
             return n 
