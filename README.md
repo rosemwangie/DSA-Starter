@@ -13,7 +13,7 @@
 
 ##  Intro Topics(Continually Updated...)
 
-* [Big O Notation](https://github.com/codemuse-io/ace-technical-interview-js-py/tree/main/src/bigO-cheat-sheet/BIGO.md)
+* [Big O Notation](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/bigO/BIGO.md)
 
 
 ### **Data Structures**
