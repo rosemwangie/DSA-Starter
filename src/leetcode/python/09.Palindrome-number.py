@@ -9,6 +9,7 @@ class Solution:
 
     #Optimal Solution Math Operations Time Complexity O(n) Space Complexity O(1)
     def isPalindrome1(self, x: int) -> bool:
+        #if the number is negative return False
         if x < 0:
             return False
         original = x
@@ -17,6 +18,20 @@ class Solution:
             reversed_sum = reversed_sum * 10 + x % 10
             x //=10
         return original == reversed_sum
+
+    #Optimal sln3 Time complexity O(n) Space Complexity O(1)
+    def isPalindrome2(self, x: int) -> bool:
+        #121
+        x = str(x)
+        left = 0
+        right = len(x) -1
+        while left < right:
+            if left[x] != right[x]:
+                return False
+            left +=1
+            right -=1
+        return True
+
 
 s = Solution()
 print(s.isPalindrome([121])) #Output -> True
