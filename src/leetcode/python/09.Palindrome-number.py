@@ -9,7 +9,14 @@ class Solution:
 
     #Optimal Solution Math Operations Time Complexity O(n) Space Complexity O(1)
     def isPalindrome1(self, x: int) -> bool:
-        pass
+        if x < 0:
+            return False
+        original = x
+        reversed_sum = 0
+        while x > 0:
+            reversed_sum = reversed_sum * 10 + x % 10
+            x //=10
+        return original == reversed_sum
 
 s = Solution()
 print(s.isPalindrome([121])) #Output -> True
