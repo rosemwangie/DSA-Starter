@@ -5,6 +5,8 @@
  * @param {number} num
  * @return {boolean}
  */
+//Optimal Sln-> Time Complexity: O(k) -> Space Complexity O(k) 
+//K represents the number of iterations made while m the number of unique numbers encountered
 const isHappy = (num) => {
   // Create a set/hashmap to store previous numbers that we've seen
   let seen = new Set();
