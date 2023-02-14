@@ -52,4 +52,5 @@ console.log(mergeTwoLists([], [0])); // Output: [0]
 
 /**
  * O(n) - Time complexity
+ * O(1) - Space Complexity
  */
