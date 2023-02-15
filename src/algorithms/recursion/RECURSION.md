@@ -16,6 +16,8 @@ Example 1:
 ```jsx
 /**
  * Factorial
+ * Time Complexity -> O(n)
+ * Space Complexity -> O(n)
  */
 const factorial = (num) => {
   //base case
@@ -37,6 +39,8 @@ Example 2;
 ```js
 /**
  * fibonaci recursive
+ * Time complexity -> O(2^n)
+ * Space Complexity -> O(n)
  */
 const fibonacci(num){
   //base case: if n is less than or equal to 2, return 1
