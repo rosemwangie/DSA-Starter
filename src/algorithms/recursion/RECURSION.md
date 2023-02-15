@@ -16,6 +16,8 @@ Example 1:
 ```jsx
 /**
  * Factorial
+ * Time Complexity -> O(n)
+ * Space Complexity -> O(n)
  */
 const factorial = (num) => {
   //base case
@@ -37,6 +39,8 @@ Example 2;
 ```js
 /**
  * fibonaci recursive
+ * Time complexity -> O(2^n)
+ * Space Complexity -> O(n)
  */
 const fibonacci(num){
   //base case: if n is less than or equal to 2, return 1
@@ -55,7 +59,7 @@ In the above function, the base case is when `num` is less than or equal to 2. I
 The **function** calls itself with argument `num - 1` and `num - 2`. This is where the recursion happens. The function continues to call itself until reaches the base case. The recursive calls keep returning values that get added together until `num` becomes less than or equal to 2. This is how the Fibonacci sequence is computed.
 
 
-> To **note**: every recursive function needs a base case which is the point at which is the point at which the recursion stops. Without it, the function will keep calling itself indefinitely, resulting in a stack overflow error. Recursion can be a powerful tool, bit it's important to use it judiciosly to avoid stack overflow errors.
+> To **note**: every recursive function needs a base case which is the point at which the recursion stops. Without it, the function will keep calling itself indefinitely, resulting in a stack overflow error. Recursion can be a powerful tool, bit it's important to use it judiciosly to avoid stack overflow errors.
 
 <br>
 
