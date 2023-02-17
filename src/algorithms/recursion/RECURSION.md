@@ -65,5 +65,5 @@ The **function** calls itself with argument `num - 1` and `num - 2`. This is whe
 
 ### Rules of Recursion
 1. Identify the base case
-2. I dentify the recursive case
+2. Identify the recursive case
 3. Get closer and closer and return when needed. (Have two returns for the base case and the recursive case)
