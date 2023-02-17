@@ -8,10 +8,10 @@ Examples:
 ```jsx
 const age = [7, 19, 2, 90, 24, 30];
 
-consolo.log(age[0]) //Output: 7
-consolo.log(age[1]) //Output: 19
-consolo.log(age[2])  //Output: 2
-consolo.log(age[3])  //Output: 90
+console.log(age[0]) //Output: 7
+console.log(age[1]) //Output: 19
+console.log(age[2])  //Output: 2
+console.log(age[3])  //Output: 90
 ```
 
 You can also use a loop to iterate over the elements of an array. See below;
@@ -40,9 +40,9 @@ Additionally, the space it takes up can be wasted, if the array has many empty s
 |  O(1)  |  O(1)  |    O(n)    |     O(n)    |   O(1)   |
 
 * **Push** : Add elements to the end of an array and returns the new length of the array. O(1) T & S
-* **Pop** : Removes the last element of an element of an array and retrusn the removed element. O(1) T
-* **Shift/ Insert at** : Removes the first element of an array and returns the removed element. O(n) T because all the elemnets of the array need to be shifted one position to the left. 
-* **Unshift/Delete at** : adds elements to the beginning of an array and returns the new length of the array. The time complexity of this operation is O(n), as all elements of the array must be shifted one position to the right. 
+* **Pop** : Removes the last element of an element of an array and returns the removed element. O(1) T
+* **Shift/ Delete at** : Removes the first element of an array and returns the removed element. O(n) T because all the elements of the array need to be shifted one position to the left. 
+* **Unshift/ Insert at** : adds elements to the beginning of an array and returns the new length of the array. The time complexity of this operation is O(n), as all elements of the array must be shifted one position to the right. 
 * **Splice** : Modifies an array by adding or removing elements, and returns the elements that were removed. The time complexity of this operation is O(n), as the elements after the inserted or removed element must be shifted
 * **Slice** : The creates a new array and copies a selection of elements from the original array into it, resulting in a shallow copy. This operation has a time complexity of O(n), as a new array must be created and all elements must be copied. 
 
@@ -51,8 +51,8 @@ Additionally, the space it takes up can be wasted, if the array has many empty s
 ## To have in your back pocket
 
     1. Clarify if there are duplicate values in the array and would it affect the answer
-    2. When using an index to iterate make sure to consider nums. Length - 1
-    3. Be mindful about slicing or concatenating arrays that’s an O(n) T
+    2. When using an index to iterate make sure to consider nums.length - 1, (which refers to the last element of the array)
+    3. Be mindful about slicing or concatenating arrays, that’s an O(n) T
 
 ## Constraints
 
@@ -78,7 +78,7 @@ Additionally, the space it takes up can be wasted, if the array has many empty s
         If the array is sorted, some form of binary search should be possible which is O(log n)
 
     5. Precomputation
-        For queries where sum or * of subarray is involved, pre-computing usinf hashing or prefix/suffix sum, might be useful.  Check prefix-sum tags on  leetcode
+        For queries where sum or * of subarray is involved, pre-computing using hashing or prefix/suffix sum, might be useful.  Check prefix-sum tags on  leetcode
 
     6. Index has a hash key
         If a you are given a sequence and the query needs O(1) Space, it might be possible to use the array itself as a hash table. eg; if the array only has values from 1 to N, where N is the length of the array, negate the value at that index(-1) to indicate presence of the num.
