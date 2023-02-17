@@ -5,10 +5,10 @@
 *Linear data structures are easier to implement because computer memory is arranged in a linear way.
 
 <h3>Advantages of linear data structures</h3>
-1. Easy to implement.
+1. Easy to implement because computer memory is arranged in a linear way.
 
 <h3>Disadvantages.</h3>
-1.Memory utilization is ineffective.
+1.Memory utilization is ineffective because we have to declare the memory in advance while implementing.
 
 <h3>Examples of Linear Data Structures.</h3>
 <hr></hr>
