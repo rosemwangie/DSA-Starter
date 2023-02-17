@@ -4,7 +4,8 @@
  - Each and every element is attached to its previous and next adjacent elements.
  - We can traverse all the elements in single run because there is only single level involved.
  - Linear data structures are easier to implement because computer memory is arranged in a linear way.
-
+ - Time complexity of linear data structures often increase with increase in input size.
+ 
 <h3>Advantages of linear data structures</h3>
 1. Easy to implement because computer memory is arranged in a linear way.
 
