@@ -39,9 +39,9 @@
   <li>
     <a href='./src/data-structures/non-linear/graphs'>Graphs</a>
     <ul>
-      <li><a href='./src/data-structures/non-linear/graphs'>Cyclic</a> vs <a>Acyclic</a></li>
-      <li><a href='./src/data-structures/non-linear/graphs'>Direct</a> vs <a>Undirect</a></li>
-      <li><a href='./src/data-structures/non-linear/graphs'>Weighted</a> vs <a>Unweighted</a></li>
+      <li><a href='./src/data-structures/non-linear/graphs'>Cyclic</a> vs <a href='./src/data-structures/non-linear/graphs'>Acyclic</a></li>
+      <li><a href='./src/data-structures/non-linear/graphs'>Direct</a> vs <a href='./src/data-structures/non-linear/graphs'>Undirect</a></li>
+      <li><a href='./src/data-structures/non-linear/graphs'>Weighted</a> vs <a href='./src/data-structures/non-linear/graphs'>Unweighted</a></li>
     </ul>
   </li>
   <li>
@@ -55,20 +55,8 @@
       <li><a href='./src/data-structures/non-linear/trees'>Red Black Tree</a></li>
     </ul>
   </li>
+  <li href='./src/data-structures/non-linear/trie'>Trie</li>
 </ul>
-
-* [Trees](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/trees/TREE.md)
-  * [General tree](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/data-structures/trees/TREE.md)
-  * [Binary Tree](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/trees/TREE.md)
-  * [Binary Search Tree](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/trees/TREE.md)
-  * [Balanced tree](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/trees/TREE.md)
-  * [AVL Tree](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/trees/TREE.md)
-  * [Red Black Tree](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/trees/TREE.md)
-* [Graphs](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/graphs/GRAPHS.md)
-    * [Cyclic](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/data-structures/graphs/GRAPHS.md) vs [Acyclic](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/data-structures/graphs/GRAPHS.md)
-    * [Directed](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/data-structures/graphs/GRAPHS.md) vs [Undirected](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/data-structures/graphs/GRAPHS.md)
-    * [Weighted](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/data-structures/graphs/GRAPHS.md) vs [Unweighted](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/data-structures/graphs/GRAPHS.md)
-* [Tries](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/trie/TRIES.md)
 
 <br>
 
