@@ -17,6 +17,8 @@
 
 
 ### **Data Structures**
+<a href='./src/data-structures/linear'>Linear</a>
+
 * [Strings](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/strings/STRINGS.md)
 * [Arrays](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/arrays/ARRAYS.md)
 * [Hash Tables](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/hash-tables/HASHTABLES.md)
