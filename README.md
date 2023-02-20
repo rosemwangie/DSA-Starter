@@ -23,9 +23,11 @@
   <li><a href='./src/data-structures/linear/hash-tables'>Hash-Tables</a></li>
   <li>
     <a href='./src/data-structures/linear/linked-lists'>Linked-Lists</a>
+    <ul>
       <li><a href='./src/data-structures/linear/linked-lists'>Singly Linked-List</a></li>
       <li><a href='./src/data-structures/linear/linked-lists'>Doubly Linked-List</a></li>
       <li><a href='./src/data-structures/linear/linked-lists'>Circular Linked-List</a></li>
+    </ul>
   </li>
   <li><a href='./src/data-structures/linear/queues'>Queues</a></li>
   <li><a href='./src/data-structures/linear/stacks'>Stacks</a></li>
