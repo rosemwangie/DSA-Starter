@@ -18,6 +18,14 @@
 
 ### **Data Structures**
 <a href='./src/data-structures/linear'>Linear</a>
+<ul>
+  <li><a href='./src/data-structures/linear/arrays'>Arrays</a></li>
+  <li><a href='./src/data-structures/linear/hash-tables'>Hash-Tables</a></li>
+  <li><a href='./src/data-structures/linear/linked-lists'>Linked-Lists</a></li>
+  <li><a href='./src/data-structures/linear/queues'>Queues</a></li>
+  <li><a href='./src/data-structures/linear/stacks'>Stacks</a></li>
+  <li><a href='./src/data-structures/linear/strings'>Strings</a></li>
+</ul>
 
 * [Strings](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/strings/STRINGS.md)
 * [Arrays](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/arrays/ARRAYS.md)
