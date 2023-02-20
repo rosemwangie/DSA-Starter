@@ -21,21 +21,23 @@
 <ul>
   <li><a href='./src/data-structures/linear/arrays'>Arrays</a></li>
   <li><a href='./src/data-structures/linear/hash-tables'>Hash-Tables</a></li>
-  <li><a href='./src/data-structures/linear/linked-lists'>Linked-Lists</a></li>
+  <li>
+    <a href='./src/data-structures/linear/linked-lists'>Linked-Lists</a>
+      <li><a href='./src/data-structures/linear/linked-lists'>Singly Linked-List</a></li>
+      <li><a href='./src/data-structures/linear/linked-lists'>Doubly Linked-List</a></li>
+      <li><a href='./src/data-structures/linear/linked-lists'>Circular Linked-List</a></li>
+  </li>
   <li><a href='./src/data-structures/linear/queues'>Queues</a></li>
   <li><a href='./src/data-structures/linear/stacks'>Stacks</a></li>
   <li><a href='./src/data-structures/linear/strings'>Strings</a></li>
 </ul>
 
-* [Strings](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/strings/STRINGS.md)
-* [Arrays](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/arrays/ARRAYS.md)
-* [Hash Tables](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/hash-tables/HASHTABLES.md)
-* [Linked Lists](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/linked-lists/LINKEDLISTS.md)
-    * [Singly Linked List](https://github.com/codemuse-ke/ace-technical-interview-js-py/tree/main/src/data-structures/linked-lists)
-    * [Doubly Linked List](https://github.com/codemuse-ke/ace-technical-interview-js-py/tree/main/src/data-structures/linked-lists)
-    * [Circular Linked List](https://github.com/codemuse-ke/ace-technical-interview-js-py/tree/main/src/data-structures/linked-lists)
-* [Stacks](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/stacks/STACK.md)
-* [Queues](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/queues/QUEUES.md)
+<a href='./src/data-structures/non-linear'>Non-Linear</a>
+<ul>
+  <li><a href='./src/data-structures/non-linear/graphs'>Graphs</a></li>
+  <li><a href='./src/data-structures/non-linear/trees'>Trees</a></li>
+</ul>
+
 * [Trees](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/trees/TREE.md)
   * [General tree](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/data-structures/trees/TREE.md)
   * [Binary Tree](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/trees/TREE.md)
