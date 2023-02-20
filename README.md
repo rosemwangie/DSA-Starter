@@ -17,27 +17,46 @@
 
 
 ### **Data Structures**
-* [Strings](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/strings/STRINGS.md)
-* [Arrays](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/arrays/ARRAYS.md)
-* [Hash Tables](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/hash-tables/HASHTABLES.md)
-* [Linked Lists](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/linked-lists/LINKEDLISTS.md)
-    * [Singly Linked List](https://github.com/codemuse-ke/ace-technical-interview-js-py/tree/main/src/data-structures/linked-lists)
-    * [Doubly Linked List](https://github.com/codemuse-ke/ace-technical-interview-js-py/tree/main/src/data-structures/linked-lists)
-    * [Circular Linked List](https://github.com/codemuse-ke/ace-technical-interview-js-py/tree/main/src/data-structures/linked-lists)
-* [Stacks](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/stacks/STACK.md)
-* [Queues](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/queues/QUEUES.md)
-* [Trees](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/trees/TREE.md)
-  * [General tree](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/data-structures/trees/TREE.md)
-  * [Binary Tree](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/trees/TREE.md)
-  * [Binary Search Tree](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/trees/TREE.md)
-  * [Balanced tree](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/trees/TREE.md)
-  * [AVL Tree](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/trees/TREE.md)
-  * [Red Black Tree](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/trees/TREE.md)
-* [Graphs](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/graphs/GRAPHS.md)
-    * [Cyclic](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/data-structures/graphs/GRAPHS.md) vs [Acyclic](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/data-structures/graphs/GRAPHS.md)
-    * [Directed](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/data-structures/graphs/GRAPHS.md) vs [Undirected](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/data-structures/graphs/GRAPHS.md)
-    * [Weighted](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/data-structures/graphs/GRAPHS.md) vs [Unweighted](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/data-structures/graphs/GRAPHS.md)
-* [Tries](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/trie/TRIES.md)
+<a href='./src/data-structures/linear'>Linear</a>
+<ul>
+  <li><a href='./src/data-structures/linear/arrays'>Arrays</a></li>
+  <li><a href='./src/data-structures/linear/hash-tables'>Hash-Tables</a></li>
+  <li>
+    <a href='./src/data-structures/linear/linked-lists'>Linked-Lists</a>
+    <ul>
+      <li><a href='./src/data-structures/linear/linked-lists'>Singly Linked-List</a></li>
+      <li><a href='./src/data-structures/linear/linked-lists'>Doubly Linked-List</a></li>
+      <li><a href='./src/data-structures/linear/linked-lists'>Circular Linked-List</a></li>
+    </ul>
+  </li>
+  <li><a href='./src/data-structures/linear/queues'>Queues</a></li>
+  <li><a href='./src/data-structures/linear/stacks'>Stacks</a></li>
+  <li><a href='./src/data-structures/linear/strings'>Strings</a></li>
+</ul>
+
+<a href='./src/data-structures/non-linear'>Non-Linear</a>
+<ul>
+  <li>
+    <a href='./src/data-structures/non-linear/graphs'>Graphs</a>
+    <ul>
+      <li><a href='./src/data-structures/non-linear/graphs'>Cyclic</a> vs <a href='./src/data-structures/non-linear/graphs'>Acyclic</a></li>
+      <li><a href='./src/data-structures/non-linear/graphs'>Direct</a> vs <a href='./src/data-structures/non-linear/graphs'>Undirect</a></li>
+      <li><a href='./src/data-structures/non-linear/graphs'>Weighted</a> vs <a href='./src/data-structures/non-linear/graphs'>Unweighted</a></li>
+    </ul>
+  </li>
+  <li>
+    <a href='./src/data-structures/non-linear/trees'>Trees</a>
+    <ul>
+      <li><a href='./src/data-structures/non-linear/trees'>General Tree</a></li>
+      <li><a href='./src/data-structures/non-linear/trees'>Binary Tree</a></li>
+      <li><a href='./src/data-structures/non-linear/trees'>Binary Search Tree</a></li>
+      <li><a href='./src/data-structures/non-linear/trees'>Balanced Tree</a></li>
+      <li><a href='./src/data-structures/non-linear/trees'>AVL Tree</a></li>
+      <li><a href='./src/data-structures/non-linear/trees'>Red Black Tree</a></li>
+    </ul>
+  </li>
+  <li><a href='./src/data-structures/non-linear/trie'>Trie</a></li>
+</ul>
 
 <br>
 
