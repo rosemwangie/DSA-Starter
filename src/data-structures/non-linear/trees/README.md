@@ -1,7 +1,8 @@
 # Trees
 A **Tree** is composed of _nodes_. It's a data structure that consists of nodes connected by edges. Each node has a value and may have one or more child nodes, which are connected to the parent node by an edge. The root node is the topmost node in the tree and does not have a parent.
 
-The **root** node is the starting point of the tree and branches off into other nodes. 
+The **root** node is the starting point of the tree and branches off into other nodes while the **leaf/external node** node is the last node of a tree.
+**Edges** refers to the connection between two nodes. If a tree has (N) nodes then the number of edges in the tree will be (N-1) because the root node is not connected to a parent node. 
 
 There are many different types of trees, including binary trees, B-trees, and balanced trees.
 
@@ -11,18 +12,29 @@ This structure allows for efficient searching and sorting of data. All other nod
 
 The tree data structure is an effective way to store and organize data. It allows for fast retrieval and manipulation of data, as well as efficient searching algorithms. Trees are commonly used to implement data structures such as binary search trees, heaps, and tries. Trees are also used in graph algorithms such as depth-first search and breadth-first search.
 
-The root node is the ancestor of all other nodes in the tree, and all other nodes are descendants of the root node. The root node is also the topmost node in a tree.
+### **Common Terminologies used in Trees**
 
-The depth of the root node is 0.
-The height of the root node is the height of the tree.
+- Height of tree - Refers to the number of edges from the root node to the lead node of the tree. The depth of the root node is 0.
+- Height of a node - Refers to the number of edges from the node to the leaf of the tree.
+- Depth of a node/Level of node - Refers to the numbers of edges from the root node to the node itself.
+- Ancestor of a node - Refers to the predecessors of the nodes going upto the root node.
+- Descendant of node - Refers to any successor nodes from the nodes to the leaf node.
+- Internal node - Refers to a node with only one child node.
+- Degree of a node - Refers to the total number of sub-trees connected to a node. Degree of a tree will be the maximum number of sub-trees connected to a node on that tree.
+
+The root node is the ancestor of all other nodes in the tree, and all other nodes are descendants of the root node. The root node is also the topmost node in a tree.
 
 ## Types of Trees
 
-### **1. Binary Tree** 
+### **1. General Tree**
+
+**General Tree** is a tree which has no constraints on the heirarchical structure. A node can have any number of children.
+
+### **2. Binary Tree** 
 
 **Binary Tree** is a tree in which each node has at most two children. This type of tree is commonly used to implement binary search algorithms.
 
-**Binary tree conssist of pieces of data:**
+**Binary tree consist of pieces of data:**
 
   - The data or value stored in the node
   - A reference to the left child node
@@ -43,7 +55,7 @@ The height of the root node is the height of the tree.
 
 3. **Postorder traversal** visits the left subtree first, then the right subtree, and finally the root node. This means that the left subtree nodes are visited first in order, followed by the right subtree nodes in order, followed by the root node. Using the same example tree as above, a postorder traversal of this tree would visit the nodes in the order B, C, A.
 
-### **2. Binary Search Tree**
+### **3. Binary Search Tree**
 A binary search tree is a data structure that is used to store data in a way that allows for efficient searching
 A binary search tree (BST) is a type of self-balancing, binary tree in which each node stores an item of data and has two children. 
 The left child of a node contains only values less than the node's value, while the right child contains only values greater than or equal to the node's value. 

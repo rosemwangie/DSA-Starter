@@ -55,7 +55,7 @@
       <li><a href='./src/data-structures/non-linear/trees'>Red Black Tree</a></li>
     </ul>
   </li>
-  <li href='./src/data-structures/non-linear/trie'>Trie</li>
+  <li><a href='./src/data-structures/non-linear/trie'>Trie</a></li>
 </ul>
 
 <br>
