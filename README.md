@@ -36,8 +36,25 @@
 
 <a href='./src/data-structures/non-linear'>Non-Linear</a>
 <ul>
-  <li><a href='./src/data-structures/non-linear/graphs'>Graphs</a></li>
-  <li><a href='./src/data-structures/non-linear/trees'>Trees</a></li>
+  <li>
+    <a href='./src/data-structures/non-linear/graphs'>Graphs</a>
+    <ul>
+      <li><a href='./src/data-structures/non-linear/graphs'>Cyclic</a> vs <a>Acyclic</a></li>
+      <li><a href='./src/data-structures/non-linear/graphs'>Direct</a> vs <a>Undirect</a></li>
+      <li><a href='./src/data-structures/non-linear/graphs'>Weighted</a> vs <a>Unweighted</a></li>
+    </ul>
+  </li>
+  <li>
+    <a href='./src/data-structures/non-linear/trees'>Trees</a>
+    <ul>
+      <li><a href='./src/data-structures/non-linear/trees'>General Tree</a></li>
+      <li><a href='./src/data-structures/non-linear/trees'>Binary Tree</a></li>
+      <li><a href='./src/data-structures/non-linear/trees'>Binary Search Tree</a></li>
+      <li><a href='./src/data-structures/non-linear/trees'>Balanced Tree</a></li>
+      <li><a href='./src/data-structures/non-linear/trees'>AVL Tree</a></li>
+      <li><a href='./src/data-structures/non-linear/trees'>Red Black Tree</a></li>
+    </ul>
+  </li>
 </ul>
 
 * [Trees](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/data-structures/trees/TREE.md)
