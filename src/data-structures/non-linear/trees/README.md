@@ -14,7 +14,7 @@ The tree data structure is an effective way to store and organize data. It allow
 
 ### **Common Terminologies used in Trees**
 
-- Height of tree - Refers to the number of edges from the root node to the lead node of the tree. The depth of the root node is 0.
+- Height of tree - Refers to the number of edges from the root node to the leaf node of the tree. The depth of the root node is 0.
 - Height of a node - Refers to the number of edges from the node to the leaf of the tree.
 - Depth of a node/Level of node - Refers to the numbers of edges from the root node to the node itself.
 - Ancestor of a node - Refers to the predecessors of the nodes going upto the root node.
