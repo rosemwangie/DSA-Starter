@@ -5,7 +5,7 @@ LIFO - _Last In First Out_
 The name "stack" for this type of structure comes from the analogy to a set of physical items stacked on top of each other.Stacks can be used with Arrays or Linked List
 
 A stack is implemented using a dynamic array or a singly linked list <br>
-[Arrays](https://github.com/RWambui/Data-structure-Interview-prep-JS/tree/main/src/data-structures/arrays) - allow cache locality, which make them technically fast when accessing items.<br>[Linked List](https://github.com/RWambui/Data-structure-Interview-prep-JS/tree/main/src/data-structures/linked-lists) - have extra memory associated with them, because we have to hold on to the pointers<br>
+<a href='../arrays'>Arrays</a> - allow cache locality, which make them technically fast when accessing items.<br><a href='../linked-lists'>Linked List</a> - have extra memory associated with them, because we have to hold on to the pointers<br>
 On the other hand, Linked List have more dynamic memory compared to Arrays.
 
 <hr>
