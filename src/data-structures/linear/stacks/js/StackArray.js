@@ -3,46 +3,40 @@ class Stack {
     this.items = [];
     this.count = 0;
   }
-  //add element to top of the stack
+
+  // add element to top of the stack
   push(element) {
     this.items[this.count] = element;
-    console.log(`${element} is added`);
     this.count++;
     return this.count - 1;
   }
-  //remove and return top element in stack
-  //return undefined if stack is undefined
+
+  // remove element and return top element in stack
+  // return undefined if stack is empty
   pop() {
-    if (!this.count) return undefined;
-    let deleteItem = this.items.pop();
+    if (this.count === 0) return undefined;
+    // remove item from top of stack
+    this.items.splice(this.count - 1, 1);
     this.count--;
-    console.log(`${deleteItem} is removed`);
-    return deleteItem;
+    // if stack will be empty after this, return 0
+    if (this.count === 0) {
+      return 0
+    }
+    else {
+      const topItem = this.items[this.count - 1];
+      return topItem;
+    }
   }
   // return the top element
   peek() {
     let peekItem = this.items[this.count - 1];
-    console.log(`${peekItem} is the top element`);
     return peekItem;
   }
 
-  //is empty
+  // is empty
   isEmpty() {
-    console.log(this.count === 0 ? null : "not empty");
-    if (!this.count) return null;
+    return this.count === 0;
   }
 }
-
-const stack = new Stack();
-stack.isEmpty();
-stack.push("100");
-stack.push("200");
-stack.push("300");
-stack.push("400");
-stack.pop();
-stack.pop();
-stack.peek();
-stack.isEmpty();
-console.log(stack);
 
 module.exports = Stack;
