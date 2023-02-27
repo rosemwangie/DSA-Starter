@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RWambui/Data-structure-JS-and-Psuedo.git"
+    "url": "git+https://github.com/codemuse-ke/ace-technical-interview-js-py.git"
   },
   "keywords": [
     "leetode",
@@ -22,9 +22,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/RWambui/Data-structure-JS-and-Psuedo/issues"
+    "url": "https://github.com/codemuse-ke/ace-technical-interview-js-py/issues"
   },
-  "homepage": "https://github.com/RWambui/Data-structure-JS-and-Psuedo#readme",
+  "homepage": "https://github.com/codemuse-ke/ace-technical-interview-js-py#readme",
   "dependencies": {
     "jest": "^28.1.3"
   }
