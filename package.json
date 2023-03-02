@@ -1,14 +1,14 @@
 {
   "name": "data-structure-js-and-psuedo",
   "version": "1.0.0",
-  "description": "Use this repo for Data structure and algorithms reference in JavaScript",
+  "description": "Use this repo for Data structure and algorithms reference",
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codemuse-ke/ace-technical-interview-js-py.git"
+    "url": "git+https://github.com/codemuseKE/ace-technical-interview-js-py.git"
   },
   "keywords": [
     "leetode",
@@ -22,9 +22,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/codemuse-ke/ace-technical-interview-js-py/issues"
+    "url": "https://github.com/codemuseKE/ace-technical-interview-js-py/issues"
   },
-  "homepage": "https://github.com/codemuse-ke/ace-technical-interview-js-py#readme",
+  "homepage": "https://github.com/codemuseKE/ace-technical-interview-js-py#readme",
   "dependencies": {
     "jest": "^28.1.3"
   }
