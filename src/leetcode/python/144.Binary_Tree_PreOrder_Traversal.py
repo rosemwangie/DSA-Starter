@@ -10,6 +10,8 @@ class TreeNode:
 
 
 class Solution:
+    #using a stack
+    #Optimal Sln: Time complexity O(n) Space Complexity O(n)
     def preorderTraversal(self, root: Optional[TreeNode])-> List[int]:
         #edge case, if the root has no value
         if root == None:
@@ -33,6 +35,14 @@ class Solution:
                 stack.append(node.left)
         return results
     
+    #using recursion
+    def preorderTraversal1(self, root: optional[ListNosde])-> List[int]:
+        if root == None:
+            return []
+        results = [root.val]
+        results += self.preorderTraversal(root.left)
+        results += self.preorderTraversal(root.right)
+        return results
 
 s = Solution()
 print(s.preorderTraversal( [1,None,2,3])) #Output -> [1,2,3]
