@@ -79,7 +79,8 @@
 * [Greedy](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/algorithms/greedy/GREEDY.md)
 
 
-# Data-structures  - Coming soon...
+
+# <b>Data-structures  - Coming soon...</b>
 
 ### Hash Map & Arrays
 | Frequency |                                            Problem                                           |                                   Stated                                  |                                                            Solution                                                            | Solution                                                                                                                        |
@@ -141,7 +142,8 @@
 <br>
 <br>
 
-# Algorithms
+
+# <b>Algorithms</b>
 
 An Algorithm is a set of intructions on how to solve particular problems
 
@@ -205,11 +207,14 @@ An Algorithm is a set of intructions on how to solve particular problems
 |:---------:|:----------------------------------------------------------------:|:--------------------------------------------------------------------------:|:------------------:|
 |    Low    | [test](https://leetcode.com/problems/container-with-most-water/) | ![test](https://img.shields.io/static/v1?label=&message=test&color=orange) | [...]() |
 
+<br>
+<br>
+
 <hr>
 
-# How to use this repo
+# <b>How to use this repo</b>
 
-## Getting Started
+## <b id="gettingstarted">Getting Started</b>
 <i>If you'd like to contribute to [ace tech interview](), please follow these steps;</i>
 
 
