@@ -28,7 +28,18 @@ const validPalindrome = (string) => {
   return true;
 };
 
-//Solution 2
+// solution 2
+const validPalindrome = (string) => {
+   //split - reverse - join
+  let reverseString = string.split('').reverse().join()
+  if (reverseString === string) {
+    return true
+  } else {
+    return false 
+  }
+}
+
+//Solution 3
 const isPalindrome = (string) => {
   let left = 0;
   let right = string.length - 1;
