@@ -8,14 +8,6 @@
 
 // Solution 1
 const validPalindrome = (string) => {
-  /**
-   * step 1. We'll lowercase the string & remove all non-alphanumeric characters
-   *  step 2, Cretate a for loop that will iterate over the string
-   *  step 3, For each iteration, check if the character at the beginning is the same as the character at the end of the string
-   * If the characters are not the same, return false, because the string is not a valid palindrome
-   * If the loop completes without returning false, then the string is a palindrome, hence
-   * we return true
-   */
   string = string.toLowerCase().replace(/[^a-z0-9]/g, "");
   //
   for (let i = 0; i < string.length / 2; i++) {
