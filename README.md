@@ -79,69 +79,71 @@
 * [Greedy](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/algorithms/greedy/GREEDY.md)
 
 
-# Data-structures  - Coming soon...
+
+# <b>Data-structures  - Coming soon...</b>
 
 ### Hash Map & Arrays
-| Frequency |                                            Problem                                           |                                   Stated                                  |                                                            Solution                                                            | Solution                                                                                                                        | Explained                                                                                                                      |
-|:---------:|:--------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------:|---------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
-|    High   |                       [Two Sum](https://leetcode.com/problems/two-sum/)                      | ![](https://img.shields.io/static/v1?label=&message=Easy&color=darkgreen) |        [js](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/leetcode/Javascript/01.TwoSum.js)       | [py](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/data-structures/linked-lists/py/linked_list.py) | [Two Sum Explained](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/leetcode/Explanation.md#twosum) |
+| Frequency |                                            Problem                                           |                                   Stated                                  |                                                            Solution                                                            | Solution                                                                                                                        |
+|:---------:|:--------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------:|---------------------------------------------------------------------------------------------------------------------------------|
+|    High   |                       [Two Sum](https://leetcode.com/problems/two-sum/)                      | ![](https://img.shields.io/static/v1?label=&message=Easy&color=darkgreen) |        [js](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/leetcode/Javascript/01.TwoSum.js)       | [py](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/data-structures/linked-lists/py/linked_list.py) | 
 |    High   |                 [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                | ![](https://img.shields.io/static/v1?label=&message=Easy&color=darkgreen) |    [js](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/leetcode/Javascript/242.ValidAnagram.js)    | [py](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/leetcode/python/242.ValidAnagram.py) |                                                                                                                                 |                                                                                                                                |
 |   Medium  |            [Jewels and Stones ](https://leetcode.com/problems/jewels-and-stones/)            | ![](https://img.shields.io/static/v1?label=&message=Easy&color=darkgreen) |  [js](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/leetcode/Javascript/771.Jewels-and-Stones.js) |                                                                                                                                 |                                                                                                                                |
 |    High   |           [Contains duplicates](https://leetcode.com/problems/contains-duplicate/)           |  ![](https://img.shields.io/static/v1?label=&message=Medium&color=orange) | [js](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/leetcode/Javascript/217.Contains-Duplicate.js) |  [py](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/leetcode/python/217.Contains%20Duplicate.py) |                                                                                                                               |                                                                                                                                |
-|    High   |                [Group Anagrams](https://leetcode.com/problems/group-anagrams/)               |  ![](https://img.shields.io/static/v1?label=&message=Medium&color=orange) |                                                        [Inprogress...]()    |   [py](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/leetcode/python/49.Group%20Anagrams.py)    |                                                       |                                                                                                                                 |                                                                                                                                |
-|    High   |     [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)    | ![](https://img.shields.io/static/v1?label=&message=Premium&color=orange) |                                                        [Inprogress...]()                                                       |                                                                                                                                 |                                                                                                                                |
-|    High   |                 [Valid Sudoku ](https://leetcode.com/problems/valid-sudoku/)                 | ![](https://img.shields.io/static/v1?label=&message=Premium&color=orange) |                                                        [Inprogress...]()                                                       |                                                                                                                                 |                                                                                                                                |
-|    High   | [Longest Consecutive Sequence ](https://leetcode.com/problems/longest-consecutive-sequence/) | ![](https://img.shields.io/static/v1?label=&message=Premium&color=orange) |                                                        [Inprogress...]()                                                       |                                                                                                                                 |                                                                                                                                |
-|    High   |       [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)      | ![](https://img.shields.io/static/v1?label=&message=Premium&color=orange) |                                                        [Inprogress...]()                                                       |                                                                                                                                 |                                                                                                                                |
+|    High   |                [Group Anagrams](https://leetcode.com/problems/group-anagrams/)               |  ![](https://img.shields.io/static/v1?label=&message=Medium&color=orange) |                                                        [...]()    |   [py](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/leetcode/python/49.Group%20Anagrams.py)    |                                                       |                                                                                                                                 |                                                                                                                                |
+|    High   |     [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)    | ![](https://img.shields.io/static/v1?label=&message=Premium&color=orange) |                                                        [...]()                                                       |                                                                                                                                 |                                                                                                                                |
+|    High   |                 [Valid Sudoku ](https://leetcode.com/problems/valid-sudoku/)                 | ![](https://img.shields.io/static/v1?label=&message=Premium&color=orange) |                                                        [...]()                                                       |                                                                                                                                 |                                                                                                                                |
+|    High   | [Longest Consecutive Sequence ](https://leetcode.com/problems/longest-consecutive-sequence/) | ![](https://img.shields.io/static/v1?label=&message=Premium&color=orange) |                                                        [...]()                                                       |                                                                                                                                 |                                                                                                                                |
+|    High   |       [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)      | ![](https://img.shields.io/static/v1?label=&message=Premium&color=orange) |                                                        [...]()                                                       |                                                                                                                                 |                                                                                                                                |
 
 
 
   ### Binary Search
-| Frequency |                                            Problem                                           |                                   Stated                                  |                                                            Solution                                                            | Solution                                                                                                                        | Explained                                                                                                                      |
-|:---------:|:--------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------:|---------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
+| Frequency |                                            Problem                                           |                                   Stated                                  |                                                            Solution                                                            | Solution                                                                                                                        |
+|:---------:|:--------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------:|---------------------------------------------------------------------------------------------------------------------------------|
 |    High   |                     [Binary Search](https://leetcode.com/problems/binary-search/)                     | ![](https://img.shields.io/static/v1?label=&message=Easy&color=darkgreen) |          [js](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/leetcode/Javascript/704.Binary-Search.js)          |   [py](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/leetcode/python/704.Binary-Search.py)   |
 |    Low    | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) |  ![](https://img.shields.io/static/v1?label=&message=Medium&color=orange) | [js](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/leetcode/Javascript/167.Two-SumII-Input-Array-Is-Sorted.js) |
 
 
 ### Linked List
-| Frequency |                                            Problem                                           |                                   Stated                                  |                                                            Solution                                                            | Solution                                                                                                                        | Explained                                                                                                                      |
-|:---------:|:--------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------:|---------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
-|    High   | [Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/) | ![](https://img.shields.io/static/v1?label=&message=Easy&color=darkgreen) | [js](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/leetcode/Javascript/206.Reverse-Linked-list.js) |  [py]()    | [Reverse Linked List Explained](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/leetcode/Explanation.md#reversealinkedlist) |
+| Frequency |                                            Problem                                           |                                   Stated                                  |                                                            Solution                                                            | Solution                                                                                                                        |
+|:---------:|:--------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------:|---------------------------------------------------------------------------------------------------------------------------------|
+|    High   | [Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/) | ![](https://img.shields.io/static/v1?label=&message=Easy&color=darkgreen) | [js](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/leetcode/Javascript/206.Reverse-Linked-list.js) |  [py]()    |
 
 
 
   ### Stacks & Queues
-| Frequency |                                            Problem                                           |                                   Stated                                  |                                                            Solution                                                            | Solution                                                                                                                        | Explained                                                                                                                      |
-|:---------:|:--------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------:|---------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
+| Frequency |                                            Problem                                           |                                   Stated                                  |                                                            Solution                                                            | Solution                                                                                                                        |
+|:---------:|:--------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------:|---------------------------------------------------------------------------------------------------------------------------------|
 |    High   | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | ![](https://img.shields.io/static/v1?label=&message=Easy&color=darkgreen) | [js](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/leetcode/js/232.Implement-Queue-using-Stacks.js) |
-|    High   |            [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)            | ![](https://img.shields.io/static/v1?label=&message=Easy&color=darkgreen) |                                                         [Inprogress...]()                                                        |
-|    High   |        [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)        | ![](https://img.shields.io/static/v1?label=&message=Easy&color=darkgreen) |                                                         [Inprogress...]()                                                        |
-|    High   |           [Design Hit Counter](https://leetcode.com/problems/design-hit-counter/)           | ![](https://img.shields.io/static/v1?label=&message=Premium&color=orange) |                                                         [Inprogress...]()                                                        |
+|    High   |            [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)            | ![](https://img.shields.io/static/v1?label=&message=Easy&color=darkgreen) |                                                         [...]()                                                        |
+|    High   |        [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)        | ![](https://img.shields.io/static/v1?label=&message=Easy&color=darkgreen) |                                                         [...]()                                                        |
+|    High   |           [Design Hit Counter](https://leetcode.com/problems/design-hit-counter/)           | ![](https://img.shields.io/static/v1?label=&message=Premium&color=orange) |                                                         [...]()                                                        |
 |    High   |          [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)          |  ![](https://img.shields.io/static/v1?label=&message=Hard&color=darkred)  |                                                         [js](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/leetcode/Javascript/42.Trapping-Rain-Water.js)                                                        |    [py](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/leetcode/python/42.Trapping-Rain-Water.py)    |
 
   ### Trees
 | Frequency |                              Problem                             |                                   Stated                                   |      Solution      |
 |:---------:|:----------------------------------------------------------------:|:--------------------------------------------------------------------------:|:------------------:|
-|    Low    | [test](https://leetcode.com/problems/container-with-most-water/) | ![test](https://img.shields.io/static/v1?label=&message=test&color=orange) | [In progress...]() |
+|    Low    | [test](https://leetcode.com/problems/container-with-most-water/) | ![test](https://img.shields.io/static/v1?label=&message=test&color=orange) | [...]() |
 
   ### Graphs
 | Frequency |                              Problem                             |                                   Stated                                   |      Solution      |
 |:---------:|:----------------------------------------------------------------:|:--------------------------------------------------------------------------:|:------------------:|
-|    Low    | [test](https://leetcode.com/problems/container-with-most-water/) | ![test](https://img.shields.io/static/v1?label=&message=test&color=orange) | [In progress...]() |
+|    Low    | [test](https://leetcode.com/problems/container-with-most-water/) | ![test](https://img.shields.io/static/v1?label=&message=test&color=orange) | [...]() |
 
   ### Trie
 | Frequency |                              Problem                             |                                   Stated                                   |      Solution      |
 |:---------:|:----------------------------------------------------------------:|:--------------------------------------------------------------------------:|:------------------:|
-|    Low    | [test](https://leetcode.com/problems/container-with-most-water/) | ![test](https://img.shields.io/static/v1?label=&message=test&color=orange) | [In progress...]() |
+|    Low    | [test](https://leetcode.com/problems/container-with-most-water/) | ![test](https://img.shields.io/static/v1?label=&message=test&color=orange) | [...]() |
 
   ### Heap
 | Frequency |                              Problem                             |                                   Stated                                   |      Solution      |
 |:---------:|:----------------------------------------------------------------:|:--------------------------------------------------------------------------:|:------------------:|
-|    Low    | [test](https://leetcode.com/problems/container-with-most-water/) | ![test](https://img.shields.io/static/v1?label=&message=test&color=orange) | [In progress...]() |
+|    Low    | [test](https://leetcode.com/problems/container-with-most-water/) | ![test](https://img.shields.io/static/v1?label=&message=test&color=orange) | [...]() |
 <br>
 <br>
 
-# Algorithms
+
+# <b>Algorithms</b>
 
 An Algorithm is a set of intructions on how to solve particular problems
 
@@ -169,27 +171,27 @@ An Algorithm is a set of intructions on how to solve particular problems
   ### Breath First Search
 | Frequency |                              Problem                             |                                   Stated                                   |     Solution    |
 |:---------:|:----------------------------------------------------------------:|:--------------------------------------------------------------------------:|:---------------:|
-|    Low    | [test](https://leetcode.com/problems/container-with-most-water/) | ![test](https://img.shields.io/static/v1?label=&message=test&color=orange) | [In progress]() |
+|    Low    | [test](https://leetcode.com/problems/container-with-most-water/) | ![test](https://img.shields.io/static/v1?label=&message=test&color=orange) | [...]() |
   ### Depth First Search
 | Frequency |                              Problem                             |                                   Stated                                   |      Solution      |
 |:---------:|:----------------------------------------------------------------:|:--------------------------------------------------------------------------:|:------------------:|
-|    Low    | [test](https://leetcode.com/problems/container-with-most-water/) | ![test](https://img.shields.io/static/v1?label=&message=test&color=orange) | [In progress...]() |
+|    Low    | [test](https://leetcode.com/problems/container-with-most-water/) | ![test](https://img.shields.io/static/v1?label=&message=test&color=orange) | [...]() |
   ### Divide && Conquer
 | Frequency |                              Problem                             |                                   Stated                                   |      Solution      |
 |:---------:|:----------------------------------------------------------------:|:--------------------------------------------------------------------------:|:------------------:|
-|    Low    | [test](https://leetcode.com/problems/container-with-most-water/) | ![test](https://img.shields.io/static/v1?label=&message=test&color=orange) | [In progress...]() |
+|    Low    | [test](https://leetcode.com/problems/container-with-most-water/) | ![test](https://img.shields.io/static/v1?label=&message=test&color=orange) | [...]() |
   ### Recursion
 | Frequency |                              Problem                             |                                   Stated                                   |     Solution    |
 |:---------:|:----------------------------------------------------------------:|:--------------------------------------------------------------------------:|:---------------:|
-|    Low    | [test](https://leetcode.com/problems/container-with-most-water/) | ![test](https://img.shields.io/static/v1?label=&message=test&color=orange) | [In progress]() |
+|    Low    | [test](https://leetcode.com/problems/container-with-most-water/) | ![test](https://img.shields.io/static/v1?label=&message=test&color=orange) | [...]() |
   ### Dynamic Programming 
 | Frequency |                              Problem                             |                                   Stated                                   |      Solution      |
 |:---------:|:----------------------------------------------------------------:|:--------------------------------------------------------------------------:|:------------------:|
-|    Low    | [test](https://leetcode.com/problems/container-with-most-water/) | ![test](https://img.shields.io/static/v1?label=&message=test&color=orange) | [In Progress...]() |
+|    Low    | [test](https://leetcode.com/problems/container-with-most-water/) | ![test](https://img.shields.io/static/v1?label=&message=test&color=orange) | [...]() |
   ### Math 
 | Frequency |                              Problem                             |                                   Stated                                   |      Solution      |
 |:---------:|:----------------------------------------------------------------:|:--------------------------------------------------------------------------:|:------------------:|
-|    Low    | [test](https://leetcode.com/problems/container-with-most-water/) | ![test](https://img.shields.io/static/v1?label=&message=test&color=orange) | [In Progress...]() |
+|    Low    | [test](https://leetcode.com/problems/container-with-most-water/) | ![test](https://img.shields.io/static/v1?label=&message=test&color=orange) | [...]() |
   ### Greedy
 | Frequency |                                        Problem                                        |                                 Stated                                 |                                                          Solution                                                         |
 |:---------:|:-------------------------------------------------------------------------------------:|:----------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------:|
@@ -198,18 +200,48 @@ An Algorithm is a set of intructions on how to solve particular problems
   ### Matrix
 | Frequency |                              Problem                             |                                   Stated                                   |                                                                Solution                                                               |
 |:---------:|:----------------------------------------------------------------:|:--------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------:|
-|    Low    | [test](https://leetcode.com/problems/container-with-most-water/) | ![test](https://img.shields.io/static/v1?label=&message=test&color=orange) | [In progress...](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/leetcode/js/11.ContainerWithMostWater.js) |
+|    Low    | [test](https://leetcode.com/problems/container-with-most-water/) | ![test](https://img.shields.io/static/v1?label=&message=test&color=orange) | [...](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/leetcode/js/11.ContainerWithMostWater.js) |
 
   ### Geometry
 | Frequency |                              Problem                             |                                   Stated                                   |      Solution      |
 |:---------:|:----------------------------------------------------------------:|:--------------------------------------------------------------------------:|:------------------:|
-|    Low    | [test](https://leetcode.com/problems/container-with-most-water/) | ![test](https://img.shields.io/static/v1?label=&message=test&color=orange) | [In progress...]() |
+|    Low    | [test](https://leetcode.com/problems/container-with-most-water/) | ![test](https://img.shields.io/static/v1?label=&message=test&color=orange) | [...]() |
 
-
-### How to use this repo
-
-```
-npm install or yarn install
-npm test
-```
 <br>
+<br>
+
+<hr>
+
+# <b>How to use this repo</b>
+
+## <b id="gettingstarted">Getting Started</b>
+<i>If you'd like to contribute to [ace tech interview](), please follow these steps;</i>
+
+
+## <b id="contributing">How to Contribute</b>
+
+1. Clone the repo to your local machine using [git clone](https://github.com/codemuseKE/ace-technical-interview.git)
+2. Navigate to the project directory using cd ace-technical-interview
+3. Install the necessary packages and dependencies by running npm install.
+4. Start the development server by running ```npm start```
+5. Open the app in your web browser by going to http://localhost:3000.
+
+
+## <b id="feature">Features</b>
+[Ace Tech Interview]() has the following features:
+
+- Data structures
+- Algorithms
+- Leetcode Solutions in JavaScript && Python
+
+## <b id="fork">Fork the repo</b>
+
+1. Clone your fork to your local machine using git clone [here](https://github.com/codemuseKE/ace-technical-interview.git)
+2. Create a new branch for your changes using git checkout -b my-new-branch.
+3. Make your changes and test them locally.
+4. Push your changes to your fork using git push origin my-new-branch.
+5 Create a pull request on GitHub.
+
+## <b id="license">License</b>
+
+<img alt="License" src="https://img.shields.io/badge/License-MIT-blue.svg">

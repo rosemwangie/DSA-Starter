@@ -47,7 +47,7 @@ class LinkedList {
   //Print List (value) O(n)
   getByIndex(index) {
     // if the index is out of bounds, return null
-    if (index < 0 || index >= this.length) return null;
+    if (index < 0 || index >= this.size) return null;
     let current = this.head;
     for (let i = 0; i < index; i++) {
       current = current.next;
@@ -69,7 +69,7 @@ class LinkedList {
 
   //inserts a new element at a given index
   insert(value, index) {
-    if (index < 0 || index > this.length) {
+    if (index < 0 || index > this.size) {
       return -1;
     } else if (index === 0) {
       this.prepend(value);
@@ -109,7 +109,7 @@ class LinkedList {
         count++;
       }
       current.next = current.next.next;
-      this.length--;
+      this.size--;
     }
   }
 
@@ -149,4 +149,4 @@ LinkedList.fromValues = (...values) => {
   return myLinkedList;
 };
 
-export default LinkedList;
+module.exports = LinkedList;
