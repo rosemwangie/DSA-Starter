@@ -1,25 +1,16 @@
-import java.util.HashMap;
-import java.util.Map;
-
+//Brute force  O(n^2)
 class Solution {
-    public int[] twoSum(int[] nums, int target){
-
-    // Create a hash table to store numbers and their indices
-        Map<Integer, Integer> numIndexMap = new HashMap<>();
-
-    // Loop through the array to find two numbers that add up to 'target'
-        for(int i = 0; i < nums.lenght; i++){
-            int complement = target - nums[i];
-
-         // Check if the complement exists in the hash table
-            if(numIndexMap.containsKey(complement)){
-            // Return the indices of the two numbers
-                return new int[]{ numIndexMap.get(complement), i}
+    public int[] twoSum(int[] nums, int target) {
+        for(int i = 0; i < nums.length; i++){
+            for(int j = i + 1; j < nums.length; j++){
+                if(nums[i] + nums[j] == target){
+                    return new int[]{i, j};
+                }
             }
-        // Store the current element in the hash table
-            numIndexMap.put(nums[i], i)
-        }
 
-        return null;
+        }
+        return nums;
     }
 }
+
+//Optimal Solution
