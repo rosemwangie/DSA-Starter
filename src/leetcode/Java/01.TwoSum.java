@@ -14,7 +14,7 @@ class Solution {
 }
 
 //Optimal Solution 
-// Time Complexity 0(1) Space 0(n)
+// Time Complexity 0(n) Space 0(n)
 class Solution {
     public int[] twoSum(int[] nums, int target) {
 
