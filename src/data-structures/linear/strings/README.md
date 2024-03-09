@@ -131,8 +131,8 @@ They are used to represent text and are represented by enclosing text or charact
   * For subsequences, use dynamic programming as there are overlapping subproblems
 
   ## Check below leetcode questions (to enhance understanding)
-  1. [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) [solution in JavaScript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/1.TwoSum.js)
+  1. [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) [solution in JavaScript](https://github.com/rosemwangie/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/1.TwoSum.js)
   2. [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) 
   3. [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
-  4. [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) [see solution](https://github.com/RWambui/Data-structure-Interview-prep-JS/blob/main/src/leetcode/125.ValidPalindrome.js)
+  4. [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) [see solution](https://github.com/rosemwangie/Data-structure-Interview-prep-JS/blob/main/src/leetcode/125.ValidPalindrome.js)
   5. [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)

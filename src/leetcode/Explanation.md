@@ -24,7 +24,7 @@
         Space complexity - O(1)
         ```
 
-   * Optimized ([Hash Tables](https://github.com/RWambui/Data-structures-and-Algorithms-Interview-prep/blob/main/src/data-structures/hash-tables/HASHTABLES.md)/HashMap) - lookup is O(1) T
+   * Optimized ([Hash Tables](https://github.com/rosemwangie/Data-structures-and-Algorithms-Interview-prep/blob/main/src/data-structures/hash-tables/HASHTABLES.md)/HashMap) - lookup is O(1) T
        ```jsx
        Step 0. Start
        Step 1. Initialize the first pointer and an empty hash map

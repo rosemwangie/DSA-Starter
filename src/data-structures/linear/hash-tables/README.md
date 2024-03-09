@@ -60,7 +60,7 @@ Hashing is the most common example of a space-time tradeoff(better than array). 
 <hr>
 
 ### Check below leetcode questions (to enhance understanding)
-  1. [two sum](https://leetcode.com/problems/two-sum/) [solution in JavaScript](https://github.com/RWambui/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/1.TwoSum.js) ![](https://img.shields.io/static/v1?label=&message=Easy&color=green)
+  1. [two sum](https://leetcode.com/problems/two-sum/) [solution in JavaScript](https://github.com/rosemwangie/Data-structure-JS-and-Psuedo/blob/main/src/leetcode/1.TwoSum.js) ![](https://img.shields.io/static/v1?label=&message=Easy&color=green)
   2. [Ransom note](https://leetcode.com/problems/ransom-note/) ![](https://img.shields.io/static/v1?label=&message=Medium&color=orange)
   3. [Group Anagrams](https://leetcode.com/problems/group-anagrams/) ![](https://img.shields.io/static/v1?label=&message=Medium&color=orange)
   4. [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) ![](https://img.shields.io/static/v1?label=&message=Medium&color=orange)
