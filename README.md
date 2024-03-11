@@ -18,7 +18,7 @@
 
 ### **Data Structures**
 
-![dsa](/src/images/dsa.png "Data structure & algorithms")
+![dsa](/src/images/dsacopy.png "Data structure & algorithms")
 <!-- <p align="center">
   <img src="images/dsa1.png">
   <br/>
@@ -69,6 +69,8 @@
 <br>
 
 ### **Algorithms**
+![dsa](/src/images/algos.png "Data structure & algorithms")
+
 * [Recursion](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/algorithms/recursion/RECURSION.md)
 * [Sorting](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/algorithms/sorting/SORTING.md)
   * [Bubble sort](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/algorithms/sorting/SORTING.md)
