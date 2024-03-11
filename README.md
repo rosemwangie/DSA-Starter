@@ -17,6 +17,14 @@
 
 
 ### **Data Structures**
+
+<!-- ![dsa](/src/images/dsa1.png "Data structure & algorithms") -->
+<p align="center">
+  <img src="images/dsa1.png">
+  <br/>
+</p>
+
+
 <a href='./src/data-structures/linear'>Linear</a>
 <ul>
   <li><a href='./src/data-structures/linear/arrays'>Arrays</a></li>
