@@ -69,7 +69,8 @@
 <br>
 
 ### **Algorithms**
-![algos](/src/images/algos.png "Data structure & algorithms")
+
+![algos](/src/images/Algos.png "Data structure & algorithms")
 
 * [Recursion](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/algorithms/recursion/RECURSION.md)
 * [Sorting](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/algorithms/sorting/SORTING.md)
