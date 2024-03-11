@@ -18,7 +18,7 @@
 
 ### **Data Structures**
 
-![dsa](/src/images/dsa1.png "Data structure & algorithms")
+![dsa](/src/images/dsa.png "Data structure & algorithms")
 <!-- <p align="center">
   <img src="images/dsa1.png">
   <br/>
