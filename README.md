@@ -2,6 +2,7 @@
 ![E0B8072C-067A-4AAE-ADBF-2BE03BBB9B26_4_5005_c](https://user-images.githubusercontent.com/77434770/212475995-35d5b36e-d207-4dfd-8931-788a62bceda7.jpeg)
 
 <p align="center">This is the scope of the project, I happily invite you to contribute!</p>
+
 <p align="center">    
     <a href="/LICENSE">
         <img alt="License" src="https://img.shields.io/badge/License-MIT-blue.svg">
@@ -15,17 +16,16 @@
 
 * [Big O Notation](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/bigO/BIGO.md)
 
+<!-- <a href='./src/data-structures/datastructures'><b>Data Strucures</b></a> -->
 
-### **Data Structures**
+
+## **Data Structures**
 
 ![dsa](/src/images/dsacopy.png "Data structure & algorithms")
-<!-- <p align="center">
-  <img src="images/dsa1.png">
-  <br/>
-</p> -->
 
 
 <a href='./src/data-structures/linear'>Linear</a>
+
 <ul>
   <li><a href='./src/data-structures/linear/arrays'>Arrays</a></li>
   <li><a href='./src/data-structures/linear/hash-tables'>Hash-Tables</a></li>
@@ -66,11 +66,10 @@
   <li><a href='./src/data-structures/non-linear/trie'>Trie</a></li>
 </ul>
 
-<br>
-
-### **Algorithms**
+## **Algorithms**
 
 ![algos](/src/images/Algos.png "Data structure & algorithms")
+
 
 * [Recursion](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/algorithms/recursion/RECURSION.md)
 * [Sorting](https://github.com/codemuse-ke/ace-technical-interview-js-py/blob/main/src/algorithms/sorting/SORTING.md)
@@ -90,8 +89,10 @@
 * [Greedy](https://github.com/codemuse-io/ace-technical-interview-js-py/blob/main/src/algorithms/greedy/GREEDY.md)
 
 
+<br>
 
-# <b>Data-structures  - Coming soon...</b>
+
+## <b>Leetcode 75  loading...</b>
 
 ### Hash Map & Arrays
 | Frequency |                                            Problem                                           |                                   Stated                                  |                                                            Solution                                                            | Solution                                                                                                                        |
