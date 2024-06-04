@@ -252,7 +252,8 @@ An Algorithm is a set of intructions on how to solve particular problems
 2. Create a new branch for your changes using git checkout -b my-new-branch.
 3. Make your changes and test them locally.
 4. Push your changes to your fork using git push origin my-new-branch.
-5 Create a pull request on GitHub.
+5. Create a pull request on GitHub.
+ps: Use [Git flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 
 ## <b id="license">License</b>
 
