@@ -27,5 +27,8 @@
   "homepage": "https://github.com/codemuseKE/ace-technical-interview-js-py#readme",
   "dependencies": {
     "jest": "^28.1.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.1"
   }
 }
