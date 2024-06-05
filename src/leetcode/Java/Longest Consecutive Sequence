@@ -1,0 +1,33 @@
+class Solution {
+    public int longestConsecutive(int[] nums) {
+              // create a hashset to store unique numbers from the input array
+      Set<Integer> numsEl = new HashSet<>();
+
+      // loop through the array and add each number from the input to the Hashset
+      for(int i = 0; i < nums.length; i++){
+        numsEl.add(nums[i]);
+      }
+
+      // Initialize a variable to store the length of the consecutive sequence found
+      int longestSequence = 0;
+
+
+      //Iterate a variable to store the length of the longest consecutive sequence found
+      for(int num : numsEl){
+         // Iterate through each number in the HashSet
+        // Check if the curre3nt number is the start of the consecutive sequence
+        // Increment the current lengthas long as the next consecutive number exists in the set
+        // Update the longest sequence length if needed
+         if(!numsEl.contains(num-1)){
+          int length = 1;
+          while (numsEl.contains(num + length)) {
+            length++;
+          }
+          longestSequence = Math.max(length, longestSequence);
+         }
+
+      }
+
+     return longestSequence;
+    }
+}
